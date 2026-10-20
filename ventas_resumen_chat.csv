@@ -1,0 +1,481 @@
+periodo,fecha_inicio,fecha_fin,id_local,nombre_local,marca,ciudad,categoria,unidades,valor_usd,dias_sku_en_quiebre
+Últimos 30 días,2026-09-19,2026-10-18,FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Analgésicos,967,3086.9,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Antigripales,815,4668.4,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Bebé,506,3910.3,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Cadena de frío,350,1943.6,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Cuidado personal,638,2626.8,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Dermocosmética,200,3742.9,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Primeros auxilios,456,1085.3,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Vitaminas,405,3058.4,2
+Últimos 30 días,2026-09-19,2026-10-18,FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Analgésicos,407,1281.9,56
+Últimos 30 días,2026-09-19,2026-10-18,FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Antigripales,779,4482.3,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Bebé,507,4012.7,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Cadena de frío,360,1957.5,1
+Últimos 30 días,2026-09-19,2026-10-18,FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Cuidado personal,592,2378.3,3
+Últimos 30 días,2026-09-19,2026-10-18,FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Dermocosmética,171,3214.5,10
+Últimos 30 días,2026-09-19,2026-10-18,FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Primeros auxilios,461,1091.7,2
+Últimos 30 días,2026-09-19,2026-10-18,FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Vitaminas,398,2889.5,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Analgésicos,366,1110.08,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Antigripales,324,1813.75,6
+Últimos 30 días,2026-09-19,2026-10-18,SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Bebé,180,1191.16,1
+Últimos 30 días,2026-09-19,2026-10-18,SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Cadena de frío,119,622.65,1
+Últimos 30 días,2026-09-19,2026-10-18,SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Cuidado personal,251,950.05,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Dermocosmética,64,1141.63,2
+Últimos 30 días,2026-09-19,2026-10-18,SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Primeros auxilios,166,378.37,2
+Últimos 30 días,2026-09-19,2026-10-18,SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Vitaminas,150,1019.86,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Analgésicos,515,1537.9,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Antigripales,458,2405.59,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Bebé,314,2308.5,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Cadena de frío,209,1096.67,2
+Últimos 30 días,2026-09-19,2026-10-18,SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Cuidado personal,382,1509.36,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Dermocosmética,140,2478.59,1
+Últimos 30 días,2026-09-19,2026-10-18,SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Primeros auxilios,255,565.05,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Vitaminas,255,1756.96,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Analgésicos,144,442.48,59
+Últimos 30 días,2026-09-19,2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Antigripales,309,1652.36,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Bebé,187,1281.57,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Cadena de frío,130,688.18,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Cuidado personal,239,948.77,3
+Últimos 30 días,2026-09-19,2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Dermocosmética,79,1384.9,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Primeros auxilios,159,355.82,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Vitaminas,144,1019.8,2
+Últimos 30 días,2026-09-19,2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Analgésicos,547,1698.7,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Antigripales,489,2744.4,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Bebé,296,2290.4,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Cadena de frío,224,1258.3,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Cuidado personal,429,1765.0,3
+Últimos 30 días,2026-09-19,2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Dermocosmética,133,2508.0,3
+Últimos 30 días,2026-09-19,2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Primeros auxilios,278,659.3,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Vitaminas,275,2033.8,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Analgésicos,920,2929.7,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Antigripales,671,3840.4,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Bebé,488,3745.1,3
+Últimos 30 días,2026-09-19,2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Cadena de frío,308,1773.5,4
+Últimos 30 días,2026-09-19,2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Cuidado personal,611,2421.2,4
+Últimos 30 días,2026-09-19,2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Dermocosmética,233,4389.6,1
+Últimos 30 días,2026-09-19,2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Primeros auxilios,437,1034.0,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Vitaminas,411,2999.8,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Analgésicos,616,1984.1,36
+Últimos 30 días,2026-09-19,2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Antigripales,622,3577.9,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Bebé,509,3988.1,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Cadena de frío,357,2024.6,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Cuidado personal,617,2528.5,2
+Últimos 30 días,2026-09-19,2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Dermocosmética,221,4107.1,4
+Últimos 30 días,2026-09-19,2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Primeros auxilios,468,1104.0,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Vitaminas,390,2874.8,4
+Últimos 30 días,2026-09-19,2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Analgésicos,138,415.98,64
+Últimos 30 días,2026-09-19,2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Antigripales,232,1225.08,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Bebé,189,1348.35,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Cadena de frío,135,741.55,3
+Últimos 30 días,2026-09-19,2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Cuidado personal,221,876.01,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Dermocosmética,77,1349.0,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Primeros auxilios,168,375.93,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Vitaminas,153,1132.47,4
+Últimos 30 días,2026-09-19,2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Analgésicos,371,1121.88,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Antigripales,218,1137.12,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Bebé,222,1590.74,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Cadena de frío,168,899.78,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Cuidado personal,248,935.1,8
+Últimos 30 días,2026-09-19,2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Dermocosmética,93,1635.03,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Primeros auxilios,157,351.78,4
+Últimos 30 días,2026-09-19,2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Vitaminas,161,1190.43,1
+Últimos 30 días,2026-09-19,2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Analgésicos,546,1655.36,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Antigripales,359,1963.47,2
+Últimos 30 días,2026-09-19,2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Bebé,271,2040.37,3
+Últimos 30 días,2026-09-19,2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Cadena de frío,232,1156.7,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Cuidado personal,386,1461.04,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Dermocosmética,131,2266.67,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Primeros auxilios,281,629.25,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Vitaminas,243,1805.18,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Analgésicos,629,1998.0,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Antigripales,368,2129.6,4
+Últimos 30 días,2026-09-19,2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Bebé,281,2167.4,4
+Últimos 30 días,2026-09-19,2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Cadena de frío,211,1191.9,2
+Últimos 30 días,2026-09-19,2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Cuidado personal,389,1522.9,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Dermocosmética,167,3163.3,4
+Últimos 30 días,2026-09-19,2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Primeros auxilios,277,647.0,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Vitaminas,242,1838.1,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Analgésicos,607,1924.4,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Antigripales,515,2913.3,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Bebé,317,2386.1,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Cadena de frío,262,1433.9,2
+Últimos 30 días,2026-09-19,2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Cuidado personal,406,1594.7,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Dermocosmética,140,2628.5,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Primeros auxilios,290,675.6,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Vitaminas,239,1850.6,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Analgésicos,561,1737.28,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Antigripales,476,2580.34,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Bebé,259,1982.77,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Cadena de frío,220,1109.98,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Cuidado personal,376,1446.98,3
+Últimos 30 días,2026-09-19,2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Dermocosmética,122,2145.17,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Primeros auxilios,277,619.31,2
+Últimos 30 días,2026-09-19,2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Vitaminas,240,1700.89,1
+Últimos 30 días,2026-09-19,2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Analgésicos,379,1141.3,33
+Últimos 30 días,2026-09-19,2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Antigripales,493,2660.6,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Bebé,295,2162.13,2
+Últimos 30 días,2026-09-19,2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Cadena de frío,204,1147.74,4
+Últimos 30 días,2026-09-19,2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Cuidado personal,374,1436.1,3
+Últimos 30 días,2026-09-19,2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Dermocosmética,115,1994.71,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Primeros auxilios,261,578.85,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Vitaminas,241,1753.03,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Analgésicos,969,3046.6,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Antigripales,601,3366.4,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Bebé,517,4051.4,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Cadena de frío,347,1802.8,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Cuidado personal,637,2575.5,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Dermocosmética,227,4205.2,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Primeros auxilios,490,1142.4,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Vitaminas,399,2942.2,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Analgésicos,420,1271.12,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Antigripales,246,1360.6,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Bebé,177,1324.03,5
+Últimos 30 días,2026-09-19,2026-10-18,SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Cadena de frío,156,827.02,1
+Últimos 30 días,2026-09-19,2026-10-18,SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Cuidado personal,262,1013.92,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Dermocosmética,91,1609.54,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Primeros auxilios,178,392.88,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Vitaminas,157,1142.79,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Analgésicos,921,2884.1,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Antigripales,768,4392.3,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Bebé,524,3947.2,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Cadena de frío,347,2002.6,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Cuidado personal,633,2610.5,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Dermocosmética,203,3799.4,2
+Últimos 30 días,2026-09-19,2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Primeros auxilios,459,1080.3,0
+Últimos 30 días,2026-09-19,2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Vitaminas,406,2943.9,1
+Últimos 30 días,2026-09-19,2026-10-18,SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Analgésicos,394,1207.22,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Antigripales,304,1601.88,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Bebé,208,1464.2,1
+Últimos 30 días,2026-09-19,2026-10-18,SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Cadena de frío,135,650.69,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Cuidado personal,287,1119.37,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Dermocosmética,82,1431.67,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Primeros auxilios,195,439.84,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Vitaminas,161,1163.02,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Analgésicos,384,1130.74,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Antigripales,335,1862.54,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Bebé,179,1356.09,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Cadena de frío,129,738.21,1
+Últimos 30 días,2026-09-19,2026-10-18,SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Cuidado personal,253,976.41,0
+Últimos 30 días,2026-09-19,2026-10-18,SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Dermocosmética,88,1560.85,5
+Últimos 30 días,2026-09-19,2026-10-18,SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Primeros auxilios,198,443.72,2
+Últimos 30 días,2026-09-19,2026-10-18,SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Vitaminas,132,956.17,0
+30 días anteriores,2026-08-20,2026-09-18,FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Analgésicos,996,3154.9,0
+30 días anteriores,2026-08-20,2026-09-18,FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Antigripales,593,3337.4,3
+30 días anteriores,2026-08-20,2026-09-18,FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Bebé,476,3538.4,0
+30 días anteriores,2026-08-20,2026-09-18,FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Cadena de frío,343,1808.3,5
+30 días anteriores,2026-08-20,2026-09-18,FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Cuidado personal,643,2573.4,3
+30 días anteriores,2026-08-20,2026-09-18,FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Dermocosmética,177,3337.0,3
+30 días anteriores,2026-08-20,2026-09-18,FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Primeros auxilios,417,967.1,7
+30 días anteriores,2026-08-20,2026-09-18,FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Vitaminas,436,3318.7,0
+30 días anteriores,2026-08-20,2026-09-18,FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Analgésicos,961,3042.1,2
+30 días anteriores,2026-08-20,2026-09-18,FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Antigripales,605,3444.4,3
+30 días anteriores,2026-08-20,2026-09-18,FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Bebé,542,4115.8,0
+30 días anteriores,2026-08-20,2026-09-18,FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Cadena de frío,337,1898.6,5
+30 días anteriores,2026-08-20,2026-09-18,FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Cuidado personal,662,2675.2,0
+30 días anteriores,2026-08-20,2026-09-18,FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Dermocosmética,215,4070.9,0
+30 días anteriores,2026-08-20,2026-09-18,FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Primeros auxilios,437,1029.7,0
+30 días anteriores,2026-08-20,2026-09-18,FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Vitaminas,400,3080.2,0
+30 días anteriores,2026-08-20,2026-09-18,SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Analgésicos,389,1196.88,0
+30 días anteriores,2026-08-20,2026-09-18,SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Antigripales,247,1351.65,0
+30 días anteriores,2026-08-20,2026-09-18,SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Bebé,212,1507.64,0
+30 días anteriores,2026-08-20,2026-09-18,SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Cadena de frío,144,802.42,0
+30 días anteriores,2026-08-20,2026-09-18,SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Cuidado personal,239,892.75,0
+30 días anteriores,2026-08-20,2026-09-18,SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Dermocosmética,75,1346.07,0
+30 días anteriores,2026-08-20,2026-09-18,SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Primeros auxilios,183,407.35,4
+30 días anteriores,2026-08-20,2026-09-18,SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Vitaminas,141,931.05,2
+30 días anteriores,2026-08-20,2026-09-18,SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Analgésicos,573,1709.14,0
+30 días anteriores,2026-08-20,2026-09-18,SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Antigripales,390,2111.96,0
+30 días anteriores,2026-08-20,2026-09-18,SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Bebé,276,1964.96,0
+30 días anteriores,2026-08-20,2026-09-18,SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Cadena de frío,201,1104.91,0
+30 días anteriores,2026-08-20,2026-09-18,SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Cuidado personal,420,1606.4,2
+30 días anteriores,2026-08-20,2026-09-18,SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Dermocosmética,112,2023.12,2
+30 días anteriores,2026-08-20,2026-09-18,SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Primeros auxilios,275,607.74,0
+30 días anteriores,2026-08-20,2026-09-18,SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Vitaminas,235,1668.29,1
+30 días anteriores,2026-08-20,2026-09-18,SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Analgésicos,342,1036.2,0
+30 días anteriores,2026-08-20,2026-09-18,SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Antigripales,268,1396.94,4
+30 días anteriores,2026-08-20,2026-09-18,SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Bebé,187,1478.61,0
+30 días anteriores,2026-08-20,2026-09-18,SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Cadena de frío,130,627.7,6
+30 días anteriores,2026-08-20,2026-09-18,SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Cuidado personal,264,971.32,0
+30 días anteriores,2026-08-20,2026-09-18,SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Dermocosmética,73,1300.18,0
+30 días anteriores,2026-08-20,2026-09-18,SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Primeros auxilios,189,428.03,3
+30 días anteriores,2026-08-20,2026-09-18,SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Vitaminas,129,944.76,1
+30 días anteriores,2026-08-20,2026-09-18,FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Analgésicos,587,1864.5,0
+30 días anteriores,2026-08-20,2026-09-18,FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Antigripales,377,2128.8,1
+30 días anteriores,2026-08-20,2026-09-18,FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Bebé,332,2586.4,0
+30 días anteriores,2026-08-20,2026-09-18,FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Cadena de frío,205,1098.3,2
+30 días anteriores,2026-08-20,2026-09-18,FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Cuidado personal,440,1813.0,0
+30 días anteriores,2026-08-20,2026-09-18,FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Dermocosmética,150,2782.8,0
+30 días anteriores,2026-08-20,2026-09-18,FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Primeros auxilios,283,670.4,0
+30 días anteriores,2026-08-20,2026-09-18,FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Vitaminas,255,1922.6,0
+30 días anteriores,2026-08-20,2026-09-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Analgésicos,973,3028.9,0
+30 días anteriores,2026-08-20,2026-09-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Antigripales,622,3557.3,1
+30 días anteriores,2026-08-20,2026-09-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Bebé,489,3778.2,0
+30 días anteriores,2026-08-20,2026-09-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Cadena de frío,330,1778.5,4
+30 días anteriores,2026-08-20,2026-09-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Cuidado personal,674,2740.5,0
+30 días anteriores,2026-08-20,2026-09-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Dermocosmética,214,4025.1,0
+30 días anteriores,2026-08-20,2026-09-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Primeros auxilios,468,1104.0,0
+30 días anteriores,2026-08-20,2026-09-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Vitaminas,376,2832.7,3
+30 días anteriores,2026-08-20,2026-09-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Analgésicos,951,3001.4,0
+30 días anteriores,2026-08-20,2026-09-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Antigripales,619,3486.3,0
+30 días anteriores,2026-08-20,2026-09-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Bebé,482,4004.1,0
+30 días anteriores,2026-08-20,2026-09-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Cadena de frío,365,1969.6,2
+30 días anteriores,2026-08-20,2026-09-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Cuidado personal,646,2631.3,1
+30 días anteriores,2026-08-20,2026-09-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Dermocosmética,241,4544.3,1
+30 días anteriores,2026-08-20,2026-09-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Primeros auxilios,451,1072.3,0
+30 días anteriores,2026-08-20,2026-09-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Vitaminas,410,3021.6,0
+30 días anteriores,2026-08-20,2026-09-18,SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Analgésicos,374,1101.88,1
+30 días anteriores,2026-08-20,2026-09-18,SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Antigripales,227,1224.84,1
+30 días anteriores,2026-08-20,2026-09-18,SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Bebé,197,1445.87,1
+30 días anteriores,2026-08-20,2026-09-18,SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Cadena de frío,142,739.94,0
+30 días anteriores,2026-08-20,2026-09-18,SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Cuidado personal,239,899.81,2
+30 días anteriores,2026-08-20,2026-09-18,SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Dermocosmética,90,1614.57,0
+30 días anteriores,2026-08-20,2026-09-18,SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Primeros auxilios,165,363.62,1
+30 días anteriores,2026-08-20,2026-09-18,SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Vitaminas,176,1298.39,3
+30 días anteriores,2026-08-20,2026-09-18,SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Analgésicos,353,1051.76,0
+30 días anteriores,2026-08-20,2026-09-18,SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Antigripales,217,1181.14,3
+30 días anteriores,2026-08-20,2026-09-18,SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Bebé,187,1382.65,2
+30 días anteriores,2026-08-20,2026-09-18,SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Cadena de frío,122,641.26,4
+30 días anteriores,2026-08-20,2026-09-18,SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Cuidado personal,260,986.52,0
+30 días anteriores,2026-08-20,2026-09-18,SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Dermocosmética,100,1789.24,0
+30 días anteriores,2026-08-20,2026-09-18,SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Primeros auxilios,170,385.79,0
+30 días anteriores,2026-08-20,2026-09-18,SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Vitaminas,154,1079.86,0
+30 días anteriores,2026-08-20,2026-09-18,SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Analgésicos,556,1688.88,0
+30 días anteriores,2026-08-20,2026-09-18,SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Antigripales,367,2001.36,0
+30 días anteriores,2026-08-20,2026-09-18,SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Bebé,289,2053.55,3
+30 días anteriores,2026-08-20,2026-09-18,SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Cadena de frío,221,1118.89,0
+30 días anteriores,2026-08-20,2026-09-18,SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Cuidado personal,414,1660.22,3
+30 días anteriores,2026-08-20,2026-09-18,SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Dermocosmética,151,2691.19,0
+30 días anteriores,2026-08-20,2026-09-18,SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Primeros auxilios,274,616.51,0
+30 días anteriores,2026-08-20,2026-09-18,SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Vitaminas,228,1671.77,0
+30 días anteriores,2026-08-20,2026-09-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Analgésicos,570,1770.8,0
+30 días anteriores,2026-08-20,2026-09-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Antigripales,387,2182.4,0
+30 días anteriores,2026-08-20,2026-09-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Bebé,296,2109.6,0
+30 días anteriores,2026-08-20,2026-09-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Cadena de frío,225,1223.0,0
+30 días anteriores,2026-08-20,2026-09-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Cuidado personal,453,1794.4,1
+30 días anteriores,2026-08-20,2026-09-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Dermocosmética,167,3121.9,4
+30 días anteriores,2026-08-20,2026-09-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Primeros auxilios,303,716.9,0
+30 días anteriores,2026-08-20,2026-09-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Vitaminas,266,1998.3,5
+30 días anteriores,2026-08-20,2026-09-18,FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Analgésicos,635,2040.1,0
+30 días anteriores,2026-08-20,2026-09-18,FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Antigripales,334,1919.0,2
+30 días anteriores,2026-08-20,2026-09-18,FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Bebé,306,2159.5,0
+30 días anteriores,2026-08-20,2026-09-18,FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Cadena de frío,201,1000.9,4
+30 días anteriores,2026-08-20,2026-09-18,FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Cuidado personal,343,1390.5,3
+30 días anteriores,2026-08-20,2026-09-18,FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Dermocosmética,119,2234.3,0
+30 días anteriores,2026-08-20,2026-09-18,FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Primeros auxilios,280,660.7,0
+30 días anteriores,2026-08-20,2026-09-18,FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Vitaminas,243,1784.9,0
+30 días anteriores,2026-08-20,2026-09-18,SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Analgésicos,542,1645.98,0
+30 días anteriores,2026-08-20,2026-09-18,SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Antigripales,339,1818.2,4
+30 días anteriores,2026-08-20,2026-09-18,SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Bebé,306,2223.06,0
+30 días anteriores,2026-08-20,2026-09-18,SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Cadena de frío,188,918.24,4
+30 días anteriores,2026-08-20,2026-09-18,SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Cuidado personal,402,1556.9,0
+30 días anteriores,2026-08-20,2026-09-18,SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Dermocosmética,116,2064.86,0
+30 días anteriores,2026-08-20,2026-09-18,SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Primeros auxilios,272,610.3,0
+30 días anteriores,2026-08-20,2026-09-18,SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Vitaminas,270,1913.38,0
+30 días anteriores,2026-08-20,2026-09-18,SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Analgésicos,611,1878.5,0
+30 días anteriores,2026-08-20,2026-09-18,SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Antigripales,336,1788.62,1
+30 días anteriores,2026-08-20,2026-09-18,SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Bebé,271,2131.93,0
+30 días anteriores,2026-08-20,2026-09-18,SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Cadena de frío,215,1089.37,0
+30 días anteriores,2026-08-20,2026-09-18,SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Cuidado personal,389,1506.17,3
+30 días anteriores,2026-08-20,2026-09-18,SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Dermocosmética,120,2135.25,0
+30 días anteriores,2026-08-20,2026-09-18,SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Primeros auxilios,269,588.55,0
+30 días anteriores,2026-08-20,2026-09-18,SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Vitaminas,231,1603.76,1
+30 días anteriores,2026-08-20,2026-09-18,FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Analgésicos,993,3094.1,0
+30 días anteriores,2026-08-20,2026-09-18,FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Antigripales,616,3531.8,0
+30 días anteriores,2026-08-20,2026-09-18,FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Bebé,477,3370.2,2
+30 días anteriores,2026-08-20,2026-09-18,FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Cadena de frío,359,1743.0,4
+30 días anteriores,2026-08-20,2026-09-18,FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Cuidado personal,630,2560.0,0
+30 días anteriores,2026-08-20,2026-09-18,FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Dermocosmética,229,4282.5,0
+30 días anteriores,2026-08-20,2026-09-18,FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Primeros auxilios,489,1155.5,0
+30 días anteriores,2026-08-20,2026-09-18,FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Vitaminas,397,3046.4,0
+30 días anteriores,2026-08-20,2026-09-18,SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Analgésicos,379,1122.12,0
+30 días anteriores,2026-08-20,2026-09-18,SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Antigripales,238,1293.03,0
+30 días anteriores,2026-08-20,2026-09-18,SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Bebé,188,1478.36,3
+30 días anteriores,2026-08-20,2026-09-18,SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Cadena de frío,137,645.27,0
+30 días anteriores,2026-08-20,2026-09-18,SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Cuidado personal,248,973.88,0
+30 días anteriores,2026-08-20,2026-09-18,SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Dermocosmética,88,1573.84,0
+30 días anteriores,2026-08-20,2026-09-18,SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Primeros auxilios,179,400.76,0
+30 días anteriores,2026-08-20,2026-09-18,SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Vitaminas,149,996.72,0
+30 días anteriores,2026-08-20,2026-09-18,FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Analgésicos,926,2981.2,0
+30 días anteriores,2026-08-20,2026-09-18,FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Antigripales,584,3285.1,4
+30 días anteriores,2026-08-20,2026-09-18,FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Bebé,495,3715.5,3
+30 días anteriores,2026-08-20,2026-09-18,FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Cadena de frío,323,1761.9,0
+30 días anteriores,2026-08-20,2026-09-18,FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Cuidado personal,609,2455.7,3
+30 días anteriores,2026-08-20,2026-09-18,FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Dermocosmética,227,4181.2,1
+30 días anteriores,2026-08-20,2026-09-18,FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Primeros auxilios,461,1094.7,0
+30 días anteriores,2026-08-20,2026-09-18,FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Vitaminas,432,3228.2,0
+30 días anteriores,2026-08-20,2026-09-18,SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Analgésicos,341,1030.36,0
+30 días anteriores,2026-08-20,2026-09-18,SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Antigripales,250,1321.76,3
+30 días anteriores,2026-08-20,2026-09-18,SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Bebé,202,1462.74,0
+30 días anteriores,2026-08-20,2026-09-18,SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Cadena de frío,123,616.01,0
+30 días anteriores,2026-08-20,2026-09-18,SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Cuidado personal,246,952.86,0
+30 días anteriores,2026-08-20,2026-09-18,SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Dermocosmética,89,1559.9,0
+30 días anteriores,2026-08-20,2026-09-18,SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Primeros auxilios,170,373.42,1
+30 días anteriores,2026-08-20,2026-09-18,SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Vitaminas,131,998.38,1
+30 días anteriores,2026-08-20,2026-09-18,SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Analgésicos,362,1075.86,0
+30 días anteriores,2026-08-20,2026-09-18,SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Antigripales,240,1267.06,0
+30 días anteriores,2026-08-20,2026-09-18,SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Bebé,213,1616.87,0
+30 días anteriores,2026-08-20,2026-09-18,SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Cadena de frío,139,694.45,0
+30 días anteriores,2026-08-20,2026-09-18,SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Cuidado personal,261,1000.63,0
+30 días anteriores,2026-08-20,2026-09-18,SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Dermocosmética,85,1500.01,1
+30 días anteriores,2026-08-20,2026-09-18,SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Primeros auxilios,154,344.58,0
+30 días anteriores,2026-08-20,2026-09-18,SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Vitaminas,168,1200.78,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Analgésicos,956,3043.5,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Antigripales,579,3268.2,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Bebé,529,4205.7,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Cadena de frío,358,1905.1,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Cuidado personal,668,2752.5,1
+Primeros 30 días,2026-07-21,2026-08-19,FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Dermocosmética,231,4328.4,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Primeros auxilios,437,1015.1,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Vitaminas,450,3348.0,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Analgésicos,885,2835.8,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Antigripales,601,3455.8,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Bebé,511,3831.4,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Cadena de frío,338,1833.8,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Cuidado personal,655,2662.1,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Dermocosmética,184,3441.9,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Primeros auxilios,406,955.0,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Vitaminas,375,2767.2,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Analgésicos,345,1065.24,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Antigripales,241,1302.52,2
+Primeros 30 días,2026-07-21,2026-08-19,SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Bebé,189,1250.03,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Cadena de frío,150,820.18,2
+Primeros 30 días,2026-07-21,2026-08-19,SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Cuidado personal,250,944.36,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Dermocosmética,58,1055.41,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Primeros auxilios,170,376.31,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Vitaminas,141,997.13,1
+Primeros 30 días,2026-07-21,2026-08-19,SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Analgésicos,560,1634.7,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Antigripales,344,1870.45,9
+Primeros 30 días,2026-07-21,2026-08-19,SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Bebé,305,2105.23,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Cadena de frío,230,1214.9,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Cuidado personal,421,1678.43,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Dermocosmética,112,2045.68,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Primeros auxilios,256,571.15,2
+Primeros 30 días,2026-07-21,2026-08-19,SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Vitaminas,217,1597.38,6
+Primeros 30 días,2026-07-21,2026-08-19,SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Analgésicos,376,1130.1,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Antigripales,236,1280.42,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Bebé,181,1339.51,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Cadena de frío,146,758.36,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Cuidado personal,257,967.91,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Dermocosmética,69,1208.73,4
+Primeros 30 días,2026-07-21,2026-08-19,SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Primeros auxilios,204,457.02,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Vitaminas,153,1089.64,2
+Primeros 30 días,2026-07-21,2026-08-19,FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Analgésicos,605,1926.4,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Antigripales,398,2266.8,1
+Primeros 30 días,2026-07-21,2026-08-19,FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Bebé,284,2321.5,4
+Primeros 30 días,2026-07-21,2026-08-19,FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Cadena de frío,213,1154.5,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Cuidado personal,410,1679.7,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Dermocosmética,119,2225.9,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Primeros auxilios,290,680.6,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Vitaminas,253,1865.5,1
+Primeros 30 días,2026-07-21,2026-08-19,FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Analgésicos,952,3016.7,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Antigripales,582,3321.4,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Bebé,502,3976.1,6
+Primeros 30 días,2026-07-21,2026-08-19,FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Cadena de frío,351,1869.8,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Cuidado personal,621,2492.7,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Dermocosmética,227,4191.2,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Primeros auxilios,470,1118.6,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Vitaminas,378,2917.3,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Analgésicos,952,3009.5,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Antigripales,576,3320.4,4
+Primeros 30 días,2026-07-21,2026-08-19,FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Bebé,463,3604.7,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Cadena de frío,340,1819.7,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Cuidado personal,639,2622.1,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Dermocosmética,222,4124.6,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Primeros auxilios,422,997.8,1
+Primeros 30 días,2026-07-21,2026-08-19,FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Vitaminas,383,2803.5,3
+Primeros 30 días,2026-07-21,2026-08-19,SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Analgésicos,367,1078.26,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Antigripales,225,1210.38,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Bebé,189,1448.51,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Cadena de frío,138,760.44,2
+Primeros 30 días,2026-07-21,2026-08-19,SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Cuidado personal,238,919.14,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Dermocosmética,94,1670.8,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Primeros auxilios,179,408.32,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Vitaminas,143,1023.95,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Analgésicos,351,1040.06,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Antigripales,232,1282.34,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Bebé,213,1576.31,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Cadena de frío,124,637.66,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Cuidado personal,237,896.89,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Dermocosmética,80,1421.75,4
+Primeros 30 días,2026-07-21,2026-08-19,SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Primeros auxilios,181,398.28,1
+Primeros 30 días,2026-07-21,2026-08-19,SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Vitaminas,131,913.82,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Analgésicos,557,1667.62,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Antigripales,374,2057.79,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Bebé,306,2404.54,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Cadena de frío,211,1025.45,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Cuidado personal,405,1550.45,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Dermocosmética,135,2376.27,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Primeros auxilios,287,641.72,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Vitaminas,252,1701.13,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Analgésicos,553,1770.8,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Antigripales,387,2191.2,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Bebé,321,2531.1,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Cadena de frío,203,1163.3,4
+Primeros 30 días,2026-07-21,2026-08-19,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Cuidado personal,381,1479.1,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Dermocosmética,135,2513.8,1
+Primeros 30 días,2026-07-21,2026-08-19,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Primeros auxilios,262,619.1,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Vitaminas,247,1845.9,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Analgésicos,575,1807.2,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Antigripales,362,2003.6,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Bebé,283,2100.9,4
+Primeros 30 días,2026-07-21,2026-08-19,FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Cadena de frío,221,1066.9,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Cuidado personal,398,1595.1,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Dermocosmética,121,2245.7,2
+Primeros 30 días,2026-07-21,2026-08-19,FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Primeros auxilios,277,649.6,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Vitaminas,261,1997.1,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Analgésicos,542,1616.52,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Antigripales,342,1844.05,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Bebé,298,2122.46,4
+Primeros 30 días,2026-07-21,2026-08-19,SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Cadena de frío,172,896.92,4
+Primeros 30 días,2026-07-21,2026-08-19,SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Cuidado personal,377,1432.49,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Dermocosmética,102,1793.58,4
+Primeros 30 días,2026-07-21,2026-08-19,SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Primeros auxilios,273,609.64,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Vitaminas,262,1802.92,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Analgésicos,577,1680.44,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Antigripales,337,1769.86,9
+Primeros 30 días,2026-07-21,2026-08-19,SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Bebé,292,2148.04,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Cadena de frío,217,1182.79,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Cuidado personal,413,1616.97,7
+Primeros 30 días,2026-07-21,2026-08-19,SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Dermocosmética,120,2144.82,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Primeros auxilios,240,541.08,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Vitaminas,248,1738.17,3
+Primeros 30 días,2026-07-21,2026-08-19,FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Analgésicos,953,3022.4,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Antigripales,578,3277.5,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Bebé,504,3922.1,2
+Primeros 30 días,2026-07-21,2026-08-19,FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Cadena de frío,339,1857.8,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Cuidado personal,686,2802.1,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Dermocosmética,219,4117.7,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Primeros auxilios,465,1096.0,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Vitaminas,357,2626.6,7
+Primeros 30 días,2026-07-21,2026-08-19,SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Analgésicos,328,997.02,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Antigripales,220,1218.9,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Bebé,201,1581.39,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Cadena de frío,168,944.58,4
+Primeros 30 días,2026-07-21,2026-08-19,SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Cuidado personal,241,926.17,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Dermocosmética,94,1674.13,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Primeros auxilios,182,408.84,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Vitaminas,163,1093.9,1
+Primeros 30 días,2026-07-21,2026-08-19,FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Analgésicos,933,2948.3,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Antigripales,649,3654.9,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Bebé,496,3824.3,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Cadena de frío,347,1934.9,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Cuidado personal,585,2322.7,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Dermocosmética,193,3630.8,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Primeros auxilios,447,1044.2,0
+Primeros 30 días,2026-07-21,2026-08-19,FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Vitaminas,415,3120.6,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Analgésicos,362,1084.7,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Antigripales,227,1213.98,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Bebé,186,1298.82,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Cadena de frío,108,543.82,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Cuidado personal,275,1035.19,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Dermocosmética,77,1375.31,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Primeros auxilios,196,436.36,6
+Primeros 30 días,2026-07-21,2026-08-19,SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Vitaminas,152,1029.79,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Analgésicos,375,1116.58,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Antigripales,226,1163.1,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Bebé,187,1510.05,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Cadena de frío,137,793.95,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Cuidado personal,235,870.89,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Dermocosmética,84,1480.56,3
+Primeros 30 días,2026-07-21,2026-08-19,SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Primeros auxilios,174,392.01,0
+Primeros 30 días,2026-07-21,2026-08-19,SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Vitaminas,143,996.05,0

@@ -1,0 +1,19 @@
+id_solicitud,fecha_solicitud,id_local_destino,ciudad,sku,producto,categoria,stock_actual,stock_minimo,cantidad_solicitada,id_local_donante,motivo,estado
+SOL-20260001,2026-10-05,FY-GYE-03,Guayaquil,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,46,47,1,FY-GYE-01,Stock bajo el mínimo,Completada
+SOL-20260002,2026-10-07,FY-UIO-01,Quito,GRI-003,Pastillas para la garganta x 24 (Respira+),Antigripales,17,34,17,FY-UIO-03,Stock bajo el mínimo,Rechazada
+SOL-20260003,2026-10-07,SS-CUE-01,Cuenca,FRI-003,Gel frío terapéutico (CuraFácil),Cadena de frío,4,5,1,FY-CUE-01,Stock bajo el mínimo,Completada
+SOL-20260004,2026-10-07,FY-MEC-01,Manta,GRI-002,Jarabe para la tos 180 ml (Respira+),Antigripales,20,25,5,SS-MEC-01,Stock bajo el mínimo,Completada
+SOL-20260005,2026-10-08,FY-GYE-03,Guayaquil,ANA-002,Ibuprofeno 400 mg x 10 tab (Farmalis),Analgésicos,31,37,6,SS-GYE-03,Stock bajo el mínimo,Rechazada
+SOL-20260006,2026-10-08,SS-GYE-03,Guayaquil,ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,14,15,1,FY-GYE-01,Stock bajo el mínimo,Completada
+SOL-20260007,2026-10-08,SS-LOH-01,Loja,ANA-002,Ibuprofeno 400 mg x 10 tab (Farmalis),Analgésicos,21,23,2,,Stock bajo el mínimo,Escalada a centro de distribución
+SOL-20260008,2026-10-09,FY-ATO-01,Ambato,FRI-002,Suero oral refrigerado 500 ml (Vitalis Frío),Cadena de frío,30,34,4,,Stock bajo el mínimo,Escalada a centro de distribución
+SOL-20260009,2026-10-11,FY-UIO-03,Quito,GRI-003,Pastillas para la garganta x 24 (Respira+),Antigripales,16,21,5,FY-UIO-02,Stock bajo el mínimo,Pendiente
+SOL-20260010,2026-10-11,SS-UIO-01,Quito,FRI-001,Probiótico refrigerado x 10 frascos (Vitalis Frío),Cadena de frío,5,6,1,SS-UIO-02,Stock bajo el mínimo,Pendiente
+SOL-20260011,2026-10-12,FY-MEC-01,Manta,FRI-002,Suero oral refrigerado 500 ml (Vitalis Frío),Cadena de frío,33,34,1,,Stock bajo el mínimo,Escalada a centro de distribución
+SOL-20260012,2026-10-13,FY-CUE-01,Cuenca,FRI-001,Probiótico refrigerado x 10 frascos (Vitalis Frío),Cadena de frío,8,10,2,SS-CUE-02,Stock bajo el mínimo,Pendiente
+SOL-20260013,2026-10-14,SS-ATO-01,Ambato,GRI-003,Pastillas para la garganta x 24 (Respira+),Antigripales,7,13,6,FY-ATO-01,Stock bajo el mínimo,Pendiente
+SOL-20260014,2026-10-14,FY-GYE-03,Guayaquil,ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,15,16,1,,Stock bajo el mínimo,Escalada a centro de distribución
+SOL-20260015,2026-10-15,FY-GYE-01,Guayaquil,GRI-002,Jarabe para la tos 180 ml (Respira+),Antigripales,21,25,4,FY-GYE-02,Stock bajo el mínimo,Pendiente
+SOL-20260016,2026-10-16,FY-ATO-01,Ambato,ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,20,25,5,,Stock bajo el mínimo,Escalada a centro de distribución
+SOL-20260017,2026-10-18,SS-UIO-03,Quito,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,12,29,17,,Stock bajo el mínimo,Escalada a centro de distribución
+SOL-20260018,2026-10-18,SS-MEC-01,Manta,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,22,29,7,,Stock bajo el mínimo,Escalada a centro de distribución

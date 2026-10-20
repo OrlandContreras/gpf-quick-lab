@@ -1,0 +1,21 @@
+id_local,nombre_local,marca,ciudad,provincia,region,zona_operativa,zona,formato,horario,latitud,longitud,correo_jefe_local,correo_jefe_zonal
+FY-UIO-01,Fybeca Quito Norte,Fybeca,Quito,Pichincha,Sierra,Sierra Norte,Norte,Grande,24 horas,-0.17589,-78.50573,jefe.fy-uio-01@gpf-lab.example,jefe.zonal.sierranorte@gpf-lab.example
+FY-UIO-02,Fybeca Quito Valle,Fybeca,Quito,Pichincha,Sierra,Sierra Norte,Valle,Grande,07:00-22:00,-0.16793,-78.47364,jefe.fy-uio-02@gpf-lab.example,jefe.zonal.sierranorte@gpf-lab.example
+SS-UIO-01,SanaSana Quito Centro,SanaSana,Quito,Pichincha,Sierra,Sierra Norte,Centro,Barrio,08:00-21:00,-0.17462,-78.47315,jefe.ss-uio-01@gpf-lab.example,jefe.zonal.sierranorte@gpf-lab.example
+SS-UIO-02,SanaSana Quito Sur,SanaSana,Quito,Pichincha,Sierra,Sierra Norte,Sur,Mediano,08:00-21:00,-0.1663,-78.45751,jefe.ss-uio-02@gpf-lab.example,jefe.zonal.sierranorte@gpf-lab.example
+SS-UIO-03,SanaSana Quito Carcelén,SanaSana,Quito,Pichincha,Sierra,Sierra Norte,Carcelén,Barrio,08:00-21:00,-0.18241,-78.46458,jefe.ss-uio-03@gpf-lab.example,jefe.zonal.sierranorte@gpf-lab.example
+FY-UIO-03,Fybeca Quito Cumbayá,Fybeca,Quito,Pichincha,Sierra,Sierra Norte,Cumbayá,Mediano,07:00-22:00,-0.18878,-78.45683,jefe.fy-uio-03@gpf-lab.example,jefe.zonal.sierranorte@gpf-lab.example
+FY-GYE-01,Fybeca Guayaquil Samborondón,Fybeca,Guayaquil,Guayas,Costa,Costa,Samborondón,Grande,24 horas,-2.19839,-79.93195,jefe.fy-gye-01@gpf-lab.example,jefe.zonal.costa@gpf-lab.example
+FY-GYE-02,Fybeca Guayaquil Urdesa,Fybeca,Guayaquil,Guayas,Costa,Costa,Urdesa,Grande,07:00-22:00,-2.17555,-79.92537,jefe.fy-gye-02@gpf-lab.example,jefe.zonal.costa@gpf-lab.example
+SS-GYE-01,SanaSana Guayaquil Centro,SanaSana,Guayaquil,Guayas,Costa,Costa,Centro,Barrio,08:00-21:00,-2.13441,-79.93666,jefe.ss-gye-01@gpf-lab.example,jefe.zonal.costa@gpf-lab.example
+SS-GYE-02,SanaSana Guayaquil Sur,SanaSana,Guayaquil,Guayas,Costa,Costa,Sur,Barrio,08:00-21:00,-2.1955,-79.9189,jefe.ss-gye-02@gpf-lab.example,jefe.zonal.costa@gpf-lab.example
+SS-GYE-03,SanaSana Guayaquil Norte,SanaSana,Guayaquil,Guayas,Costa,Costa,Norte,Mediano,08:00-21:00,-2.14387,-79.90572,jefe.ss-gye-03@gpf-lab.example,jefe.zonal.costa@gpf-lab.example
+FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Fybeca,Guayaquil,Guayas,Costa,Costa,Vía a la Costa,Mediano,07:00-22:00,-2.18861,-79.90871,jefe.fy-gye-03@gpf-lab.example,jefe.zonal.costa@gpf-lab.example
+FY-CUE-01,Fybeca Cuenca El Ejido,Fybeca,Cuenca,Azuay,Sierra,Sierra Sur,El Ejido,Mediano,07:00-22:00,-2.90925,-78.99577,jefe.fy-cue-01@gpf-lab.example,jefe.zonal.sierrasur@gpf-lab.example
+SS-CUE-01,SanaSana Cuenca Centro,SanaSana,Cuenca,Azuay,Sierra,Sierra Sur,Centro,Mediano,08:00-21:00,-2.89601,-79.01846,jefe.ss-cue-01@gpf-lab.example,jefe.zonal.sierrasur@gpf-lab.example
+SS-CUE-02,SanaSana Cuenca Totoracocha,SanaSana,Cuenca,Azuay,Sierra,Sierra Sur,Totoracocha,Mediano,08:00-21:00,-2.87121,-78.99402,jefe.ss-cue-02@gpf-lab.example,jefe.zonal.sierrasur@gpf-lab.example
+FY-MEC-01,Fybeca Manta Barbasquillo,Fybeca,Manta,Manabí,Costa,Costa,Barbasquillo,Grande,07:00-22:00,-0.92403,-80.72522,jefe.fy-mec-01@gpf-lab.example,jefe.zonal.costa@gpf-lab.example
+SS-MEC-01,SanaSana Manta Centro,SanaSana,Manta,Manabí,Costa,Costa,Centro,Barrio,08:00-21:00,-0.90468,-80.67653,jefe.ss-mec-01@gpf-lab.example,jefe.zonal.costa@gpf-lab.example
+FY-ATO-01,Fybeca Ambato Ficoa,Fybeca,Ambato,Tungurahua,Sierra,Sierra Norte,Ficoa,Grande,07:00-22:00,-1.26238,-78.59691,jefe.fy-ato-01@gpf-lab.example,jefe.zonal.sierranorte@gpf-lab.example
+SS-ATO-01,SanaSana Ambato Centro,SanaSana,Ambato,Tungurahua,Sierra,Sierra Norte,Centro,Barrio,08:00-21:00,-1.24953,-78.62261,jefe.ss-ato-01@gpf-lab.example,jefe.zonal.sierranorte@gpf-lab.example
+SS-LOH-01,SanaSana Loja Centro,SanaSana,Loja,Loja,Sierra,Sierra Sur,Centro,Barrio,08:00-21:00,-3.96734,-79.21531,jefe.ss-loh-01@gpf-lab.example,jefe.zonal.sierrasur@gpf-lab.example

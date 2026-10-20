@@ -1,0 +1,4 @@
+zona_operativa,id_jefe_zonal,cargo,correo_jefe_zonal,ciudades
+Sierra Norte,JZ-01,Jefe zonal Sierra Norte,jefe.zonal.sierranorte@gpf-lab.example,"Quito, Ambato"
+Sierra Sur,JZ-02,Jefe zonal Sierra Sur,jefe.zonal.sierrasur@gpf-lab.example,"Cuenca, Loja"
+Costa,JZ-03,Jefe zonal Costa,jefe.zonal.costa@gpf-lab.example,"Guayaquil, Manta"

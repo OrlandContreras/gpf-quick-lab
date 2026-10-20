@@ -1,0 +1,25 @@
+sku,producto,categoria,precio_usd,cadena_frio
+ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,2.4,No
+ANA-002,Ibuprofeno 400 mg x 10 tab (Farmalis),Analgésicos,3.1,No
+ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,5.6,No
+GRI-001,Antigripal día y noche x 12 tab (Respira+),Antigripales,6.2,No
+GRI-002,Jarabe para la tos 180 ml (Respira+),Antigripales,7.8,No
+GRI-003,Pastillas para la garganta x 24 (Respira+),Antigripales,3.5,No
+VIT-001,Vitamina C 1 g efervescente x 10 (Vitalis),Vitaminas,4.9,No
+VIT-002,Multivitamínico adulto x 30 (Vitalis),Vitaminas,12.5,No
+VIT-003,Vitamina D3 gotas 30 ml (Vitalis),Vitaminas,9.8,No
+CPE-001,Shampoo anticaspa 400 ml (Brisa),Cuidado personal,6.7,No
+CPE-002,Crema dental protección total 100 g (Brisa),Cuidado personal,2.9,No
+CPE-003,Desodorante roll-on 50 ml (Brisa),Cuidado personal,3.8,No
+DER-001,Protector solar FPS 50 120 ml (Dermalia),Dermocosmética,18.9,No
+DER-002,Crema hidratante facial 50 ml (Dermalia),Dermocosmética,22.4,No
+DER-003,Gel limpiador facial 150 ml (Dermalia),Dermocosmética,14.6,No
+BEB-001,Pañales etapa 3 x 40 (Pequesana),Bebé,15.9,No
+BEB-002,Toallitas húmedas x 80 (Pequesana),Bebé,3.4,No
+BEB-003,Crema antipañalitis 60 g (Pequesana),Bebé,6.1,No
+PAU-001,Alcohol antiséptico 500 ml (CuraFácil),Primeros auxilios,2.7,No
+PAU-002,Curitas surtidas x 30 (CuraFácil),Primeros auxilios,2.2,No
+PAU-003,Gasas estériles x 10 (CuraFácil),Primeros auxilios,1.9,No
+FRI-001,Probiótico refrigerado x 10 frascos (Vitalis Frío),Cadena de frío,11.3,Sí
+FRI-002,Suero oral refrigerado 500 ml (Vitalis Frío),Cadena de frío,2.6,Sí
+FRI-003,Gel frío terapéutico (CuraFácil),Cadena de frío,5.4,Sí
