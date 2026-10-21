@@ -1,0 +1,481 @@
+fecha,id_local,nombre_local,ciudad,zona_operativa,sku,producto,categoria,stock_final,stock_minimo,bajo_minimo
+2026-10-18,FY-UIO-01,Fybeca Quito Norte,Quito,Sierra Norte,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,85,76,No
+2026-10-18,FY-UIO-01,Fybeca Quito Norte,Quito,Sierra Norte,ANA-002,Ibuprofeno 400 mg x 10 tab (Farmalis),Analgésicos,75,59,No
+2026-10-18,FY-UIO-01,Fybeca Quito Norte,Quito,Sierra Norte,ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,53,25,No
+2026-10-18,FY-UIO-01,Fybeca Quito Norte,Quito,Sierra Norte,GRI-001,Antigripal día y noche x 12 tab (Respira+),Antigripales,111,42,No
+2026-10-18,FY-UIO-01,Fybeca Quito Norte,Quito,Sierra Norte,GRI-002,Jarabe para la tos 180 ml (Respira+),Antigripales,47,25,No
+2026-10-18,FY-UIO-01,Fybeca Quito Norte,Quito,Sierra Norte,GRI-003,Pastillas para la garganta x 24 (Respira+),Antigripales,53,34,No
+2026-10-18,FY-UIO-01,Fybeca Quito Norte,Quito,Sierra Norte,VIT-001,Vitamina C 1 g efervescente x 10 (Vitalis),Vitaminas,63,42,No
+2026-10-18,FY-UIO-01,Fybeca Quito Norte,Quito,Sierra Norte,VIT-002,Multivitamínico adulto x 30 (Vitalis),Vitaminas,11,17,Sí
+2026-10-18,FY-UIO-01,Fybeca Quito Norte,Quito,Sierra Norte,VIT-003,Vitamina D3 gotas 30 ml (Vitalis),Vitaminas,19,8,No
+2026-10-18,FY-UIO-01,Fybeca Quito Norte,Quito,Sierra Norte,CPE-001,Shampoo anticaspa 400 ml (Brisa),Cuidado personal,69,25,No
+2026-10-18,FY-UIO-01,Fybeca Quito Norte,Quito,Sierra Norte,CPE-002,Crema dental protección total 100 g (Brisa),Cuidado personal,130,50,No
+2026-10-18,FY-UIO-01,Fybeca Quito Norte,Quito,Sierra Norte,CPE-003,Desodorante roll-on 50 ml (Brisa),Cuidado personal,85,34,No
+2026-10-18,FY-UIO-01,Fybeca Quito Norte,Quito,Sierra Norte,DER-001,Protector solar FPS 50 120 ml (Dermalia),Dermocosmética,28,17,No
+2026-10-18,FY-UIO-01,Fybeca Quito Norte,Quito,Sierra Norte,DER-002,Crema hidratante facial 50 ml (Dermalia),Dermocosmética,17,8,No
+2026-10-18,FY-UIO-01,Fybeca Quito Norte,Quito,Sierra Norte,DER-003,Gel limpiador facial 150 ml (Dermalia),Dermocosmética,15,8,No
+2026-10-18,FY-UIO-01,Fybeca Quito Norte,Quito,Sierra Norte,BEB-001,Pañales etapa 3 x 40 (Pequesana),Bebé,58,25,No
+2026-10-18,FY-UIO-01,Fybeca Quito Norte,Quito,Sierra Norte,BEB-002,Toallitas húmedas x 80 (Pequesana),Bebé,76,42,No
+2026-10-18,FY-UIO-01,Fybeca Quito Norte,Quito,Sierra Norte,BEB-003,Crema antipañalitis 60 g (Pequesana),Bebé,16,17,Sí
+2026-10-18,FY-UIO-01,Fybeca Quito Norte,Quito,Sierra Norte,PAU-001,Alcohol antiséptico 500 ml (CuraFácil),Primeros auxilios,60,34,No
+2026-10-18,FY-UIO-01,Fybeca Quito Norte,Quito,Sierra Norte,PAU-002,Curitas surtidas x 30 (CuraFácil),Primeros auxilios,49,25,No
+2026-10-18,FY-UIO-01,Fybeca Quito Norte,Quito,Sierra Norte,PAU-003,Gasas estériles x 10 (CuraFácil),Primeros auxilios,26,17,No
+2026-10-18,FY-UIO-01,Fybeca Quito Norte,Quito,Sierra Norte,FRI-001,Probiótico refrigerado x 10 frascos (Vitalis Frío),Cadena de frío,38,17,No
+2026-10-18,FY-UIO-01,Fybeca Quito Norte,Quito,Sierra Norte,FRI-002,Suero oral refrigerado 500 ml (Vitalis Frío),Cadena de frío,41,34,No
+2026-10-18,FY-UIO-01,Fybeca Quito Norte,Quito,Sierra Norte,FRI-003,Gel frío terapéutico (CuraFácil),Cadena de frío,11,8,No
+2026-10-18,FY-UIO-02,Fybeca Quito Valle,Quito,Sierra Norte,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,0,76,Sí
+2026-10-18,FY-UIO-02,Fybeca Quito Valle,Quito,Sierra Norte,ANA-002,Ibuprofeno 400 mg x 10 tab (Farmalis),Analgésicos,0,59,Sí
+2026-10-18,FY-UIO-02,Fybeca Quito Valle,Quito,Sierra Norte,ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,7,25,Sí
+2026-10-18,FY-UIO-02,Fybeca Quito Valle,Quito,Sierra Norte,GRI-001,Antigripal día y noche x 12 tab (Respira+),Antigripales,51,42,No
+2026-10-18,FY-UIO-02,Fybeca Quito Valle,Quito,Sierra Norte,GRI-002,Jarabe para la tos 180 ml (Respira+),Antigripales,73,25,No
+2026-10-18,FY-UIO-02,Fybeca Quito Valle,Quito,Sierra Norte,GRI-003,Pastillas para la garganta x 24 (Respira+),Antigripales,68,34,No
+2026-10-18,FY-UIO-02,Fybeca Quito Valle,Quito,Sierra Norte,VIT-001,Vitamina C 1 g efervescente x 10 (Vitalis),Vitaminas,66,42,No
+2026-10-18,FY-UIO-02,Fybeca Quito Valle,Quito,Sierra Norte,VIT-002,Multivitamínico adulto x 30 (Vitalis),Vitaminas,45,17,No
+2026-10-18,FY-UIO-02,Fybeca Quito Valle,Quito,Sierra Norte,VIT-003,Vitamina D3 gotas 30 ml (Vitalis),Vitaminas,22,8,No
+2026-10-18,FY-UIO-02,Fybeca Quito Valle,Quito,Sierra Norte,CPE-001,Shampoo anticaspa 400 ml (Brisa),Cuidado personal,39,25,No
+2026-10-18,FY-UIO-02,Fybeca Quito Valle,Quito,Sierra Norte,CPE-002,Crema dental protección total 100 g (Brisa),Cuidado personal,112,50,No
+2026-10-18,FY-UIO-02,Fybeca Quito Valle,Quito,Sierra Norte,CPE-003,Desodorante roll-on 50 ml (Brisa),Cuidado personal,84,34,No
+2026-10-18,FY-UIO-02,Fybeca Quito Valle,Quito,Sierra Norte,DER-001,Protector solar FPS 50 120 ml (Dermalia),Dermocosmética,26,17,No
+2026-10-18,FY-UIO-02,Fybeca Quito Valle,Quito,Sierra Norte,DER-002,Crema hidratante facial 50 ml (Dermalia),Dermocosmética,12,8,No
+2026-10-18,FY-UIO-02,Fybeca Quito Valle,Quito,Sierra Norte,DER-003,Gel limpiador facial 150 ml (Dermalia),Dermocosmética,17,8,No
+2026-10-18,FY-UIO-02,Fybeca Quito Valle,Quito,Sierra Norte,BEB-001,Pañales etapa 3 x 40 (Pequesana),Bebé,37,25,No
+2026-10-18,FY-UIO-02,Fybeca Quito Valle,Quito,Sierra Norte,BEB-002,Toallitas húmedas x 80 (Pequesana),Bebé,61,42,No
+2026-10-18,FY-UIO-02,Fybeca Quito Valle,Quito,Sierra Norte,BEB-003,Crema antipañalitis 60 g (Pequesana),Bebé,45,17,No
+2026-10-18,FY-UIO-02,Fybeca Quito Valle,Quito,Sierra Norte,PAU-001,Alcohol antiséptico 500 ml (CuraFácil),Primeros auxilios,53,34,No
+2026-10-18,FY-UIO-02,Fybeca Quito Valle,Quito,Sierra Norte,PAU-002,Curitas surtidas x 30 (CuraFácil),Primeros auxilios,50,25,No
+2026-10-18,FY-UIO-02,Fybeca Quito Valle,Quito,Sierra Norte,PAU-003,Gasas estériles x 10 (CuraFácil),Primeros auxilios,22,17,No
+2026-10-18,FY-UIO-02,Fybeca Quito Valle,Quito,Sierra Norte,FRI-001,Probiótico refrigerado x 10 frascos (Vitalis Frío),Cadena de frío,35,17,No
+2026-10-18,FY-UIO-02,Fybeca Quito Valle,Quito,Sierra Norte,FRI-002,Suero oral refrigerado 500 ml (Vitalis Frío),Cadena de frío,83,34,No
+2026-10-18,FY-UIO-02,Fybeca Quito Valle,Quito,Sierra Norte,FRI-003,Gel frío terapéutico (CuraFácil),Cadena de frío,13,8,No
+2026-10-18,SS-UIO-01,SanaSana Quito Centro,Quito,Sierra Norte,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,20,29,Sí
+2026-10-18,SS-UIO-01,SanaSana Quito Centro,Quito,Sierra Norte,ANA-002,Ibuprofeno 400 mg x 10 tab (Farmalis),Analgésicos,47,23,No
+2026-10-18,SS-UIO-01,SanaSana Quito Centro,Quito,Sierra Norte,ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,21,10,No
+2026-10-18,SS-UIO-01,SanaSana Quito Centro,Quito,Sierra Norte,GRI-001,Antigripal día y noche x 12 tab (Respira+),Antigripales,15,16,Sí
+2026-10-18,SS-UIO-01,SanaSana Quito Centro,Quito,Sierra Norte,GRI-002,Jarabe para la tos 180 ml (Respira+),Antigripales,21,10,No
+2026-10-18,SS-UIO-01,SanaSana Quito Centro,Quito,Sierra Norte,GRI-003,Pastillas para la garganta x 24 (Respira+),Antigripales,28,13,No
+2026-10-18,SS-UIO-01,SanaSana Quito Centro,Quito,Sierra Norte,VIT-001,Vitamina C 1 g efervescente x 10 (Vitalis),Vitaminas,38,16,No
+2026-10-18,SS-UIO-01,SanaSana Quito Centro,Quito,Sierra Norte,VIT-002,Multivitamínico adulto x 30 (Vitalis),Vitaminas,16,6,No
+2026-10-18,SS-UIO-01,SanaSana Quito Centro,Quito,Sierra Norte,VIT-003,Vitamina D3 gotas 30 ml (Vitalis),Vitaminas,6,3,No
+2026-10-18,SS-UIO-01,SanaSana Quito Centro,Quito,Sierra Norte,CPE-001,Shampoo anticaspa 400 ml (Brisa),Cuidado personal,29,10,No
+2026-10-18,SS-UIO-01,SanaSana Quito Centro,Quito,Sierra Norte,CPE-002,Crema dental protección total 100 g (Brisa),Cuidado personal,38,20,No
+2026-10-18,SS-UIO-01,SanaSana Quito Centro,Quito,Sierra Norte,CPE-003,Desodorante roll-on 50 ml (Brisa),Cuidado personal,34,13,No
+2026-10-18,SS-UIO-01,SanaSana Quito Centro,Quito,Sierra Norte,DER-001,Protector solar FPS 50 120 ml (Dermalia),Dermocosmética,10,6,No
+2026-10-18,SS-UIO-01,SanaSana Quito Centro,Quito,Sierra Norte,DER-002,Crema hidratante facial 50 ml (Dermalia),Dermocosmética,8,3,No
+2026-10-18,SS-UIO-01,SanaSana Quito Centro,Quito,Sierra Norte,DER-003,Gel limpiador facial 150 ml (Dermalia),Dermocosmética,4,3,No
+2026-10-18,SS-UIO-01,SanaSana Quito Centro,Quito,Sierra Norte,BEB-001,Pañales etapa 3 x 40 (Pequesana),Bebé,18,10,No
+2026-10-18,SS-UIO-01,SanaSana Quito Centro,Quito,Sierra Norte,BEB-002,Toallitas húmedas x 80 (Pequesana),Bebé,43,16,No
+2026-10-18,SS-UIO-01,SanaSana Quito Centro,Quito,Sierra Norte,BEB-003,Crema antipañalitis 60 g (Pequesana),Bebé,8,6,No
+2026-10-18,SS-UIO-01,SanaSana Quito Centro,Quito,Sierra Norte,PAU-001,Alcohol antiséptico 500 ml (CuraFácil),Primeros auxilios,22,13,No
+2026-10-18,SS-UIO-01,SanaSana Quito Centro,Quito,Sierra Norte,PAU-002,Curitas surtidas x 30 (CuraFácil),Primeros auxilios,15,10,No
+2026-10-18,SS-UIO-01,SanaSana Quito Centro,Quito,Sierra Norte,PAU-003,Gasas estériles x 10 (CuraFácil),Primeros auxilios,0,6,Sí
+2026-10-18,SS-UIO-01,SanaSana Quito Centro,Quito,Sierra Norte,FRI-001,Probiótico refrigerado x 10 frascos (Vitalis Frío),Cadena de frío,10,6,No
+2026-10-18,SS-UIO-01,SanaSana Quito Centro,Quito,Sierra Norte,FRI-002,Suero oral refrigerado 500 ml (Vitalis Frío),Cadena de frío,32,13,No
+2026-10-18,SS-UIO-01,SanaSana Quito Centro,Quito,Sierra Norte,FRI-003,Gel frío terapéutico (CuraFácil),Cadena de frío,5,3,No
+2026-10-18,SS-UIO-02,SanaSana Quito Sur,Quito,Sierra Norte,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,54,45,No
+2026-10-18,SS-UIO-02,SanaSana Quito Sur,Quito,Sierra Norte,ANA-002,Ibuprofeno 400 mg x 10 tab (Farmalis),Analgésicos,60,35,No
+2026-10-18,SS-UIO-02,SanaSana Quito Sur,Quito,Sierra Norte,ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,31,15,No
+2026-10-18,SS-UIO-02,SanaSana Quito Sur,Quito,Sierra Norte,GRI-001,Antigripal día y noche x 12 tab (Respira+),Antigripales,47,25,No
+2026-10-18,SS-UIO-02,SanaSana Quito Sur,Quito,Sierra Norte,GRI-002,Jarabe para la tos 180 ml (Respira+),Antigripales,29,15,No
+2026-10-18,SS-UIO-02,SanaSana Quito Sur,Quito,Sierra Norte,GRI-003,Pastillas para la garganta x 24 (Respira+),Antigripales,51,20,No
+2026-10-18,SS-UIO-02,SanaSana Quito Sur,Quito,Sierra Norte,VIT-001,Vitamina C 1 g efervescente x 10 (Vitalis),Vitaminas,56,25,No
+2026-10-18,SS-UIO-02,SanaSana Quito Sur,Quito,Sierra Norte,VIT-002,Multivitamínico adulto x 30 (Vitalis),Vitaminas,13,10,No
+2026-10-18,SS-UIO-02,SanaSana Quito Sur,Quito,Sierra Norte,VIT-003,Vitamina D3 gotas 30 ml (Vitalis),Vitaminas,10,5,No
+2026-10-18,SS-UIO-02,SanaSana Quito Sur,Quito,Sierra Norte,CPE-001,Shampoo anticaspa 400 ml (Brisa),Cuidado personal,30,15,No
+2026-10-18,SS-UIO-02,SanaSana Quito Sur,Quito,Sierra Norte,CPE-002,Crema dental protección total 100 g (Brisa),Cuidado personal,34,30,No
+2026-10-18,SS-UIO-02,SanaSana Quito Sur,Quito,Sierra Norte,CPE-003,Desodorante roll-on 50 ml (Brisa),Cuidado personal,55,20,No
+2026-10-18,SS-UIO-02,SanaSana Quito Sur,Quito,Sierra Norte,DER-001,Protector solar FPS 50 120 ml (Dermalia),Dermocosmética,19,10,No
+2026-10-18,SS-UIO-02,SanaSana Quito Sur,Quito,Sierra Norte,DER-002,Crema hidratante facial 50 ml (Dermalia),Dermocosmética,11,5,No
+2026-10-18,SS-UIO-02,SanaSana Quito Sur,Quito,Sierra Norte,DER-003,Gel limpiador facial 150 ml (Dermalia),Dermocosmética,11,5,No
+2026-10-18,SS-UIO-02,SanaSana Quito Sur,Quito,Sierra Norte,BEB-001,Pañales etapa 3 x 40 (Pequesana),Bebé,30,15,No
+2026-10-18,SS-UIO-02,SanaSana Quito Sur,Quito,Sierra Norte,BEB-002,Toallitas húmedas x 80 (Pequesana),Bebé,35,25,No
+2026-10-18,SS-UIO-02,SanaSana Quito Sur,Quito,Sierra Norte,BEB-003,Crema antipañalitis 60 g (Pequesana),Bebé,22,10,No
+2026-10-18,SS-UIO-02,SanaSana Quito Sur,Quito,Sierra Norte,PAU-001,Alcohol antiséptico 500 ml (CuraFácil),Primeros auxilios,26,20,No
+2026-10-18,SS-UIO-02,SanaSana Quito Sur,Quito,Sierra Norte,PAU-002,Curitas surtidas x 30 (CuraFácil),Primeros auxilios,32,15,No
+2026-10-18,SS-UIO-02,SanaSana Quito Sur,Quito,Sierra Norte,PAU-003,Gasas estériles x 10 (CuraFácil),Primeros auxilios,21,10,No
+2026-10-18,SS-UIO-02,SanaSana Quito Sur,Quito,Sierra Norte,FRI-001,Probiótico refrigerado x 10 frascos (Vitalis Frío),Cadena de frío,15,10,No
+2026-10-18,SS-UIO-02,SanaSana Quito Sur,Quito,Sierra Norte,FRI-002,Suero oral refrigerado 500 ml (Vitalis Frío),Cadena de frío,27,20,No
+2026-10-18,SS-UIO-02,SanaSana Quito Sur,Quito,Sierra Norte,FRI-003,Gel frío terapéutico (CuraFácil),Cadena de frío,12,5,No
+2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,Quito,Sierra Norte,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,12,29,Sí
+2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,Quito,Sierra Norte,ANA-002,Ibuprofeno 400 mg x 10 tab (Farmalis),Analgésicos,0,23,Sí
+2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,Quito,Sierra Norte,ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,0,10,Sí
+2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,Quito,Sierra Norte,GRI-001,Antigripal día y noche x 12 tab (Respira+),Antigripales,18,16,No
+2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,Quito,Sierra Norte,GRI-002,Jarabe para la tos 180 ml (Respira+),Antigripales,29,10,No
+2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,Quito,Sierra Norte,GRI-003,Pastillas para la garganta x 24 (Respira+),Antigripales,20,13,No
+2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,Quito,Sierra Norte,VIT-001,Vitamina C 1 g efervescente x 10 (Vitalis),Vitaminas,15,16,Sí
+2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,Quito,Sierra Norte,VIT-002,Multivitamínico adulto x 30 (Vitalis),Vitaminas,16,6,No
+2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,Quito,Sierra Norte,VIT-003,Vitamina D3 gotas 30 ml (Vitalis),Vitaminas,9,3,No
+2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,Quito,Sierra Norte,CPE-001,Shampoo anticaspa 400 ml (Brisa),Cuidado personal,12,10,No
+2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,Quito,Sierra Norte,CPE-002,Crema dental protección total 100 g (Brisa),Cuidado personal,53,20,No
+2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,Quito,Sierra Norte,CPE-003,Desodorante roll-on 50 ml (Brisa),Cuidado personal,26,13,No
+2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,Quito,Sierra Norte,DER-001,Protector solar FPS 50 120 ml (Dermalia),Dermocosmética,17,6,No
+2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,Quito,Sierra Norte,DER-002,Crema hidratante facial 50 ml (Dermalia),Dermocosmética,7,3,No
+2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,Quito,Sierra Norte,DER-003,Gel limpiador facial 150 ml (Dermalia),Dermocosmética,5,3,No
+2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,Quito,Sierra Norte,BEB-001,Pañales etapa 3 x 40 (Pequesana),Bebé,19,10,No
+2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,Quito,Sierra Norte,BEB-002,Toallitas húmedas x 80 (Pequesana),Bebé,13,16,Sí
+2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,Quito,Sierra Norte,BEB-003,Crema antipañalitis 60 g (Pequesana),Bebé,11,6,No
+2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,Quito,Sierra Norte,PAU-001,Alcohol antiséptico 500 ml (CuraFácil),Primeros auxilios,31,13,No
+2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,Quito,Sierra Norte,PAU-002,Curitas surtidas x 30 (CuraFácil),Primeros auxilios,24,10,No
+2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,Quito,Sierra Norte,PAU-003,Gasas estériles x 10 (CuraFácil),Primeros auxilios,11,6,No
+2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,Quito,Sierra Norte,FRI-001,Probiótico refrigerado x 10 frascos (Vitalis Frío),Cadena de frío,11,6,No
+2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,Quito,Sierra Norte,FRI-002,Suero oral refrigerado 500 ml (Vitalis Frío),Cadena de frío,21,13,No
+2026-10-18,SS-UIO-03,SanaSana Quito Carcelén,Quito,Sierra Norte,FRI-003,Gel frío terapéutico (CuraFácil),Cadena de frío,3,3,No
+2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Quito,Sierra Norte,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,58,47,No
+2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Quito,Sierra Norte,ANA-002,Ibuprofeno 400 mg x 10 tab (Farmalis),Analgésicos,101,37,No
+2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Quito,Sierra Norte,ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,34,16,No
+2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Quito,Sierra Norte,GRI-001,Antigripal día y noche x 12 tab (Respira+),Antigripales,69,26,No
+2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Quito,Sierra Norte,GRI-002,Jarabe para la tos 180 ml (Respira+),Antigripales,17,16,No
+2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Quito,Sierra Norte,GRI-003,Pastillas para la garganta x 24 (Respira+),Antigripales,55,21,No
+2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Quito,Sierra Norte,VIT-001,Vitamina C 1 g efervescente x 10 (Vitalis),Vitaminas,57,26,No
+2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Quito,Sierra Norte,VIT-002,Multivitamínico adulto x 30 (Vitalis),Vitaminas,24,10,No
+2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Quito,Sierra Norte,VIT-003,Vitamina D3 gotas 30 ml (Vitalis),Vitaminas,8,5,No
+2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Quito,Sierra Norte,CPE-001,Shampoo anticaspa 400 ml (Brisa),Cuidado personal,24,16,No
+2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Quito,Sierra Norte,CPE-002,Crema dental protección total 100 g (Brisa),Cuidado personal,94,32,No
+2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Quito,Sierra Norte,CPE-003,Desodorante roll-on 50 ml (Brisa),Cuidado personal,0,21,Sí
+2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Quito,Sierra Norte,DER-001,Protector solar FPS 50 120 ml (Dermalia),Dermocosmética,12,10,No
+2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Quito,Sierra Norte,DER-002,Crema hidratante facial 50 ml (Dermalia),Dermocosmética,6,5,No
+2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Quito,Sierra Norte,DER-003,Gel limpiador facial 150 ml (Dermalia),Dermocosmética,7,5,No
+2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Quito,Sierra Norte,BEB-001,Pañales etapa 3 x 40 (Pequesana),Bebé,28,16,No
+2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Quito,Sierra Norte,BEB-002,Toallitas húmedas x 80 (Pequesana),Bebé,35,26,No
+2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Quito,Sierra Norte,BEB-003,Crema antipañalitis 60 g (Pequesana),Bebé,23,10,No
+2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Quito,Sierra Norte,PAU-001,Alcohol antiséptico 500 ml (CuraFácil),Primeros auxilios,25,21,No
+2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Quito,Sierra Norte,PAU-002,Curitas surtidas x 30 (CuraFácil),Primeros auxilios,31,16,No
+2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Quito,Sierra Norte,PAU-003,Gasas estériles x 10 (CuraFácil),Primeros auxilios,18,10,No
+2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Quito,Sierra Norte,FRI-001,Probiótico refrigerado x 10 frascos (Vitalis Frío),Cadena de frío,17,10,No
+2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Quito,Sierra Norte,FRI-002,Suero oral refrigerado 500 ml (Vitalis Frío),Cadena de frío,46,21,No
+2026-10-18,FY-UIO-03,Fybeca Quito Cumbayá,Quito,Sierra Norte,FRI-003,Gel frío terapéutico (CuraFácil),Cadena de frío,14,5,No
+2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Guayaquil,Costa,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,114,76,No
+2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Guayaquil,Costa,ANA-002,Ibuprofeno 400 mg x 10 tab (Farmalis),Analgésicos,87,59,No
+2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Guayaquil,Costa,ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,45,25,No
+2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Guayaquil,Costa,GRI-001,Antigripal día y noche x 12 tab (Respira+),Antigripales,43,42,No
+2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Guayaquil,Costa,GRI-002,Jarabe para la tos 180 ml (Respira+),Antigripales,64,25,No
+2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Guayaquil,Costa,GRI-003,Pastillas para la garganta x 24 (Respira+),Antigripales,51,34,No
+2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Guayaquil,Costa,VIT-001,Vitamina C 1 g efervescente x 10 (Vitalis),Vitaminas,93,42,No
+2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Guayaquil,Costa,VIT-002,Multivitamínico adulto x 30 (Vitalis),Vitaminas,32,17,No
+2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Guayaquil,Costa,VIT-003,Vitamina D3 gotas 30 ml (Vitalis),Vitaminas,15,8,No
+2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Guayaquil,Costa,CPE-001,Shampoo anticaspa 400 ml (Brisa),Cuidado personal,57,25,No
+2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Guayaquil,Costa,CPE-002,Crema dental protección total 100 g (Brisa),Cuidado personal,105,50,No
+2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Guayaquil,Costa,CPE-003,Desodorante roll-on 50 ml (Brisa),Cuidado personal,93,34,No
+2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Guayaquil,Costa,DER-001,Protector solar FPS 50 120 ml (Dermalia),Dermocosmética,38,17,No
+2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Guayaquil,Costa,DER-002,Crema hidratante facial 50 ml (Dermalia),Dermocosmética,11,8,No
+2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Guayaquil,Costa,DER-003,Gel limpiador facial 150 ml (Dermalia),Dermocosmética,10,8,No
+2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Guayaquil,Costa,BEB-001,Pañales etapa 3 x 40 (Pequesana),Bebé,44,25,No
+2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Guayaquil,Costa,BEB-002,Toallitas húmedas x 80 (Pequesana),Bebé,0,42,Sí
+2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Guayaquil,Costa,BEB-003,Crema antipañalitis 60 g (Pequesana),Bebé,19,17,No
+2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Guayaquil,Costa,PAU-001,Alcohol antiséptico 500 ml (CuraFácil),Primeros auxilios,63,34,No
+2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Guayaquil,Costa,PAU-002,Curitas surtidas x 30 (CuraFácil),Primeros auxilios,46,25,No
+2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Guayaquil,Costa,PAU-003,Gasas estériles x 10 (CuraFácil),Primeros auxilios,31,17,No
+2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Guayaquil,Costa,FRI-001,Probiótico refrigerado x 10 frascos (Vitalis Frío),Cadena de frío,23,17,No
+2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Guayaquil,Costa,FRI-002,Suero oral refrigerado 500 ml (Vitalis Frío),Cadena de frío,58,34,No
+2026-10-18,FY-GYE-01,Fybeca Guayaquil Samborondón,Guayaquil,Costa,FRI-003,Gel frío terapéutico (CuraFácil),Cadena de frío,15,8,No
+2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Guayaquil,Costa,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,23,76,Sí
+2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Guayaquil,Costa,ANA-002,Ibuprofeno 400 mg x 10 tab (Farmalis),Analgésicos,9,59,Sí
+2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Guayaquil,Costa,ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,1,25,Sí
+2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Guayaquil,Costa,GRI-001,Antigripal día y noche x 12 tab (Respira+),Antigripales,38,42,Sí
+2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Guayaquil,Costa,GRI-002,Jarabe para la tos 180 ml (Respira+),Antigripales,34,25,No
+2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Guayaquil,Costa,GRI-003,Pastillas para la garganta x 24 (Respira+),Antigripales,75,34,No
+2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Guayaquil,Costa,VIT-001,Vitamina C 1 g efervescente x 10 (Vitalis),Vitaminas,111,42,No
+2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Guayaquil,Costa,VIT-002,Multivitamínico adulto x 30 (Vitalis),Vitaminas,38,17,No
+2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Guayaquil,Costa,VIT-003,Vitamina D3 gotas 30 ml (Vitalis),Vitaminas,20,8,No
+2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Guayaquil,Costa,CPE-001,Shampoo anticaspa 400 ml (Brisa),Cuidado personal,36,25,No
+2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Guayaquil,Costa,CPE-002,Crema dental protección total 100 g (Brisa),Cuidado personal,99,50,No
+2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Guayaquil,Costa,CPE-003,Desodorante roll-on 50 ml (Brisa),Cuidado personal,27,34,Sí
+2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Guayaquil,Costa,DER-001,Protector solar FPS 50 120 ml (Dermalia),Dermocosmética,45,17,No
+2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Guayaquil,Costa,DER-002,Crema hidratante facial 50 ml (Dermalia),Dermocosmética,10,8,No
+2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Guayaquil,Costa,DER-003,Gel limpiador facial 150 ml (Dermalia),Dermocosmética,19,8,No
+2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Guayaquil,Costa,BEB-001,Pañales etapa 3 x 40 (Pequesana),Bebé,43,25,No
+2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Guayaquil,Costa,BEB-002,Toallitas húmedas x 80 (Pequesana),Bebé,56,42,No
+2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Guayaquil,Costa,BEB-003,Crema antipañalitis 60 g (Pequesana),Bebé,45,17,No
+2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Guayaquil,Costa,PAU-001,Alcohol antiséptico 500 ml (CuraFácil),Primeros auxilios,44,34,No
+2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Guayaquil,Costa,PAU-002,Curitas surtidas x 30 (CuraFácil),Primeros auxilios,22,25,Sí
+2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Guayaquil,Costa,PAU-003,Gasas estériles x 10 (CuraFácil),Primeros auxilios,39,17,No
+2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Guayaquil,Costa,FRI-001,Probiótico refrigerado x 10 frascos (Vitalis Frío),Cadena de frío,34,17,No
+2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Guayaquil,Costa,FRI-002,Suero oral refrigerado 500 ml (Vitalis Frío),Cadena de frío,64,34,No
+2026-10-18,FY-GYE-02,Fybeca Guayaquil Urdesa,Guayaquil,Costa,FRI-003,Gel frío terapéutico (CuraFácil),Cadena de frío,10,8,No
+2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,Guayaquil,Costa,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,13,29,Sí
+2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,Guayaquil,Costa,ANA-002,Ibuprofeno 400 mg x 10 tab (Farmalis),Analgésicos,0,23,Sí
+2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,Guayaquil,Costa,ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,1,10,Sí
+2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,Guayaquil,Costa,GRI-001,Antigripal día y noche x 12 tab (Respira+),Antigripales,44,16,No
+2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,Guayaquil,Costa,GRI-002,Jarabe para la tos 180 ml (Respira+),Antigripales,16,10,No
+2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,Guayaquil,Costa,GRI-003,Pastillas para la garganta x 24 (Respira+),Antigripales,20,13,No
+2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,Guayaquil,Costa,VIT-001,Vitamina C 1 g efervescente x 10 (Vitalis),Vitaminas,40,16,No
+2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,Guayaquil,Costa,VIT-002,Multivitamínico adulto x 30 (Vitalis),Vitaminas,12,6,No
+2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,Guayaquil,Costa,VIT-003,Vitamina D3 gotas 30 ml (Vitalis),Vitaminas,5,3,No
+2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,Guayaquil,Costa,CPE-001,Shampoo anticaspa 400 ml (Brisa),Cuidado personal,13,10,No
+2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,Guayaquil,Costa,CPE-002,Crema dental protección total 100 g (Brisa),Cuidado personal,42,20,No
+2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,Guayaquil,Costa,CPE-003,Desodorante roll-on 50 ml (Brisa),Cuidado personal,29,13,No
+2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,Guayaquil,Costa,DER-001,Protector solar FPS 50 120 ml (Dermalia),Dermocosmética,7,6,No
+2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,Guayaquil,Costa,DER-002,Crema hidratante facial 50 ml (Dermalia),Dermocosmética,5,3,No
+2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,Guayaquil,Costa,DER-003,Gel limpiador facial 150 ml (Dermalia),Dermocosmética,9,3,No
+2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,Guayaquil,Costa,BEB-001,Pañales etapa 3 x 40 (Pequesana),Bebé,19,10,No
+2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,Guayaquil,Costa,BEB-002,Toallitas húmedas x 80 (Pequesana),Bebé,31,16,No
+2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,Guayaquil,Costa,BEB-003,Crema antipañalitis 60 g (Pequesana),Bebé,3,6,Sí
+2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,Guayaquil,Costa,PAU-001,Alcohol antiséptico 500 ml (CuraFácil),Primeros auxilios,25,13,No
+2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,Guayaquil,Costa,PAU-002,Curitas surtidas x 30 (CuraFácil),Primeros auxilios,12,10,No
+2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,Guayaquil,Costa,PAU-003,Gasas estériles x 10 (CuraFácil),Primeros auxilios,9,6,No
+2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,Guayaquil,Costa,FRI-001,Probiótico refrigerado x 10 frascos (Vitalis Frío),Cadena de frío,2,6,Sí
+2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,Guayaquil,Costa,FRI-002,Suero oral refrigerado 500 ml (Vitalis Frío),Cadena de frío,24,13,No
+2026-10-18,SS-GYE-01,SanaSana Guayaquil Centro,Guayaquil,Costa,FRI-003,Gel frío terapéutico (CuraFácil),Cadena de frío,7,3,No
+2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,Guayaquil,Costa,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,61,29,No
+2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,Guayaquil,Costa,ANA-002,Ibuprofeno 400 mg x 10 tab (Farmalis),Analgésicos,54,23,No
+2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,Guayaquil,Costa,ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,19,10,No
+2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,Guayaquil,Costa,GRI-001,Antigripal día y noche x 12 tab (Respira+),Antigripales,37,16,No
+2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,Guayaquil,Costa,GRI-002,Jarabe para la tos 180 ml (Respira+),Antigripales,26,10,No
+2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,Guayaquil,Costa,GRI-003,Pastillas para la garganta x 24 (Respira+),Antigripales,30,13,No
+2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,Guayaquil,Costa,VIT-001,Vitamina C 1 g efervescente x 10 (Vitalis),Vitaminas,25,16,No
+2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,Guayaquil,Costa,VIT-002,Multivitamínico adulto x 30 (Vitalis),Vitaminas,13,6,No
+2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,Guayaquil,Costa,VIT-003,Vitamina D3 gotas 30 ml (Vitalis),Vitaminas,5,3,No
+2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,Guayaquil,Costa,CPE-001,Shampoo anticaspa 400 ml (Brisa),Cuidado personal,24,10,No
+2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,Guayaquil,Costa,CPE-002,Crema dental protección total 100 g (Brisa),Cuidado personal,39,20,No
+2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,Guayaquil,Costa,CPE-003,Desodorante roll-on 50 ml (Brisa),Cuidado personal,28,13,No
+2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,Guayaquil,Costa,DER-001,Protector solar FPS 50 120 ml (Dermalia),Dermocosmética,7,6,No
+2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,Guayaquil,Costa,DER-002,Crema hidratante facial 50 ml (Dermalia),Dermocosmética,8,3,No
+2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,Guayaquil,Costa,DER-003,Gel limpiador facial 150 ml (Dermalia),Dermocosmética,6,3,No
+2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,Guayaquil,Costa,BEB-001,Pañales etapa 3 x 40 (Pequesana),Bebé,28,10,No
+2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,Guayaquil,Costa,BEB-002,Toallitas húmedas x 80 (Pequesana),Bebé,23,16,No
+2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,Guayaquil,Costa,BEB-003,Crema antipañalitis 60 g (Pequesana),Bebé,10,6,No
+2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,Guayaquil,Costa,PAU-001,Alcohol antiséptico 500 ml (CuraFácil),Primeros auxilios,27,13,No
+2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,Guayaquil,Costa,PAU-002,Curitas surtidas x 30 (CuraFácil),Primeros auxilios,10,10,No
+2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,Guayaquil,Costa,PAU-003,Gasas estériles x 10 (CuraFácil),Primeros auxilios,18,6,No
+2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,Guayaquil,Costa,FRI-001,Probiótico refrigerado x 10 frascos (Vitalis Frío),Cadena de frío,10,6,No
+2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,Guayaquil,Costa,FRI-002,Suero oral refrigerado 500 ml (Vitalis Frío),Cadena de frío,18,13,No
+2026-10-18,SS-GYE-02,SanaSana Guayaquil Sur,Guayaquil,Costa,FRI-003,Gel frío terapéutico (CuraFácil),Cadena de frío,3,3,No
+2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,Guayaquil,Costa,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,131,45,No
+2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,Guayaquil,Costa,ANA-002,Ibuprofeno 400 mg x 10 tab (Farmalis),Analgésicos,69,35,No
+2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,Guayaquil,Costa,ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,39,15,No
+2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,Guayaquil,Costa,GRI-001,Antigripal día y noche x 12 tab (Respira+),Antigripales,42,25,No
+2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,Guayaquil,Costa,GRI-002,Jarabe para la tos 180 ml (Respira+),Antigripales,34,15,No
+2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,Guayaquil,Costa,GRI-003,Pastillas para la garganta x 24 (Respira+),Antigripales,39,20,No
+2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,Guayaquil,Costa,VIT-001,Vitamina C 1 g efervescente x 10 (Vitalis),Vitaminas,42,25,No
+2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,Guayaquil,Costa,VIT-002,Multivitamínico adulto x 30 (Vitalis),Vitaminas,19,10,No
+2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,Guayaquil,Costa,VIT-003,Vitamina D3 gotas 30 ml (Vitalis),Vitaminas,10,5,No
+2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,Guayaquil,Costa,CPE-001,Shampoo anticaspa 400 ml (Brisa),Cuidado personal,24,15,No
+2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,Guayaquil,Costa,CPE-002,Crema dental protección total 100 g (Brisa),Cuidado personal,53,30,No
+2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,Guayaquil,Costa,CPE-003,Desodorante roll-on 50 ml (Brisa),Cuidado personal,41,20,No
+2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,Guayaquil,Costa,DER-001,Protector solar FPS 50 120 ml (Dermalia),Dermocosmética,18,10,No
+2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,Guayaquil,Costa,DER-002,Crema hidratante facial 50 ml (Dermalia),Dermocosmética,14,5,No
+2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,Guayaquil,Costa,DER-003,Gel limpiador facial 150 ml (Dermalia),Dermocosmética,9,5,No
+2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,Guayaquil,Costa,BEB-001,Pañales etapa 3 x 40 (Pequesana),Bebé,24,15,No
+2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,Guayaquil,Costa,BEB-002,Toallitas húmedas x 80 (Pequesana),Bebé,27,25,No
+2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,Guayaquil,Costa,BEB-003,Crema antipañalitis 60 g (Pequesana),Bebé,22,10,No
+2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,Guayaquil,Costa,PAU-001,Alcohol antiséptico 500 ml (CuraFácil),Primeros auxilios,30,20,No
+2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,Guayaquil,Costa,PAU-002,Curitas surtidas x 30 (CuraFácil),Primeros auxilios,40,15,No
+2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,Guayaquil,Costa,PAU-003,Gasas estériles x 10 (CuraFácil),Primeros auxilios,25,10,No
+2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,Guayaquil,Costa,FRI-001,Probiótico refrigerado x 10 frascos (Vitalis Frío),Cadena de frío,20,10,No
+2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,Guayaquil,Costa,FRI-002,Suero oral refrigerado 500 ml (Vitalis Frío),Cadena de frío,44,20,No
+2026-10-18,SS-GYE-03,SanaSana Guayaquil Norte,Guayaquil,Costa,FRI-003,Gel frío terapéutico (CuraFácil),Cadena de frío,10,5,No
+2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Guayaquil,Costa,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,70,47,No
+2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Guayaquil,Costa,ANA-002,Ibuprofeno 400 mg x 10 tab (Farmalis),Analgésicos,98,37,No
+2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Guayaquil,Costa,ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,37,16,No
+2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Guayaquil,Costa,GRI-001,Antigripal día y noche x 12 tab (Respira+),Antigripales,72,26,No
+2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Guayaquil,Costa,GRI-002,Jarabe para la tos 180 ml (Respira+),Antigripales,36,16,No
+2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Guayaquil,Costa,GRI-003,Pastillas para la garganta x 24 (Respira+),Antigripales,29,21,No
+2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Guayaquil,Costa,VIT-001,Vitamina C 1 g efervescente x 10 (Vitalis),Vitaminas,60,26,No
+2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Guayaquil,Costa,VIT-002,Multivitamínico adulto x 30 (Vitalis),Vitaminas,26,10,No
+2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Guayaquil,Costa,VIT-003,Vitamina D3 gotas 30 ml (Vitalis),Vitaminas,14,5,No
+2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Guayaquil,Costa,CPE-001,Shampoo anticaspa 400 ml (Brisa),Cuidado personal,35,16,No
+2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Guayaquil,Costa,CPE-002,Crema dental protección total 100 g (Brisa),Cuidado personal,52,32,No
+2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Guayaquil,Costa,CPE-003,Desodorante roll-on 50 ml (Brisa),Cuidado personal,43,21,No
+2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Guayaquil,Costa,DER-001,Protector solar FPS 50 120 ml (Dermalia),Dermocosmética,6,10,Sí
+2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Guayaquil,Costa,DER-002,Crema hidratante facial 50 ml (Dermalia),Dermocosmética,7,5,No
+2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Guayaquil,Costa,DER-003,Gel limpiador facial 150 ml (Dermalia),Dermocosmética,10,5,No
+2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Guayaquil,Costa,BEB-001,Pañales etapa 3 x 40 (Pequesana),Bebé,23,16,No
+2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Guayaquil,Costa,BEB-002,Toallitas húmedas x 80 (Pequesana),Bebé,72,26,No
+2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Guayaquil,Costa,BEB-003,Crema antipañalitis 60 g (Pequesana),Bebé,23,10,No
+2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Guayaquil,Costa,PAU-001,Alcohol antiséptico 500 ml (CuraFácil),Primeros auxilios,48,21,No
+2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Guayaquil,Costa,PAU-002,Curitas surtidas x 30 (CuraFácil),Primeros auxilios,36,16,No
+2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Guayaquil,Costa,PAU-003,Gasas estériles x 10 (CuraFácil),Primeros auxilios,23,10,No
+2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Guayaquil,Costa,FRI-001,Probiótico refrigerado x 10 frascos (Vitalis Frío),Cadena de frío,8,10,Sí
+2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Guayaquil,Costa,FRI-002,Suero oral refrigerado 500 ml (Vitalis Frío),Cadena de frío,32,21,No
+2026-10-18,FY-GYE-03,Fybeca Guayaquil Vía a la Costa,Guayaquil,Costa,FRI-003,Gel frío terapéutico (CuraFácil),Cadena de frío,0,5,Sí
+2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Cuenca,Sierra Sur,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,96,47,No
+2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Cuenca,Sierra Sur,ANA-002,Ibuprofeno 400 mg x 10 tab (Farmalis),Analgésicos,77,37,No
+2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Cuenca,Sierra Sur,ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,44,16,No
+2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Cuenca,Sierra Sur,GRI-001,Antigripal día y noche x 12 tab (Respira+),Antigripales,35,26,No
+2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Cuenca,Sierra Sur,GRI-002,Jarabe para la tos 180 ml (Respira+),Antigripales,17,16,No
+2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Cuenca,Sierra Sur,GRI-003,Pastillas para la garganta x 24 (Respira+),Antigripales,55,21,No
+2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Cuenca,Sierra Sur,VIT-001,Vitamina C 1 g efervescente x 10 (Vitalis),Vitaminas,48,26,No
+2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Cuenca,Sierra Sur,VIT-002,Multivitamínico adulto x 30 (Vitalis),Vitaminas,10,10,No
+2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Cuenca,Sierra Sur,VIT-003,Vitamina D3 gotas 30 ml (Vitalis),Vitaminas,12,5,No
+2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Cuenca,Sierra Sur,CPE-001,Shampoo anticaspa 400 ml (Brisa),Cuidado personal,31,16,No
+2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Cuenca,Sierra Sur,CPE-002,Crema dental protección total 100 g (Brisa),Cuidado personal,63,32,No
+2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Cuenca,Sierra Sur,CPE-003,Desodorante roll-on 50 ml (Brisa),Cuidado personal,29,21,No
+2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Cuenca,Sierra Sur,DER-001,Protector solar FPS 50 120 ml (Dermalia),Dermocosmética,22,10,No
+2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Cuenca,Sierra Sur,DER-002,Crema hidratante facial 50 ml (Dermalia),Dermocosmética,9,5,No
+2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Cuenca,Sierra Sur,DER-003,Gel limpiador facial 150 ml (Dermalia),Dermocosmética,12,5,No
+2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Cuenca,Sierra Sur,BEB-001,Pañales etapa 3 x 40 (Pequesana),Bebé,17,16,No
+2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Cuenca,Sierra Sur,BEB-002,Toallitas húmedas x 80 (Pequesana),Bebé,48,26,No
+2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Cuenca,Sierra Sur,BEB-003,Crema antipañalitis 60 g (Pequesana),Bebé,14,10,No
+2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Cuenca,Sierra Sur,PAU-001,Alcohol antiséptico 500 ml (CuraFácil),Primeros auxilios,58,21,No
+2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Cuenca,Sierra Sur,PAU-002,Curitas surtidas x 30 (CuraFácil),Primeros auxilios,41,16,No
+2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Cuenca,Sierra Sur,PAU-003,Gasas estériles x 10 (CuraFácil),Primeros auxilios,27,10,No
+2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Cuenca,Sierra Sur,FRI-001,Probiótico refrigerado x 10 frascos (Vitalis Frío),Cadena de frío,18,10,No
+2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Cuenca,Sierra Sur,FRI-002,Suero oral refrigerado 500 ml (Vitalis Frío),Cadena de frío,58,21,No
+2026-10-18,FY-CUE-01,Fybeca Cuenca El Ejido,Cuenca,Sierra Sur,FRI-003,Gel frío terapéutico (CuraFácil),Cadena de frío,11,5,No
+2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,Cuenca,Sierra Sur,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,74,45,No
+2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,Cuenca,Sierra Sur,ANA-002,Ibuprofeno 400 mg x 10 tab (Farmalis),Analgésicos,57,35,No
+2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,Cuenca,Sierra Sur,ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,22,15,No
+2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,Cuenca,Sierra Sur,GRI-001,Antigripal día y noche x 12 tab (Respira+),Antigripales,64,25,No
+2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,Cuenca,Sierra Sur,GRI-002,Jarabe para la tos 180 ml (Respira+),Antigripales,26,15,No
+2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,Cuenca,Sierra Sur,GRI-003,Pastillas para la garganta x 24 (Respira+),Antigripales,40,20,No
+2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,Cuenca,Sierra Sur,VIT-001,Vitamina C 1 g efervescente x 10 (Vitalis),Vitaminas,29,25,No
+2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,Cuenca,Sierra Sur,VIT-002,Multivitamínico adulto x 30 (Vitalis),Vitaminas,14,10,No
+2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,Cuenca,Sierra Sur,VIT-003,Vitamina D3 gotas 30 ml (Vitalis),Vitaminas,9,5,No
+2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,Cuenca,Sierra Sur,CPE-001,Shampoo anticaspa 400 ml (Brisa),Cuidado personal,17,15,No
+2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,Cuenca,Sierra Sur,CPE-002,Crema dental protección total 100 g (Brisa),Cuidado personal,54,30,No
+2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,Cuenca,Sierra Sur,CPE-003,Desodorante roll-on 50 ml (Brisa),Cuidado personal,24,20,No
+2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,Cuenca,Sierra Sur,DER-001,Protector solar FPS 50 120 ml (Dermalia),Dermocosmética,11,10,No
+2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,Cuenca,Sierra Sur,DER-002,Crema hidratante facial 50 ml (Dermalia),Dermocosmética,7,5,No
+2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,Cuenca,Sierra Sur,DER-003,Gel limpiador facial 150 ml (Dermalia),Dermocosmética,12,5,No
+2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,Cuenca,Sierra Sur,BEB-001,Pañales etapa 3 x 40 (Pequesana),Bebé,23,15,No
+2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,Cuenca,Sierra Sur,BEB-002,Toallitas húmedas x 80 (Pequesana),Bebé,56,25,No
+2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,Cuenca,Sierra Sur,BEB-003,Crema antipañalitis 60 g (Pequesana),Bebé,18,10,No
+2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,Cuenca,Sierra Sur,PAU-001,Alcohol antiséptico 500 ml (CuraFácil),Primeros auxilios,38,20,No
+2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,Cuenca,Sierra Sur,PAU-002,Curitas surtidas x 30 (CuraFácil),Primeros auxilios,23,15,No
+2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,Cuenca,Sierra Sur,PAU-003,Gasas estériles x 10 (CuraFácil),Primeros auxilios,27,10,No
+2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,Cuenca,Sierra Sur,FRI-001,Probiótico refrigerado x 10 frascos (Vitalis Frío),Cadena de frío,28,10,No
+2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,Cuenca,Sierra Sur,FRI-002,Suero oral refrigerado 500 ml (Vitalis Frío),Cadena de frío,39,20,No
+2026-10-18,SS-CUE-01,SanaSana Cuenca Centro,Cuenca,Sierra Sur,FRI-003,Gel frío terapéutico (CuraFácil),Cadena de frío,9,5,No
+2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,Cuenca,Sierra Sur,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,2,45,Sí
+2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,Cuenca,Sierra Sur,ANA-002,Ibuprofeno 400 mg x 10 tab (Farmalis),Analgésicos,5,35,Sí
+2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,Cuenca,Sierra Sur,ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,1,15,Sí
+2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,Cuenca,Sierra Sur,GRI-001,Antigripal día y noche x 12 tab (Respira+),Antigripales,53,25,No
+2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,Cuenca,Sierra Sur,GRI-002,Jarabe para la tos 180 ml (Respira+),Antigripales,22,15,No
+2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,Cuenca,Sierra Sur,GRI-003,Pastillas para la garganta x 24 (Respira+),Antigripales,38,20,No
+2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,Cuenca,Sierra Sur,VIT-001,Vitamina C 1 g efervescente x 10 (Vitalis),Vitaminas,49,25,No
+2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,Cuenca,Sierra Sur,VIT-002,Multivitamínico adulto x 30 (Vitalis),Vitaminas,15,10,No
+2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,Cuenca,Sierra Sur,VIT-003,Vitamina D3 gotas 30 ml (Vitalis),Vitaminas,6,5,No
+2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,Cuenca,Sierra Sur,CPE-001,Shampoo anticaspa 400 ml (Brisa),Cuidado personal,30,15,No
+2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,Cuenca,Sierra Sur,CPE-002,Crema dental protección total 100 g (Brisa),Cuidado personal,75,30,No
+2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,Cuenca,Sierra Sur,CPE-003,Desodorante roll-on 50 ml (Brisa),Cuidado personal,39,20,No
+2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,Cuenca,Sierra Sur,DER-001,Protector solar FPS 50 120 ml (Dermalia),Dermocosmética,16,10,No
+2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,Cuenca,Sierra Sur,DER-002,Crema hidratante facial 50 ml (Dermalia),Dermocosmética,14,5,No
+2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,Cuenca,Sierra Sur,DER-003,Gel limpiador facial 150 ml (Dermalia),Dermocosmética,7,5,No
+2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,Cuenca,Sierra Sur,BEB-001,Pañales etapa 3 x 40 (Pequesana),Bebé,38,15,No
+2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,Cuenca,Sierra Sur,BEB-002,Toallitas húmedas x 80 (Pequesana),Bebé,47,25,No
+2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,Cuenca,Sierra Sur,BEB-003,Crema antipañalitis 60 g (Pequesana),Bebé,17,10,No
+2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,Cuenca,Sierra Sur,PAU-001,Alcohol antiséptico 500 ml (CuraFácil),Primeros auxilios,54,20,No
+2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,Cuenca,Sierra Sur,PAU-002,Curitas surtidas x 30 (CuraFácil),Primeros auxilios,26,15,No
+2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,Cuenca,Sierra Sur,PAU-003,Gasas estériles x 10 (CuraFácil),Primeros auxilios,8,10,Sí
+2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,Cuenca,Sierra Sur,FRI-001,Probiótico refrigerado x 10 frascos (Vitalis Frío),Cadena de frío,11,10,No
+2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,Cuenca,Sierra Sur,FRI-002,Suero oral refrigerado 500 ml (Vitalis Frío),Cadena de frío,29,20,No
+2026-10-18,SS-CUE-02,SanaSana Cuenca Totoracocha,Cuenca,Sierra Sur,FRI-003,Gel frío terapéutico (CuraFácil),Cadena de frío,6,5,No
+2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Manta,Costa,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,109,76,No
+2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Manta,Costa,ANA-002,Ibuprofeno 400 mg x 10 tab (Farmalis),Analgésicos,64,59,No
+2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Manta,Costa,ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,50,25,No
+2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Manta,Costa,GRI-001,Antigripal día y noche x 12 tab (Respira+),Antigripales,100,42,No
+2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Manta,Costa,GRI-002,Jarabe para la tos 180 ml (Respira+),Antigripales,50,25,No
+2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Manta,Costa,GRI-003,Pastillas para la garganta x 24 (Respira+),Antigripales,50,34,No
+2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Manta,Costa,VIT-001,Vitamina C 1 g efervescente x 10 (Vitalis),Vitaminas,71,42,No
+2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Manta,Costa,VIT-002,Multivitamínico adulto x 30 (Vitalis),Vitaminas,40,17,No
+2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Manta,Costa,VIT-003,Vitamina D3 gotas 30 ml (Vitalis),Vitaminas,15,8,No
+2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Manta,Costa,CPE-001,Shampoo anticaspa 400 ml (Brisa),Cuidado personal,35,25,No
+2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Manta,Costa,CPE-002,Crema dental protección total 100 g (Brisa),Cuidado personal,87,50,No
+2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Manta,Costa,CPE-003,Desodorante roll-on 50 ml (Brisa),Cuidado personal,38,34,No
+2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Manta,Costa,DER-001,Protector solar FPS 50 120 ml (Dermalia),Dermocosmética,22,17,No
+2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Manta,Costa,DER-002,Crema hidratante facial 50 ml (Dermalia),Dermocosmética,10,8,No
+2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Manta,Costa,DER-003,Gel limpiador facial 150 ml (Dermalia),Dermocosmética,11,8,No
+2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Manta,Costa,BEB-001,Pañales etapa 3 x 40 (Pequesana),Bebé,73,25,No
+2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Manta,Costa,BEB-002,Toallitas húmedas x 80 (Pequesana),Bebé,82,42,No
+2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Manta,Costa,BEB-003,Crema antipañalitis 60 g (Pequesana),Bebé,23,17,No
+2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Manta,Costa,PAU-001,Alcohol antiséptico 500 ml (CuraFácil),Primeros auxilios,51,34,No
+2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Manta,Costa,PAU-002,Curitas surtidas x 30 (CuraFácil),Primeros auxilios,25,25,No
+2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Manta,Costa,PAU-003,Gasas estériles x 10 (CuraFácil),Primeros auxilios,33,17,No
+2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Manta,Costa,FRI-001,Probiótico refrigerado x 10 frascos (Vitalis Frío),Cadena de frío,49,17,No
+2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Manta,Costa,FRI-002,Suero oral refrigerado 500 ml (Vitalis Frío),Cadena de frío,45,34,No
+2026-10-18,FY-MEC-01,Fybeca Manta Barbasquillo,Manta,Costa,FRI-003,Gel frío terapéutico (CuraFácil),Cadena de frío,10,8,No
+2026-10-18,SS-MEC-01,SanaSana Manta Centro,Manta,Costa,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,22,29,Sí
+2026-10-18,SS-MEC-01,SanaSana Manta Centro,Manta,Costa,ANA-002,Ibuprofeno 400 mg x 10 tab (Farmalis),Analgésicos,45,23,No
+2026-10-18,SS-MEC-01,SanaSana Manta Centro,Manta,Costa,ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,21,10,No
+2026-10-18,SS-MEC-01,SanaSana Manta Centro,Manta,Costa,GRI-001,Antigripal día y noche x 12 tab (Respira+),Antigripales,26,16,No
+2026-10-18,SS-MEC-01,SanaSana Manta Centro,Manta,Costa,GRI-002,Jarabe para la tos 180 ml (Respira+),Antigripales,13,10,No
+2026-10-18,SS-MEC-01,SanaSana Manta Centro,Manta,Costa,GRI-003,Pastillas para la garganta x 24 (Respira+),Antigripales,13,13,No
+2026-10-18,SS-MEC-01,SanaSana Manta Centro,Manta,Costa,VIT-001,Vitamina C 1 g efervescente x 10 (Vitalis),Vitaminas,40,16,No
+2026-10-18,SS-MEC-01,SanaSana Manta Centro,Manta,Costa,VIT-002,Multivitamínico adulto x 30 (Vitalis),Vitaminas,8,6,No
+2026-10-18,SS-MEC-01,SanaSana Manta Centro,Manta,Costa,VIT-003,Vitamina D3 gotas 30 ml (Vitalis),Vitaminas,5,3,No
+2026-10-18,SS-MEC-01,SanaSana Manta Centro,Manta,Costa,CPE-001,Shampoo anticaspa 400 ml (Brisa),Cuidado personal,26,10,No
+2026-10-18,SS-MEC-01,SanaSana Manta Centro,Manta,Costa,CPE-002,Crema dental protección total 100 g (Brisa),Cuidado personal,41,20,No
+2026-10-18,SS-MEC-01,SanaSana Manta Centro,Manta,Costa,CPE-003,Desodorante roll-on 50 ml (Brisa),Cuidado personal,20,13,No
+2026-10-18,SS-MEC-01,SanaSana Manta Centro,Manta,Costa,DER-001,Protector solar FPS 50 120 ml (Dermalia),Dermocosmética,5,6,Sí
+2026-10-18,SS-MEC-01,SanaSana Manta Centro,Manta,Costa,DER-002,Crema hidratante facial 50 ml (Dermalia),Dermocosmética,4,3,No
+2026-10-18,SS-MEC-01,SanaSana Manta Centro,Manta,Costa,DER-003,Gel limpiador facial 150 ml (Dermalia),Dermocosmética,6,3,No
+2026-10-18,SS-MEC-01,SanaSana Manta Centro,Manta,Costa,BEB-001,Pañales etapa 3 x 40 (Pequesana),Bebé,26,10,No
+2026-10-18,SS-MEC-01,SanaSana Manta Centro,Manta,Costa,BEB-002,Toallitas húmedas x 80 (Pequesana),Bebé,35,16,No
+2026-10-18,SS-MEC-01,SanaSana Manta Centro,Manta,Costa,BEB-003,Crema antipañalitis 60 g (Pequesana),Bebé,8,6,No
+2026-10-18,SS-MEC-01,SanaSana Manta Centro,Manta,Costa,PAU-001,Alcohol antiséptico 500 ml (CuraFácil),Primeros auxilios,16,13,No
+2026-10-18,SS-MEC-01,SanaSana Manta Centro,Manta,Costa,PAU-002,Curitas surtidas x 30 (CuraFácil),Primeros auxilios,18,10,No
+2026-10-18,SS-MEC-01,SanaSana Manta Centro,Manta,Costa,PAU-003,Gasas estériles x 10 (CuraFácil),Primeros auxilios,11,6,No
+2026-10-18,SS-MEC-01,SanaSana Manta Centro,Manta,Costa,FRI-001,Probiótico refrigerado x 10 frascos (Vitalis Frío),Cadena de frío,9,6,No
+2026-10-18,SS-MEC-01,SanaSana Manta Centro,Manta,Costa,FRI-002,Suero oral refrigerado 500 ml (Vitalis Frío),Cadena de frío,26,13,No
+2026-10-18,SS-MEC-01,SanaSana Manta Centro,Manta,Costa,FRI-003,Gel frío terapéutico (CuraFácil),Cadena de frío,8,3,No
+2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Ambato,Sierra Norte,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,158,76,No
+2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Ambato,Sierra Norte,ANA-002,Ibuprofeno 400 mg x 10 tab (Farmalis),Analgésicos,133,59,No
+2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Ambato,Sierra Norte,ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,56,25,No
+2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Ambato,Sierra Norte,GRI-001,Antigripal día y noche x 12 tab (Respira+),Antigripales,96,42,No
+2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Ambato,Sierra Norte,GRI-002,Jarabe para la tos 180 ml (Respira+),Antigripales,27,25,No
+2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Ambato,Sierra Norte,GRI-003,Pastillas para la garganta x 24 (Respira+),Antigripales,43,34,No
+2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Ambato,Sierra Norte,VIT-001,Vitamina C 1 g efervescente x 10 (Vitalis),Vitaminas,0,42,Sí
+2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Ambato,Sierra Norte,VIT-002,Multivitamínico adulto x 30 (Vitalis),Vitaminas,29,17,No
+2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Ambato,Sierra Norte,VIT-003,Vitamina D3 gotas 30 ml (Vitalis),Vitaminas,11,8,No
+2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Ambato,Sierra Norte,CPE-001,Shampoo anticaspa 400 ml (Brisa),Cuidado personal,27,25,No
+2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Ambato,Sierra Norte,CPE-002,Crema dental protección total 100 g (Brisa),Cuidado personal,139,50,No
+2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Ambato,Sierra Norte,CPE-003,Desodorante roll-on 50 ml (Brisa),Cuidado personal,40,34,No
+2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Ambato,Sierra Norte,DER-001,Protector solar FPS 50 120 ml (Dermalia),Dermocosmética,34,17,No
+2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Ambato,Sierra Norte,DER-002,Crema hidratante facial 50 ml (Dermalia),Dermocosmética,0,8,Sí
+2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Ambato,Sierra Norte,DER-003,Gel limpiador facial 150 ml (Dermalia),Dermocosmética,10,8,No
+2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Ambato,Sierra Norte,BEB-001,Pañales etapa 3 x 40 (Pequesana),Bebé,41,25,No
+2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Ambato,Sierra Norte,BEB-002,Toallitas húmedas x 80 (Pequesana),Bebé,90,42,No
+2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Ambato,Sierra Norte,BEB-003,Crema antipañalitis 60 g (Pequesana),Bebé,22,17,No
+2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Ambato,Sierra Norte,PAU-001,Alcohol antiséptico 500 ml (CuraFácil),Primeros auxilios,62,34,No
+2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Ambato,Sierra Norte,PAU-002,Curitas surtidas x 30 (CuraFácil),Primeros auxilios,44,25,No
+2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Ambato,Sierra Norte,PAU-003,Gasas estériles x 10 (CuraFácil),Primeros auxilios,40,17,No
+2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Ambato,Sierra Norte,FRI-001,Probiótico refrigerado x 10 frascos (Vitalis Frío),Cadena de frío,39,17,No
+2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Ambato,Sierra Norte,FRI-002,Suero oral refrigerado 500 ml (Vitalis Frío),Cadena de frío,91,34,No
+2026-10-18,FY-ATO-01,Fybeca Ambato Ficoa,Ambato,Sierra Norte,FRI-003,Gel frío terapéutico (CuraFácil),Cadena de frío,16,8,No
+2026-10-18,SS-ATO-01,SanaSana Ambato Centro,Ambato,Sierra Norte,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,67,29,No
+2026-10-18,SS-ATO-01,SanaSana Ambato Centro,Ambato,Sierra Norte,ANA-002,Ibuprofeno 400 mg x 10 tab (Farmalis),Analgésicos,42,23,No
+2026-10-18,SS-ATO-01,SanaSana Ambato Centro,Ambato,Sierra Norte,ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,13,10,No
+2026-10-18,SS-ATO-01,SanaSana Ambato Centro,Ambato,Sierra Norte,GRI-001,Antigripal día y noche x 12 tab (Respira+),Antigripales,28,16,No
+2026-10-18,SS-ATO-01,SanaSana Ambato Centro,Ambato,Sierra Norte,GRI-002,Jarabe para la tos 180 ml (Respira+),Antigripales,22,10,No
+2026-10-18,SS-ATO-01,SanaSana Ambato Centro,Ambato,Sierra Norte,GRI-003,Pastillas para la garganta x 24 (Respira+),Antigripales,25,13,No
+2026-10-18,SS-ATO-01,SanaSana Ambato Centro,Ambato,Sierra Norte,VIT-001,Vitamina C 1 g efervescente x 10 (Vitalis),Vitaminas,24,16,No
+2026-10-18,SS-ATO-01,SanaSana Ambato Centro,Ambato,Sierra Norte,VIT-002,Multivitamínico adulto x 30 (Vitalis),Vitaminas,8,6,No
+2026-10-18,SS-ATO-01,SanaSana Ambato Centro,Ambato,Sierra Norte,VIT-003,Vitamina D3 gotas 30 ml (Vitalis),Vitaminas,6,3,No
+2026-10-18,SS-ATO-01,SanaSana Ambato Centro,Ambato,Sierra Norte,CPE-001,Shampoo anticaspa 400 ml (Brisa),Cuidado personal,18,10,No
+2026-10-18,SS-ATO-01,SanaSana Ambato Centro,Ambato,Sierra Norte,CPE-002,Crema dental protección total 100 g (Brisa),Cuidado personal,21,20,No
+2026-10-18,SS-ATO-01,SanaSana Ambato Centro,Ambato,Sierra Norte,CPE-003,Desodorante roll-on 50 ml (Brisa),Cuidado personal,14,13,No
+2026-10-18,SS-ATO-01,SanaSana Ambato Centro,Ambato,Sierra Norte,DER-001,Protector solar FPS 50 120 ml (Dermalia),Dermocosmética,15,6,No
+2026-10-18,SS-ATO-01,SanaSana Ambato Centro,Ambato,Sierra Norte,DER-002,Crema hidratante facial 50 ml (Dermalia),Dermocosmética,7,3,No
+2026-10-18,SS-ATO-01,SanaSana Ambato Centro,Ambato,Sierra Norte,DER-003,Gel limpiador facial 150 ml (Dermalia),Dermocosmética,8,3,No
+2026-10-18,SS-ATO-01,SanaSana Ambato Centro,Ambato,Sierra Norte,BEB-001,Pañales etapa 3 x 40 (Pequesana),Bebé,17,10,No
+2026-10-18,SS-ATO-01,SanaSana Ambato Centro,Ambato,Sierra Norte,BEB-002,Toallitas húmedas x 80 (Pequesana),Bebé,35,16,No
+2026-10-18,SS-ATO-01,SanaSana Ambato Centro,Ambato,Sierra Norte,BEB-003,Crema antipañalitis 60 g (Pequesana),Bebé,13,6,No
+2026-10-18,SS-ATO-01,SanaSana Ambato Centro,Ambato,Sierra Norte,PAU-001,Alcohol antiséptico 500 ml (CuraFácil),Primeros auxilios,10,13,Sí
+2026-10-18,SS-ATO-01,SanaSana Ambato Centro,Ambato,Sierra Norte,PAU-002,Curitas surtidas x 30 (CuraFácil),Primeros auxilios,14,10,No
+2026-10-18,SS-ATO-01,SanaSana Ambato Centro,Ambato,Sierra Norte,PAU-003,Gasas estériles x 10 (CuraFácil),Primeros auxilios,9,6,No
+2026-10-18,SS-ATO-01,SanaSana Ambato Centro,Ambato,Sierra Norte,FRI-001,Probiótico refrigerado x 10 frascos (Vitalis Frío),Cadena de frío,7,6,No
+2026-10-18,SS-ATO-01,SanaSana Ambato Centro,Ambato,Sierra Norte,FRI-002,Suero oral refrigerado 500 ml (Vitalis Frío),Cadena de frío,28,13,No
+2026-10-18,SS-ATO-01,SanaSana Ambato Centro,Ambato,Sierra Norte,FRI-003,Gel frío terapéutico (CuraFácil),Cadena de frío,4,3,No
+2026-10-18,SS-LOH-01,SanaSana Loja Centro,Loja,Sierra Sur,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,74,29,No
+2026-10-18,SS-LOH-01,SanaSana Loja Centro,Loja,Sierra Sur,ANA-002,Ibuprofeno 400 mg x 10 tab (Farmalis),Analgésicos,41,23,No
+2026-10-18,SS-LOH-01,SanaSana Loja Centro,Loja,Sierra Sur,ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,25,10,No
+2026-10-18,SS-LOH-01,SanaSana Loja Centro,Loja,Sierra Sur,GRI-001,Antigripal día y noche x 12 tab (Respira+),Antigripales,40,16,No
+2026-10-18,SS-LOH-01,SanaSana Loja Centro,Loja,Sierra Sur,GRI-002,Jarabe para la tos 180 ml (Respira+),Antigripales,13,10,No
+2026-10-18,SS-LOH-01,SanaSana Loja Centro,Loja,Sierra Sur,GRI-003,Pastillas para la garganta x 24 (Respira+),Antigripales,31,13,No
+2026-10-18,SS-LOH-01,SanaSana Loja Centro,Loja,Sierra Sur,VIT-001,Vitamina C 1 g efervescente x 10 (Vitalis),Vitaminas,19,16,No
+2026-10-18,SS-LOH-01,SanaSana Loja Centro,Loja,Sierra Sur,VIT-002,Multivitamínico adulto x 30 (Vitalis),Vitaminas,13,6,No
+2026-10-18,SS-LOH-01,SanaSana Loja Centro,Loja,Sierra Sur,VIT-003,Vitamina D3 gotas 30 ml (Vitalis),Vitaminas,5,3,No
+2026-10-18,SS-LOH-01,SanaSana Loja Centro,Loja,Sierra Sur,CPE-001,Shampoo anticaspa 400 ml (Brisa),Cuidado personal,16,10,No
+2026-10-18,SS-LOH-01,SanaSana Loja Centro,Loja,Sierra Sur,CPE-002,Crema dental protección total 100 g (Brisa),Cuidado personal,45,20,No
+2026-10-18,SS-LOH-01,SanaSana Loja Centro,Loja,Sierra Sur,CPE-003,Desodorante roll-on 50 ml (Brisa),Cuidado personal,27,13,No
+2026-10-18,SS-LOH-01,SanaSana Loja Centro,Loja,Sierra Sur,DER-001,Protector solar FPS 50 120 ml (Dermalia),Dermocosmética,7,6,No
+2026-10-18,SS-LOH-01,SanaSana Loja Centro,Loja,Sierra Sur,DER-002,Crema hidratante facial 50 ml (Dermalia),Dermocosmética,9,3,No
+2026-10-18,SS-LOH-01,SanaSana Loja Centro,Loja,Sierra Sur,DER-003,Gel limpiador facial 150 ml (Dermalia),Dermocosmética,6,3,No
+2026-10-18,SS-LOH-01,SanaSana Loja Centro,Loja,Sierra Sur,BEB-001,Pañales etapa 3 x 40 (Pequesana),Bebé,19,10,No
+2026-10-18,SS-LOH-01,SanaSana Loja Centro,Loja,Sierra Sur,BEB-002,Toallitas húmedas x 80 (Pequesana),Bebé,21,16,No
+2026-10-18,SS-LOH-01,SanaSana Loja Centro,Loja,Sierra Sur,BEB-003,Crema antipañalitis 60 g (Pequesana),Bebé,11,6,No
+2026-10-18,SS-LOH-01,SanaSana Loja Centro,Loja,Sierra Sur,PAU-001,Alcohol antiséptico 500 ml (CuraFácil),Primeros auxilios,33,13,No
+2026-10-18,SS-LOH-01,SanaSana Loja Centro,Loja,Sierra Sur,PAU-002,Curitas surtidas x 30 (CuraFácil),Primeros auxilios,0,10,Sí
+2026-10-18,SS-LOH-01,SanaSana Loja Centro,Loja,Sierra Sur,PAU-003,Gasas estériles x 10 (CuraFácil),Primeros auxilios,15,6,No
+2026-10-18,SS-LOH-01,SanaSana Loja Centro,Loja,Sierra Sur,FRI-001,Probiótico refrigerado x 10 frascos (Vitalis Frío),Cadena de frío,11,6,No
+2026-10-18,SS-LOH-01,SanaSana Loja Centro,Loja,Sierra Sur,FRI-002,Suero oral refrigerado 500 ml (Vitalis Frío),Cadena de frío,34,13,No
+2026-10-18,SS-LOH-01,SanaSana Loja Centro,Loja,Sierra Sur,FRI-003,Gel frío terapéutico (CuraFácil),Cadena de frío,4,3,No

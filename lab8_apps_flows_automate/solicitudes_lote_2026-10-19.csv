@@ -1,0 +1,10 @@
+id_solicitud,fecha_solicitud,id_local_destino,ciudad_destino,sku,producto,categoria,cantidad_solicitada,id_local_donante,motivo,solicitado_por
+SOL-20260019,2026-10-19,SS-GYE-01,Guayaquil,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,16,SS-GYE-03,Stock bajo el mínimo,jefe.ss-gye-01@gpf-lab.example
+SOL-20260020,2026-10-19,FY-GYE-02,Guayaquil,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,53,SS-GYE-03,Stock bajo el mínimo,jefe.fy-gye-02@gpf-lab.example
+SOL-20260021,2026-10-19,FY-GYE-02,Guayaquil,ANA-002,Ibuprofeno 400 mg x 10 tab (Farmalis),Analgésicos,59,FY-GYE-03,Stock bajo el mínimo,jefe.fy-gye-02@gpf-lab.example
+SOL-20260022,2026-10-19,SS-CUE-02,Cuenca,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,25,FY-CUE-01,Quiebre recurrente,jefe.ss-cue-02@gpf-lab.example
+SOL-20260023,2026-10-19,SS-UIO-03,Quito,ANA-003,Analgésico infantil jarabe 120 ml (Pequesana),Analgésicos,10,FY-UIO-01,Quiebre recurrente,jefe.ss-uio-03@gpf-lab.example
+SOL-20260024,2026-10-19,FY-UIO-02,Quito,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,76,FY-UIO-01,Quiebre recurrente,jefe.fy-uio-02@gpf-lab.example
+SOL-20260025,2026-10-19,SS-MEC-01,Manta,ANA-001,Paracetamol 500 mg x 20 tab (Farmalis),Analgésicos,7,FY-GYE-01,Stock bajo el mínimo,jefe.ss-mec-01@gpf-lab.example
+SOL-20260026,2026-10-19,SS-GYE-01,Guayaquil,VIT-001,Vitamina C 1 g efervescente x 10 (Vitalis),Vitaminas,10,FY-GYE-01,Campaña Respira Bien,jefe.ss-gye-01@gpf-lab.example
+SOL-20260027,2026-10-19,SS-UIO-01,Quito,GRI-001,Antigripal día y noche x 12 tab (Respira+),Antigripales,1,SS-UIO-02,Temporada respiratoria,jefe.ss-uio-01@gpf-lab.example

@@ -17,6 +17,7 @@
 | `glosario.md` / `glosario.docx` | 15 términos de operaciones de farmacia | Lab 3 |
 | `documentos_internos/` | Borrador de prioridades de operaciones 2027 (`.md` y `.docx`), para subir al Space | Labs 3 y 4 |
 | `base_conocimiento/` | Calendario comercial del cuarto trimestre y condiciones del servicio a domicilio (`.md` y `.docx`), para cargar en un SharePoint, bucket de S3 o sitio de pruebas | Lab 3 (Creadores) |
+| `lab8_apps_flows_automate/` | Laboratorio 8 de profundización (Ruta Creadores): guía paso a paso para construir un Flow programado, una app y una automatización de Quick Automate con aprobación humana, más sus datos (`stock_cierre_2026-10-18.csv`, `solicitudes_lote_2026-10-19.csv`) y el documento de proceso PRO-OPS-003 (`.md` y `.docx`) | Lab 8 |
 
 Sube al Space la versión `.docx` de cada documento. La versión `.md` tiene el mismo contenido y sirve para leerla o como respaldo.
 
@@ -45,6 +46,7 @@ Sube al Space la versión `.docx` de cada documento. La versión `.md` tiene el 
 | Base de conocimiento de pruebas (SharePoint, S3 o web) | `base_conocimiento/` |
 | Conjunto de datos de Quick Sight | `inventario.csv` unido con `locales.csv` por `id_local` |
 | App de reposición | Las 5 solicitudes pendientes de `solicitudes_reposicion.csv` van dentro del texto del pedido (Lab 7) |
+| Flow, app y automatización del Lab 8 | `lab8_apps_flows_automate/stock_cierre_2026-10-18.csv` en los tres; `solicitudes_lote_2026-10-19.csv` y `proceso_aprobacion_transferencias.docx` en Quick Automate. Ver `lab8_apps_flows_automate/README.md` |
 
 ## Cómo se relacionan
 
