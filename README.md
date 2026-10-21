@@ -21,6 +21,18 @@
 
 Sube al Space la versión `.docx` de cada documento. La versión `.md` tiene el mismo contenido y sirve para leerla o como respaldo.
 
+## Presentación
+
+`presentacion/workshop_amazon_quick_gpf.html` es la presentación del workshop: 40 láminas con los 8 módulos y la profundización del Laboratorio 8. Ábrela en un navegador.
+
+| Tecla | Acción |
+| --- | --- |
+| ← / → | Lámina anterior o siguiente |
+| N | Mostrar u ocultar las notas del facilitador |
+| F | Pantalla completa |
+
+El botón **PDF** imprime una lámina por página.
+
 ## Columnas
 
 **ventas_resumen_chat.csv:** `periodo` (Últimos 30 días: 19-sep a 18-oct-2026; 30 días anteriores: 20-ago a 18-sep; Primeros 30 días: 21-jul a 19-ago), `fecha_inicio`, `fecha_fin`, `id_local`, `nombre_local`, `marca`, `ciudad`, `categoria`, `unidades`, `valor_usd`, `dias_sku_en_quiebre` (combinaciones día × SKU con stock final en cero, tomadas de `inventario.csv`).

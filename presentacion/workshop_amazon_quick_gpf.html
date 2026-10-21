@@ -1,0 +1,956 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amazon Quick · Workshop Corporación GPF</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/*
+  Identidad: línea visual SoftwareOne (blanco y negro), con el logo oficial incrustado en el script.
+  --accent es un color de acento provisional: reemplázalo por el color oficial de la guía de marca.
+*/
+:root{
+  --ink:#0A0A0A; --paper:#FFFFFF; --muted:#5C5C5C; --line:#E2E2E2; --soft:#F4F4F4;
+  --accent:#0A0A0A; --accent-ink:#FFFFFF;
+  --w:1280px; --h:720px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;background:#1b1b1b;font-family:Inter,"Segoe UI",Helvetica,Arial,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
+#stage{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;overflow:hidden}
+#deck{width:var(--w);height:var(--h);position:relative;transform-origin:center center}
+.slide{position:absolute;inset:0;background:var(--paper);padding:92px 88px 70px;display:none;flex-direction:column;overflow:hidden}
+.slide.active{display:flex}
+.slide.dark{background:var(--ink);color:var(--paper)}
+/* cabecera y pie */
+.top{position:absolute;top:30px;left:88px;right:88px;display:flex;justify-content:space-between;align-items:center;font-size:14px;letter-spacing:.02em;color:var(--muted)}
+.dark .top{color:#A8A8A8}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:18px;color:var(--ink);letter-spacing:-.01em}
+.dark .brand{color:var(--paper)}
+.brand img{height:26px;display:block}
+.foot{position:absolute;bottom:26px;left:88px;right:88px;display:flex;justify-content:space-between;font-size:13px;color:var(--muted)}
+.dark .foot{color:#8C8C8C}
+/* tipografía */
+.kicker{font-size:15px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:18px}
+.dark .kicker{color:#A8A8A8}
+h1{font-size:68px;line-height:1.02;font-weight:800;letter-spacing:-.03em}
+h2{font-size:44px;line-height:1.08;font-weight:800;letter-spacing:-.025em;margin-bottom:14px}
+h3{font-size:22px;font-weight:700;letter-spacing:-.01em;margin-bottom:8px}
+p.lead{font-size:24px;line-height:1.4;color:var(--muted);max-width:1000px}
+.dark p.lead{color:#C8C8C8}
+p,li{font-size:19px;line-height:1.45}
+.small{font-size:15px;color:var(--muted)}
+ol.steps{list-style:none;counter-reset:s;display:flex;flex-direction:column;gap:10px}
+ol.steps li{counter-increment:s;position:relative;padding-left:40px;font-size:18px;line-height:1.4}
+ol.steps li::before{content:counter(s);position:absolute;left:0;top:1px;width:26px;height:26px;border-radius:50%;background:var(--ink);color:var(--paper);font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center}
+ul.dots{list-style:none;display:flex;flex-direction:column;gap:10px}
+ul.dots li{position:relative;padding-left:22px}
+ul.dots li::before{content:"";position:absolute;left:0;top:11px;width:8px;height:8px;background:var(--ink)}
+.dark ul.dots li::before{background:var(--paper)}
+code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.88em;background:var(--soft);padding:1px 6px;border-radius:4px}
+.q{background:var(--soft);padding:1px 6px;border-radius:4px;font-weight:500}
+.route.c .q{background:#fff}
+/* portada y secciones */
+.cover{justify-content:flex-end}
+.cover h1{font-size:76px;max-width:1110px}
+.cover .meta{margin-top:34px;display:flex;gap:40px;font-size:18px;color:#C8C8C8}
+.cover .meta b{display:block;color:var(--paper);font-weight:700}
+.rule{width:96px;height:6px;background:var(--paper);margin-bottom:30px}
+.section{justify-content:center}
+.section .num{font-size:180px;font-weight:800;letter-spacing:-.06em;line-height:.9;color:#2E2E2E;margin-bottom:10px}
+.section h1{font-size:72px}
+.section .topic{margin-top:22px;font-size:22px;color:#BDBDBD;max-width:900px}
+/* rejillas y tarjetas */
+.body{flex:1;display:flex;flex-direction:column;justify-content:center;gap:26px}
+.grid{display:grid;gap:18px}
+.g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+.card{border:1.5px solid var(--line);border-radius:14px;padding:22px 24px;background:var(--paper)}
+.card.ink{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.card.ink .small{color:#BDBDBD}
+.card.soft{background:var(--soft);border-color:var(--soft)}
+.card .n{font-size:13px;font-weight:700;letter-spacing:.1em;color:var(--muted);margin-bottom:10px}
+.card.ink .n{color:#9A9A9A}
+.card p{font-size:17px;line-height:1.4;color:var(--muted)}
+.card.ink p{color:#D0D0D0}
+.tag{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;border:1.5px solid currentColor;border-radius:999px;padding:3px 10px;margin-bottom:12px}
+/* agenda */
+.agenda{display:grid;grid-template-columns:1fr 1fr;gap:0 48px}
+.agenda .row{display:grid;grid-template-columns:56px 1fr;gap:14px;padding:15px 0;border-top:1.5px solid var(--line)}
+.agenda .row b{font-size:26px;font-weight:800;letter-spacing:-.02em}
+.agenda .row h3{font-size:20px;margin-bottom:3px}
+.agenda .row p{font-size:15px;color:var(--muted);line-height:1.35}
+/* flujo horizontal */
+.flow{display:flex;align-items:stretch;gap:0}
+.flow .stepbox{flex:1;border:1.5px solid var(--ink);border-radius:14px;padding:20px 20px;position:relative;background:var(--paper)}
+.flow .stepbox.fill{background:var(--ink);color:var(--paper)}
+.flow .stepbox.fill p{color:#D0D0D0}
+.flow .stepbox p{font-size:16px;color:var(--muted);line-height:1.38}
+.flow .arrow{width:42px;display:flex;align-items:center;justify-content:center;font-size:26px;font-weight:700}
+/* laboratorio */
+.labhead{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:20px}
+.labhead h2{margin-bottom:0}
+.pill{background:var(--ink);color:var(--paper);font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:6px 14px;border-radius:999px}
+.routes{display:grid;grid-template-columns:1fr 1fr;gap:20px;flex:1}
+.route{border:1.5px solid var(--line);border-radius:14px;padding:20px 24px;display:flex;flex-direction:column;gap:12px}
+.route.c{background:var(--soft);border-color:var(--soft)}
+.route h3{display:flex;align-items:center;gap:10px;font-size:19px}
+.route h3 span{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.route ol.steps li{font-size:16.5px}
+.success{margin-top:16px;display:flex;gap:14px;align-items:baseline;border-top:2px solid var(--ink);padding-top:12px}
+.success b{font-size:13px;letter-spacing:.12em;text-transform:uppercase;white-space:nowrap}
+.success p{font-size:17px}
+/* tablas */
+table{width:100%;border-collapse:collapse}
+th{text-align:left;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:9px 12px;border-bottom:2px solid var(--ink)}
+td{font-size:16.5px;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.35}
+td:first-child{font-weight:700}
+table.compact th{padding:7px 12px}
+table.compact td{font-size:15px;padding:7px 12px}
+/* mapa de componentes */
+.hub{display:grid;grid-template-columns:1fr 1.1fr 1fr;gap:18px;align-items:stretch}
+.hub .center{background:var(--ink);color:var(--paper);border-radius:18px;padding:28px;display:flex;flex-direction:column;justify-content:center}
+.hub .center p{color:#D0D0D0;font-size:17px}
+.hub .col{display:flex;flex-direction:column;gap:14px}
+.hub .card{padding:16px 20px}
+.hub .card h3{font-size:19px;margin-bottom:4px}
+.hub .card p{font-size:15px}
+/* comparación */
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.vs .card h3{font-size:24px}
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.stat{border-top:3px solid var(--ink);padding-top:14px}
+.stat b{display:block;font-size:52px;font-weight:800;letter-spacing:-.03em;line-height:1}
+.stat span{font-size:16px;color:var(--muted)}
+/* notas del facilitador */
+aside.notes{display:none}
+#notes{position:fixed;left:0;right:0;bottom:0;max-height:34vh;overflow:auto;background:#111;color:#EEE;font-size:15px;line-height:1.5;padding:16px 24px 18px;border-top:3px solid #fff;display:none;z-index:20}
+#notes h4{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#9A9A9A;margin-bottom:6px}
+body.show-notes #notes{display:block}
+/* controles */
+#ui{position:fixed;right:18px;bottom:16px;display:flex;gap:8px;z-index:30;opacity:0;transition:opacity .3s;pointer-events:none}
+body.ui-on #ui{opacity:1;pointer-events:auto}
+#ui button{background:#fff;color:#111;border:0;border-radius:8px;padding:8px 12px;font:600 13px Inter,sans-serif;cursor:pointer}
+#progress{position:fixed;left:0;top:0;height:4px;background:#fff;z-index:30;transition:width .2s}
+#help{position:fixed;left:18px;bottom:16px;color:#bbb;background:rgba(0,0,0,.7);padding:6px 10px;border-radius:6px;font-size:12px;z-index:30;opacity:0;transition:opacity .3s}
+body.ui-on #help{opacity:1}
+body.show-notes #ui,body.show-notes #help{bottom:calc(34vh + 14px)}
+/* impresión: una diapositiva por página */
+@media print{
+  @page{size:1280px 720px;margin:0}
+  html,body{background:#fff}
+  #stage{position:static;display:block}
+  #deck{transform:none!important;width:auto;height:auto}
+  .slide{display:flex!important;position:relative;width:1280px;height:720px;page-break-after:always;break-after:page}
+  #ui,#progress,#notes,#help{display:none!important}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+</head>
+<body>
+<div id="progress"></div>
+<div id="stage"><div id="deck">
+
+<!-- ============ PORTADA ============ -->
+<section class="slide dark cover">
+  <div class="top"><div class="brand" data-logo="white">SoftwareOne</div><div>Workshop teórico-práctico</div></div>
+  <div class="rule"></div>
+  <div class="kicker">Amazon Quick · Corporación GPF</div>
+  <h1>Del pedido al resultado: trabajar con IA en el día a día</h1>
+  <div class="meta">
+    <div><b>Formato</b>Teoría breve y laboratorios</div>
+    <div><b>Duración</b>2 horas</div>
+    <div><b>Audiencia</b>Negocio, analistas, BI y TI</div>
+    <div><b>Facilitador</b>Orlando Contreras Castellanos<br>Sr. Expert Artificial Intelligence &amp; Machine Learning</div>
+  </div>
+  <aside class="notes">Bienvenida. Presentar al equipo facilitador de SoftwareOne. Encuesta de mano: ¿quién ya usa IA en su trabajo diario?, ¿quién crea tableros o reportes? Con eso se ajusta el ritmo.</aside>
+</section>
+
+<!-- ============ AGENDA ============ -->
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>Amazon Quick · Corporación GPF</div></div>
+  <div class="kicker">Agenda</div>
+  <h2>Ocho módulos, cada uno con su práctica</h2>
+  <div class="body">
+    <div class="agenda">
+      <div class="row"><b>01</b><div><h3>Apertura y primer contacto</h3><p>Asistente de chat; navegador, escritorio, móvil y extensiones</p></div></div>
+      <div class="row"><b>05</b><div><h3>De la pregunta al tablero</h3><p>Quick Sight: tableros, gráficos, pronósticos y exploración</p></div></div>
+      <div class="row"><b>02</b><div><h3>Del pedido al entregable</h3><p>Documentos, presentaciones, hojas de cálculo e imágenes</p></div></div>
+      <div class="row"><b>06</b><div><h3>Conectar las herramientas</h3><p>Conectores de acciones, bases de conocimiento y MCP</p></div></div>
+      <div class="row"><b>03</b><div><h3>El conocimiento del equipo</h3><p>Spaces: archivos, tableros y contexto compartidos</p></div></div>
+      <div class="row"><b>07</b><div><h3>Automatizar y delegar</h3><p>Flows y Automate; agentes de chat; apps sin código</p></div></div>
+      <div class="row"><b>04</b><div><h3>Investigar en minutos</h3><p>Research: informes con citas sobre datos propios y la web</p></div></div>
+      <div class="row"><b>08</b><div><h3>Cierre</h3><p>Seguridad y gobierno; autodiagnóstico y siguientes pasos</p></div></div>
+    </div>
+    <p class="small">Profundización opcional, Ruta Creadores: Laboratorio 8, "Construir en Amazon Quick", con Flows, apps y Quick Automate (75 a 90 minutos).</p>
+  </div>
+  <div class="foot"><span>SoftwareOne · Amazon Quick</span><span class="pg"></span></div>
+  <aside class="notes">Mostrar el recorrido completo. Explicar que cada módulo tiene una explicación corta y un laboratorio. Los laboratorios 3, 5 y 7 dejan activos reutilizables: un Space, un tablero y un Flow. El Laboratorio 8 es una sesión de profundización opcional para la Ruta Creadores; no entra en las 2 horas.</aside>
+</section>
+
+<!-- ============ OBJETIVOS ============ -->
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>Amazon Quick · Corporación GPF</div></div>
+  <div class="kicker">Objetivos</div>
+  <h2>Qué se lleva cada participante</h2>
+  <div class="body">
+    <div class="grid g3">
+      <div class="card"><div class="n">01</div><h3>Encargar trabajo completo</h3><p>Un análisis, un memo o una presentación lista para el comité, no solo respuestas.</p></div>
+      <div class="card"><div class="n">02</div><h3>Un mismo contexto para el equipo</h3><p>Conocimiento, datos y herramientas en un solo lugar, con respuestas que citan su fuente.</p></div>
+      <div class="card"><div class="n">03</div><h3>Decidir con datos</h3><p>Preguntas de ventas y disponibilidad respondidas con tableros e investigaciones verificables.</p></div>
+      <div class="card"><div class="n">04</div><h3>Automatizar sin código</h3><p>Tareas repetitivas convertidas en Flows que se ejecutan cuando se necesitan.</p></div>
+      <div class="card"><div class="n">05</div><h3>Agentes y apps del área</h3><p>Asistentes especializados y herramientas internas creadas en lenguaje natural.</p></div>
+      <div class="card ink"><div class="n">06</div><h3>Con control</h3><p>Qué controles de seguridad y gobierno tiene TI sobre todo lo que se construye.</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>SoftwareOne · Amazon Quick</span><span class="pg"></span></div>
+</section>
+
+<!-- ============ CÓMO TRABAJAMOS ============ -->
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>Amazon Quick · Corporación GPF</div></div>
+  <div class="kicker">Formato</div>
+  <h2>Dos rutas, una misma sala</h2>
+  <div class="body">
+    <div class="grid g2">
+      <div class="card"><span class="tag">Ruta Negocio</span><h3>Gerencia, comercial, operaciones de farmacia, compras, finanzas, talento humano</h3><p>Investiga, genera entregables, crea el Space de su equipo, consulta tableros y automatiza tareas de su área.</p></div>
+      <div class="card ink"><span class="tag">Ruta Creadores</span><h3>Analistas de datos, BI y TI</h3><p>Conecta fuentes de datos, construye tableros, diseña agentes, apps y automatizaciones, y revisa los controles.</p></div>
+    </div>
+    <div class="grid g3">
+      <div class="card soft"><h3>En parejas</h3><p>El negocio define la pregunta; el creador prepara los datos y las conexiones que la responden.</p></div>
+      <div class="card soft"><h3>Datos ficticios</h3><p>Ningún dato real de clientes, pacientes, precios ni inventario entra a un prompt.</p></div>
+      <div class="card soft"><h3>Primero el ejemplo</h3><p>Cada función se muestra con un caso de GPF y después en la pantalla.</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>SoftwareOne · Amazon Quick</span><span class="pg"></span></div>
+  <aside class="notes">Confirmar que las parejas están sentadas juntas. Recordar la regla de datos: solo el kit gpf-quick-lab.</aside>
+</section>
+
+<!-- ============ EL CASO ============ -->
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>Amazon Quick · Corporación GPF</div></div>
+  <div class="kicker">El caso de la sesión</div>
+  <h2>Ventas y disponibilidad de productos por local</h2>
+  <p class="lead">Una cadena de farmacias quiere entender qué está pasando con sus ventas y sus quiebres de stock, y actuar antes del próximo comité de operaciones.</p>
+  <div class="body">
+    <div class="stats">
+      <div class="stat"><b>20</b><span>locales Fybeca y SanaSana en 6 ciudades</span></div>
+      <div class="stat"><b>90</b><span>días de ventas e inventario diario</span></div>
+      <div class="stat"><b>24</b><span>productos en 8 categorías</span></div>
+      <div class="stat"><b>6</b><span>documentos de operación, más un glosario</span></div>
+    </div>
+    <p class="small">Kit <code>gpf-quick-lab</code>: ventas, inventario, locales, productos, jefes zonales, solicitudes de reposición, <code>politicas/</code>, <code>documentos_internos/</code>, <code>base_conocimiento/</code> y <code>glosario</code>. Todos los datos son ficticios.</p>
+  </div>
+  <div class="foot"><span>SoftwareOne · Amazon Quick</span><span class="pg"></span></div>
+  <aside class="notes">No revelar los patrones sembrados (quiebres de analgésicos en 5 locales y temporada respiratoria en la Sierra): los participantes deben descubrirlos. Las cifras de referencia están en CLAVE_FACILITADOR.md.</aside>
+</section>
+
+<!-- ============ GLOSARIO ============ -->
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>Amazon Quick · Corporación GPF</div></div>
+  <div class="kicker">Glosario de bolsillo</div>
+  <h2>Amazon Quick en palabras de negocio</h2>
+  <div class="body">
+    <table>
+      <tr><th style="width:18%">Término</th><th style="width:44%">Qué es</th><th>Ejemplo en GPF</th></tr>
+      <tr><td>Chat</td><td>El asistente al que se le encarga trabajo</td><td>"Resume las ventas del mes por marca"</td></tr>
+      <tr><td>Space</td><td>La carpeta compartida del equipo que el asistente sí lee</td><td>Políticas de devoluciones y reposición</td></tr>
+      <tr><td>Research</td><td>Un analista que investiga y entrega un informe con fuentes</td><td>Tendencias del canal digital en farmacias</td></tr>
+      <tr><td>Quick Sight</td><td>Los tableros y gráficos de la compañía</td><td>Quiebres de stock por local</td></tr>
+      <tr><td>Integración</td><td>El puente con otra herramienta</td><td>Preparar un correo en Outlook</td></tr>
+      <tr><td>Flow</td><td>Una receta de pasos que se repite cuando se necesita</td><td>Alerta semanal de disponibilidad</td></tr>
+      <tr><td>Agente de chat</td><td>Un asistente especializado con su conocimiento y reglas</td><td>Asistente de operaciones de farmacia</td></tr>
+      <tr><td>App</td><td>Una herramienta interna creada sin programar</td><td>Formulario de solicitud de reposición</td></tr>
+    </table>
+  </div>
+  <div class="foot"><span>SoftwareOne · Amazon Quick</span><span class="pg"></span></div>
+  <aside class="notes">Volver a esta lámina cada vez que aparezca un término nuevo.</aside>
+</section>
+
+<!-- ============ MÓDULO 01 ============ -->
+<section class="slide dark section">
+  <div class="top"><div class="brand" data-logo="white">SoftwareOne</div><div>Módulo 01</div></div>
+  <div class="num">01</div>
+  <h1>Apertura y primer contacto</h1>
+  <p class="topic">Asistente de chat · navegador, app de escritorio, móvil y extensiones</p>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>01 · Apertura y primer contacto</div></div>
+  <div class="kicker">Qué es Amazon Quick</div>
+  <h2>Un asistente para el trabajo, conectado a lo que ya usa el equipo</h2>
+  <div class="body">
+    <div class="hub">
+      <div class="col">
+        <div class="card"><h3>Spaces</h3><p>Conocimiento y contexto del equipo</p></div>
+        <div class="card"><h3>Research</h3><p>Informes profundos con citas</p></div>
+        <div class="card"><h3>Quick Sight</h3><p>Tableros, gráficos y pronósticos</p></div>
+      </div>
+      <div class="center">
+        <div class="kicker">El centro</div>
+        <h2 style="font-size:40px">Chat</h2>
+        <p>La interfaz principal: se le pide trabajo en lenguaje natural y responde con datos propios, la web y acciones en otras herramientas.</p>
+      </div>
+      <div class="col">
+        <div class="card"><h3>Flows y Automate</h3><p>Tareas y procesos automatizados</p></div>
+        <div class="card"><h3>Agentes y apps</h3><p>Asistentes especializados y herramientas sin código</p></div>
+        <div class="card"><h3>Integraciones</h3><p>Correo, mensajería, CRM, archivos y MCP</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>Fuente: aws.amazon.com/quick/features</span><span class="pg"></span></div>
+  <aside class="notes">Mapa completo de la sesión: cada caja es un módulo de hoy. El chat es la puerta de entrada a todo.</aside>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>01 · Apertura y primer contacto</div></div>
+  <div class="kicker">El cambio</div>
+  <h2>De preguntar a encargar trabajo</h2>
+  <div class="body">
+    <div class="vs">
+      <div class="card"><span class="tag">Preguntar</span><h3>"¿Cuánto vendimos el mes pasado?"</h3><ul class="dots"><li>Una respuesta, una cifra</li><li>El resto del trabajo sigue siendo manual</li><li>Se vuelve a explicar el contexto cada vez</li></ul></div>
+      <div class="card ink"><span class="tag">Encargar</span><h3>"Analiza las ventas del mes por marca, explica la caída y prepara 5 láminas para el comité."</h3><ul class="dots"><li>Un entregable listo para usar</li><li>Con el contexto del equipo y sus fuentes</li><li>Se refina en la misma conversación</li></ul></div>
+    </div>
+    <div class="grid g4">
+      <div class="card soft"><h3>Navegador</h3><p>Desde cualquier equipo</p></div>
+      <div class="card soft"><h3>Escritorio</h3><p>Archivos locales y agentes programados</p></div>
+      <div class="card soft"><h3>Móvil</h3><p>Preguntas y acciones en ruta</p></div>
+      <div class="card soft"><h3>Extensiones</h3><p>Navegador y Microsoft 365</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>SoftwareOne · Amazon Quick</span><span class="pg"></span></div>
+  <aside class="notes">Demostración breve de la app de escritorio si está disponible. Las extensiones de navegador y Microsoft 365 dependen del plan.</aside>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>01 · Apertura y primer contacto</div></div>
+  <div class="labhead"><div><div class="kicker">Laboratorio 1</div><h2>Primer contacto</h2></div><span class="pill">Ambas rutas</span></div>
+  <div class="routes">
+    <div class="route">
+      <h3>Todos <span>Chat</span></h3>
+      <ol class="steps">
+        <li>Inicia sesión en Quick y abre el chat.</li>
+        <li>Sube <code>ventas_resumen_chat.csv</code> y pide el resumen de los <span class="q">"Últimos 30 días"</span> por marca y categoría contra los 30 días anteriores.</li>
+        <li>Pregunta: <span class="q">"¿Qué locales explican la caída en analgésicos?"</span></li>
+        <li>Activa la búsqueda web y pregunta por la temporada respiratoria en Ecuador; observa cómo cambian las fuentes.</li>
+      </ol>
+    </div>
+    <div class="route c">
+      <h3>Creadores, además <span>Preferencias</span></h3>
+      <ol class="steps">
+        <li>Revisa las preferencias del chat: recursos frecuentes, idioma y tono.</li>
+        <li>Explica a tu pareja qué fuentes usó cada respuesta y cómo se citan.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="success"><b>Éxito</b><p>El resumen identifica la caída de analgésicos y los locales donde se concentra.</p></div>
+  <div class="foot"><span>SoftwareOne · Amazon Quick</span><span class="pg"></span></div>
+  <aside class="notes">Respuesta esperada: caída de analgésicos cercana a -13% en los últimos 30 días, concentrada en SS-GYE-01, SS-UIO-03 y FY-UIO-02. Ver la clave del facilitador.</aside>
+</section>
+
+<!-- ============ MÓDULO 02 ============ -->
+<section class="slide dark section">
+  <div class="top"><div class="brand" data-logo="white">SoftwareOne</div><div>Módulo 02</div></div>
+  <div class="num">02</div>
+  <h1>Del pedido al entregable</h1>
+  <p class="topic">Generación de documentos, presentaciones, hojas de cálculo e imágenes</p>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>02 · Del pedido al entregable</div></div>
+  <div class="kicker">Cómo pedir bien</div>
+  <h2>Un buen encargo tiene cuatro piezas</h2>
+  <div class="body">
+    <div class="grid g4">
+      <div class="card"><div class="n">QUÉ</div><h3>El entregable</h3><p>Presentación, memo, hoja de cálculo o imagen.</p></div>
+      <div class="card"><div class="n">PARA QUIÉN</div><h3>La audiencia</h3><p>Comité de operaciones, jefes de local, gerencia.</p></div>
+      <div class="card"><div class="n">CON QUÉ</div><h3>El contexto</h3><p>El archivo, el Space o el tablero que debe usar.</p></div>
+      <div class="card"><div class="n">CÓMO</div><h3>La forma</h3><p>Extensión, tono, estructura y gráficos.</p></div>
+    </div>
+    <div class="card ink"><p style="font-size:20px;color:#fff">"Convierte el análisis anterior en una presentación de 5 láminas para el comité de operaciones: situación, hallazgos, locales críticos, recomendación y próximos pasos. Tono ejecutivo, con un gráfico de ventas por marca."</p></div>
+    <p class="small">El resultado se refina en la misma conversación: "más corto", "agrega una lámina de riesgos", "cambia el gráfico a barras".</p>
+  </div>
+  <div class="foot"><span>SoftwareOne · Amazon Quick</span><span class="pg"></span></div>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>02 · Del pedido al entregable</div></div>
+  <div class="labhead"><div><div class="kicker">Laboratorio 2</div><h2>Del pedido al entregable</h2></div><span class="pill">Dos rutas</span></div>
+  <div class="routes">
+    <div class="route">
+      <h3>Ruta Negocio <span>Presentación</span></h3>
+      <ol class="steps">
+        <li>Pide la presentación de 5 láminas para el comité con el análisis del Lab 1.</li>
+        <li>Refina: <span class="q">"Usa un tono ejecutivo y agrega un gráfico de ventas por marca"</span>.</li>
+        <li>Pide un memo de una página con la misma información para quien no asistirá al comité.</li>
+      </ol>
+    </div>
+    <div class="route c">
+      <h3>Ruta Creadores <span>Hoja de cálculo</span></h3>
+      <ol class="steps">
+        <li>Pide una hoja de cálculo con indicadores por local: ventas, unidades, días con quiebre y variación contra el mes anterior.</li>
+        <li>Verifica dos cifras a mano contra el CSV original.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="success"><b>Éxito</b><p>Un entregable listo para compartir; en Creadores, cifras verificadas sin diferencias.</p></div>
+  <div class="foot"><span>SoftwareOne · Amazon Quick</span><span class="pg"></span></div>
+  <aside class="notes">Remarcar la verificación: la IA acelera, pero la persona responde por las cifras que comparte.</aside>
+</section>
+
+<!-- ============ MÓDULO 03 ============ -->
+<section class="slide dark section">
+  <div class="top"><div class="brand" data-logo="white">SoftwareOne</div><div>Módulo 03</div></div>
+  <div class="num">03</div>
+  <h1>El conocimiento del equipo</h1>
+  <p class="topic">Spaces: archivos, tableros y contexto compartidos</p>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>03 · El conocimiento del equipo</div></div>
+  <div class="kicker">Spaces</div>
+  <h2>La carpeta compartida que el asistente sí lee</h2>
+  <div class="body">
+    <div class="flow">
+      <div class="stepbox"><h3>Fuentes</h3><p>Archivos subidos, Google Drive, OneDrive, SharePoint, Confluence, páginas web y Amazon S3.</p></div>
+      <div class="arrow">→</div>
+      <div class="stepbox fill"><h3>Space del equipo</h3><p>Archivos, tableros, bases de conocimiento y contexto en un solo lugar, compartido con quien lo necesite.</p></div>
+      <div class="arrow">→</div>
+      <div class="stepbox"><h3>Respuestas con citas</h3><p>Chat, Research y agentes responden con ese contexto y muestran de dónde sale cada dato.</p></div>
+    </div>
+    <div class="grid g3">
+      <div class="card soft"><h3>Un Space por equipo o proyecto</h3><p>Operaciones de farmacia, compras, comercial.</p></div>
+      <div class="card soft"><h3>Lo que uno aprende, lo usa el equipo</h3><p>Un solo contexto para todas las preguntas.</p></div>
+      <div class="card soft"><h3>Siempre con fuente</h3><p>Cada respuesta se puede verificar en el documento original.</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>Fuente: docs.aws.amazon.com/quick · Managing a space</span><span class="pg"></span></div>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>03 · El conocimiento del equipo</div></div>
+  <div class="labhead"><div><div class="kicker">Laboratorio 3</div><h2>El Space de operaciones</h2></div><span class="pill">Dos rutas</span></div>
+  <div class="routes">
+    <div class="route">
+      <h3>Ruta Negocio <span>Crear el Space</span></h3>
+      <ol class="steps">
+        <li>En <b>Spaces</b>, crea "Operaciones de farmacia — piloto".</li>
+        <li>Sube los <code>.docx</code> de <code>politicas/</code>, <code>glosario.docx</code> y <code>documentos_internos/</code>.</li>
+        <li>Pregunta: <span class="q">"¿Qué hago si un cliente quiere devolver un producto de cadena de frío?"</span> y abre las citas.</li>
+        <li>Comparte el Space con tu pareja.</li>
+      </ol>
+    </div>
+    <div class="route c">
+      <h3>Ruta Creadores <span>Base de conocimiento</span></h3>
+      <ol class="steps">
+        <li>Crea tu propio Space y agrégale con <b>Add knowledge → Knowledge bases</b> la base de conocimiento de <code>base_conocimiento/</code> que preparó el facilitador.</li>
+        <li>Pregunta: <span class="q">"¿Qué campaña empieza en noviembre y qué meta de disponibilidad exige?"</span></li>
+      </ol>
+    </div>
+  </div>
+  <div class="success"><b>Éxito</b><p>Respuestas con citas a los documentos del Space, y una pregunta que sin el Space no tendría buena respuesta.</p></div>
+  <div class="foot"><span>SoftwareOne · Amazon Quick</span><span class="pg"></span></div>
+  <aside class="notes">Creadores: la campaña es "Respira Bien", del 3 al 30 de noviembre, con meta de 0 días-SKU en quiebre. Negocio: no se acepta devolución de cadena de frío salvo defecto de fábrica o ruptura atribuible al local; se registra el caso y se escala al químico farmacéutico (POL-OPS-001 y POL-OPS-002).</aside>
+</section>
+
+<!-- ============ MÓDULO 04 ============ -->
+<section class="slide dark section">
+  <div class="top"><div class="brand" data-logo="white">SoftwareOne</div><div>Módulo 04</div></div>
+  <div class="num">04</div>
+  <h1>Investigar en minutos</h1>
+  <p class="topic">Quick Research: investigación profunda sobre datos propios, internet y fuentes de terceros</p>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>04 · Investigar en minutos</div></div>
+  <div class="kicker">Quick Research</div>
+  <h2>Lo que tomaba días de síntesis, en minutos y con fuentes</h2>
+  <div class="body">
+    <div class="flow">
+      <div class="stepbox"><h3>1. Objetivo</h3><p>La pregunta de negocio y el alcance.</p></div>
+      <div class="arrow">→</div>
+      <div class="stepbox"><h3>2. Plan</h3><p>Quick propone cómo investigar; la persona lo revisa y ajusta.</p></div>
+      <div class="arrow">→</div>
+      <div class="stepbox"><h3>3. Fuentes</h3><p>Web, archivos, Spaces, bases de conocimiento y proveedores de datos.</p></div>
+      <div class="arrow">→</div>
+      <div class="stepbox fill"><h3>4. Informe</h3><p>Hallazgos estructurados con citas y trazabilidad.</p></div>
+    </div>
+    <div class="grid g3">
+      <div class="card soft"><h3>Mercado y competencia</h3><p>Tendencias del retail farmacéutico.</p></div>
+      <div class="card soft"><h3>Regulación y políticas</h3><p>Cambios normativos que afectan la operación.</p></div>
+      <div class="card ink"><h3>Regla de oro</h3><p>Abrir y verificar las citas antes de compartir.</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>Fuente: docs.aws.amazon.com/quick · Using Amazon Quick Research</span><span class="pg"></span></div>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>04 · Investigar en minutos</div></div>
+  <div class="labhead"><div><div class="kicker">Laboratorio 4</div><h2>Una investigación con fuentes</h2></div><span class="pill">Dos rutas</span></div>
+  <div class="routes">
+    <div class="route">
+      <h3>Ruta Negocio <span>Informe</span></h3>
+      <ol class="steps">
+        <li>Inicia: <span class="q">"Tendencias del retail farmacéutico en Ecuador en canales digitales y entrega a domicilio: oportunidades y riesgos para una cadena nacional de farmacias"</span>.</li>
+        <li>Revisa el plan propuesto y ajusta el alcance antes de ejecutarlo.</li>
+        <li>Verifica 3 citas abriendo la fuente original.</li>
+      </ol>
+    </div>
+    <div class="route c">
+      <h3>Ruta Creadores <span>Comparar fuentes</span></h3>
+      <ol class="steps">
+        <li>Lanza la misma pregunta dos veces: solo con la web, y con la web más el Space del Lab 3.</li>
+        <li>Compara qué recomendaciones cambian con el contexto interno.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="success"><b>Éxito</b><p>Un informe con citas verificadas; en Creadores, al menos una diferencia concreta entre ambas versiones.</p></div>
+  <div class="foot"><span>SoftwareOne · Amazon Quick</span><span class="pg"></span></div>
+  <aside class="notes">La investigación puede tardar varios minutos: lanzarla al inicio del laboratorio y avanzar con la teoría del módulo 5 mientras corre.</aside>
+</section>
+
+<!-- ============ MÓDULO 05 ============ -->
+<section class="slide dark section">
+  <div class="top"><div class="brand" data-logo="white">SoftwareOne</div><div>Módulo 05</div></div>
+  <div class="num">05</div>
+  <h1>De la pregunta al tablero</h1>
+  <p class="topic">Quick Sight: tableros, gráficos, pronósticos y exploración de datos</p>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>05 · De la pregunta al tablero</div></div>
+  <div class="kicker">Quick Sight</div>
+  <h2>El creador publica; el negocio pregunta</h2>
+  <div class="body">
+    <div class="flow">
+      <div class="stepbox"><h3>Conjunto de datos</h3><p>Ventas, inventario y locales unidos por local y SKU.</p></div>
+      <div class="arrow">→</div>
+      <div class="stepbox"><h3>Análisis</h3><p>Visuales, filtros y pronósticos, creados también en lenguaje natural.</p></div>
+      <div class="arrow">→</div>
+      <div class="stepbox"><h3>Tablero</h3><p>Publicado, compartido y agregado al Space.</p></div>
+      <div class="arrow">→</div>
+      <div class="stepbox fill"><h3>Preguntas</h3><p>"¿Qué 5 locales tuvieron más quiebres?" respondido desde el chat.</p></div>
+    </div>
+    <div class="vs">
+      <div class="card ink"><span class="tag">Creadores</span><h3>Construyen y publican</h3><p>Preparan los datos, definen las métricas y cuidan que todos trabajen con la misma versión.</p></div>
+      <div class="card"><span class="tag">Negocio</span><h3>Consultan y deciden</h3><p>Filtran, preguntan en lenguaje natural y llevan la respuesta al comité.</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>Fuente: docs.aws.amazon.com/quick · Getting started with Amazon Quick Sight</span><span class="pg"></span></div>
+  <aside class="notes">La creación de tableros personalizados depende del plan (Enterprise). Con Professional, la construcción se hace como demostración.</aside>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>05 · De la pregunta al tablero</div></div>
+  <div class="labhead"><div><div class="kicker">Laboratorio 5</div><h2>Tablero de ventas y disponibilidad</h2></div><span class="pill">En relevo</span></div>
+  <div class="routes">
+    <div class="route c">
+      <h3>Ruta Creadores <span>Primero</span></h3>
+      <ol class="steps">
+        <li>Crea el conjunto de datos con <code>inventario.csv</code> unido (Left, por <code>id_local</code>) con <code>locales.csv</code>.</li>
+        <li>Crea 3 visuales: ventas por marca en el tiempo, días con quiebre por local, y ventas por ciudad.</li>
+        <li>Agrega un pronóstico de unidades a 14 días para analgésicos.</li>
+        <li>Publica el tablero, compártelo y agrégalo al Space.</li>
+      </ol>
+    </div>
+    <div class="route">
+      <h3>Ruta Negocio <span>Después</span></h3>
+      <ol class="steps">
+        <li>Abre el tablero y elígelo en el chat con <b>Choose resource</b>.</li>
+        <li>Pregunta: <span class="q">"¿Qué 5 locales tuvieron más días con quiebre de analgésicos el último mes?"</span></li>
+        <li>Pide un párrafo con la respuesta para el comité.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="success"><b>Éxito</b><p>Un tablero publicado en el Space y respuestas del negocio que coinciden con lo que muestra el tablero.</p></div>
+  <div class="foot"><span>SoftwareOne · Amazon Quick</span><span class="pg"></span></div>
+  <aside class="notes">Top 5 esperado: SS-GYE-01, SS-UIO-03, FY-UIO-02, FY-GYE-02 y SS-CUE-02. Si un tablero no está listo, usar el tablero de respaldo.</aside>
+</section>
+
+<!-- ============ MÓDULO 06 ============ -->
+<section class="slide dark section">
+  <div class="top"><div class="brand" data-logo="white">SoftwareOne</div><div>Módulo 06</div></div>
+  <div class="num">06</div>
+  <h1>Conectar las herramientas</h1>
+  <p class="topic">Conectores de acciones, integraciones de datos, bases de conocimiento y MCP</p>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>06 · Conectar las herramientas</div></div>
+  <div class="kicker">Integraciones</div>
+  <h2>Traer información y actuar donde ya trabaja el equipo</h2>
+  <div class="body">
+    <div class="grid g3">
+      <div class="card ink"><div class="n">HACER</div><h3>Conectores de acciones</h3><p>Ejecutan acciones en otras aplicaciones desde el chat o un Flow: enviar un correo, crear un ticket, notificar.</p></div>
+      <div class="card"><div class="n">ACCEDER</div><h3>Integraciones de datos</h3><p>Conectan Quick con aplicaciones externas para leer su contenido. Son la base de las bases de conocimiento.</p></div>
+      <div class="card"><div class="n">SABER</div><h3>Bases de conocimiento</h3><p>Eligen qué contenido externo usa la IA. Se agregan a Spaces o a agentes de chat.</p></div>
+    </div>
+    <div class="card soft"><h3>Estándares abiertos</h3><p>Quick también se conecta a servidores MCP (Model Context Protocol), además de Google Drive, Amazon S3, OneDrive, rastreadores web y otras aplicaciones. No todas las aplicaciones ofrecen los tres tipos de integración.</p></div>
+  </div>
+  <div class="foot"><span>Fuente: docs.aws.amazon.com/quick · Work with integrations</span><span class="pg"></span></div>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>06 · Conectar las herramientas</div></div>
+  <div class="labhead"><div><div class="kicker">Laboratorio 6</div><h2>Una acción con revisión humana</h2></div><span class="pill">Dos rutas</span></div>
+  <div class="routes">
+    <div class="route c">
+      <h3>Ruta Creadores <span>Configurar</span></h3>
+      <ol class="steps">
+        <li>En <b>Connectors</b>, revisa el conector de Outlook y envía un correo de prueba al buzón de pruebas.</li>
+        <li>(Opcional) Agrega el servidor MCP de prueba y llama una de sus herramientas desde el chat.</li>
+      </ol>
+    </div>
+    <div class="route">
+      <h3>Ruta Negocio <span>Usar</span></h3>
+      <ol class="steps">
+        <li>Pide: <span class="q">"Prepara un borrador de correo para los jefes de los 5 locales con más quiebres, con los productos afectados y la política de reposición entre locales"</span>.</li>
+        <li>Revisa el borrador antes de ejecutar la acción. No se envía a buzones reales.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="success"><b>Éxito</b><p>Una acción ejecutada en la herramienta conectada, con revisión humana antes de enviar.</p></div>
+  <div class="foot"><span>SoftwareOne · Amazon Quick</span><span class="pg"></span></div>
+  <aside class="notes">Los correos del kit usan el dominio reservado gpf-lab.example, que no recibe mensajes. Usar solo la cuenta de pruebas.</aside>
+</section>
+
+<!-- ============ MÓDULO 07 ============ -->
+<section class="slide dark section">
+  <div class="top"><div class="brand" data-logo="white">SoftwareOne</div><div>Módulo 07</div></div>
+  <div class="num">07</div>
+  <h1>Automatizar y delegar</h1>
+  <p class="topic">Quick Flows y Quick Automate · agentes de chat · apps sin código</p>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>07 · Automatizar y delegar</div></div>
+  <div class="kicker">Automatizaciones</div>
+  <h2>Flows para el día a día; Automate para los procesos</h2>
+  <div class="body">
+    <table>
+      <tr><th style="width:20%"></th><th style="width:40%">Quick Flows</th><th>Quick Automate</th></tr>
+      <tr><td>Para quién</td><td>Cualquier usuario de negocio, sin conocimientos técnicos</td><td>Usuarios avanzados que orquestan procesos de la empresa</td></tr>
+      <tr><td>Alcance</td><td>Tareas personales y de equipo, de corta duración: reportes, borradores, respuestas</td><td>Procesos de punta a punta, largos y de alto volumen: facturas, solicitudes, cumplimiento</td></tr>
+      <tr><td>Cómo se crea</td><td>Desde una conversación, describiéndolo en lenguaje natural o en el editor visual</td><td>Lógica de control, intervención humana, manejo de errores y código personalizado</td></tr>
+      <tr><td>Ejemplo GPF</td><td>Alerta semanal de locales con quiebres</td><td>Transferencias entre locales con aprobación del jefe zonal</td></tr>
+    </table>
+    <p class="small">Quick Automate no está disponible en los planes Free ni Plus.</p>
+  </div>
+  <div class="foot"><span>Fuente: docs.aws.amazon.com/quick · Using Amazon Quick automations</span><span class="pg"></span></div>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>07 · Automatizar y delegar</div></div>
+  <div class="kicker">Agentes de chat y apps</div>
+  <h2>Uno lo construye, todo el equipo lo usa</h2>
+  <div class="body">
+    <div class="vs">
+      <div class="card ink"><span class="tag">Agente de chat</span><h3>Un asistente experto del área</h3><ul class="dots"><li>Rol, tono e instrucciones propias</li><li>Conocimiento: Spaces y bases de conocimiento</li><li>Acciones: conectores y Flows</li><li>Se comparte con el equipo y responde con citas</li></ul></div>
+      <div class="card"><span class="tag">App</span><h3>Una herramienta interna sin programar</h3><ul class="dots"><li>Se describe qué debe hacer, para quién y con qué datos</li><li>Quick la construye y se previsualiza al instante</li><li>Puede incluir tableros, Spaces y conectores</li><li>Se publica para el equipo en un clic</li></ul></div>
+    </div>
+  </div>
+  <div class="foot"><span>Fuente: docs.aws.amazon.com/quick · Chat agents · Apps</span><span class="pg"></span></div>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>07 · Automatizar y delegar</div></div>
+  <div class="labhead"><div><div class="kicker">Laboratorio 7</div><h2>Automatizar y delegar</h2></div><span class="pill">Dos rutas</span></div>
+  <div class="routes">
+    <div class="route">
+      <h3>Ruta Negocio <span>Flow semanal</span></h3>
+      <ol class="steps">
+        <li>Describe el Flow: entrada <code>ventas_resumen_chat.csv</code>, los 5 locales con más quiebres de analgésicos, la política de reposición del Space y un correo para sus jefes.</li>
+        <li>Revisa los pasos generados: entrada de archivo, respuestas de IA y salida con el correo.</li>
+        <li>Ejecútalo en <b>Run mode</b>, ajusta el texto y vuelve a ejecutarlo.</li>
+      </ol>
+    </div>
+    <div class="route c">
+      <h3>Ruta Creadores <span>Agente y app</span></h3>
+      <ol class="steps">
+        <li>Crea el agente "Asistente de operaciones de farmacia" con el Space, el tablero y el conector.</li>
+        <li>Compártelo con tu pareja y pruébenlo con una pregunta del caso.</li>
+        <li>Crea una app: formulario de solicitud de reposición con las 5 solicitudes pendientes escritas en el pedido. Publícala.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="success"><b>Éxito</b><p>Un Flow que se ejecuta de punta a punta, un agente compartido que responde con citas y una app publicada.</p></div>
+  <div class="foot"><span>SoftwareOne · Amazon Quick</span><span class="pg"></span></div>
+  <aside class="notes">Con plan Enterprise, mostrar una automatización de Quick Automate con aprobación humana para transferencias entre locales. El Flow debe proponer locales donantes con stock mayor a 2 veces el mínimo (POL-OPS-003).</aside>
+</section>
+
+<!-- ============ PROFUNDIZACIÓN · LABORATORIO 8 ============ -->
+<section class="slide dark section">
+  <div class="top"><div class="brand" data-logo="white">SoftwareOne</div><div>Profundización</div></div>
+  <div class="num">L8</div>
+  <h1>Construir en Amazon Quick</h1>
+  <p class="topic">Laboratorio 8 · Quick Flows, apps y Quick Automate sobre un mismo caso · sesión de profundización de 75 a 90 minutos</p>
+  <aside class="notes">Sesión opcional para la Ruta Creadores, después del Lab 7 o en otro día. En la sesión de 2 horas, saltar estas láminas y seguir con el Módulo 08. Material del participante: carpeta lab8_apps_flows_automate/ del kit (README con la guía paso a paso). Requisitos: Space del Lab 3; el tablero del Lab 5 y el conector de Outlook del Lab 6 son opcionales.</aside>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>Profundización · Construir en Quick</div></div>
+  <div class="kicker">Tres herramientas, un mismo problema</div>
+  <h2>De la tarea al proceso</h2>
+  <div class="body">
+    <div class="grid g3">
+      <div class="card"><span class="tag">Quick Flows</span><h3>Una tarea que se repite</h3><p>Cada lunes, el plan de transferencias de la zona y un borrador de correo.</p></div>
+      <div class="card"><span class="tag">App</span><h3>Una herramienta diaria</h3><p>Los jefes de local registran solicitudes con el donante ya sugerido.</p></div>
+      <div class="card ink"><span class="tag">Quick Automate</span><h3>Un proceso completo</h3><p>Cada lote se valida con reglas y va a aprobación del jefe zonal.</p></div>
+    </div>
+    <table class="compact">
+      <tr><th style="width:20%"></th><th style="width:27%">Flow</th><th style="width:27%">App</th><th>Automate</th></tr>
+      <tr><td>Quién lo usa</td><td>Una persona, a pedido o programado</td><td>Un equipo, todos los días</td><td>Un área, con varios responsables</td></tr>
+      <tr><td>Volumen</td><td>Bajo: un resultado por ejecución</td><td>Medio: un registro a la vez</td><td>Alto: lotes de casos con excepciones</td></tr>
+      <tr><td>Control humano</td><td>Confirmación antes de cada acción</td><td>La persona decide en la interfaz</td><td>Tareas de aprobación asignadas</td></tr>
+    </table>
+  </div>
+  <div class="foot"><span>Fuente: docs.aws.amazon.com/quick · Flows · Apps · Automate</span><span class="pg"></span></div>
+  <aside class="notes">Mensaje central: no compiten, se complementan. La misma regla de negocio (POL-OPS-003) aparece en las tres; lo que cambia es quién la usa, con qué frecuencia y cuánto control humano se necesita. Volver a esta tabla en el ejercicio de cierre del laboratorio.</aside>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>Profundización · Construir en Quick</div></div>
+  <div class="kicker">Las piezas de cada herramienta</div>
+  <h2>Qué se configura en cada una</h2>
+  <div class="body">
+    <table class="compact">
+      <tr><th style="width:16%"></th><th style="width:28%">Quick Flows</th><th style="width:28%">Apps en Quick</th><th>Quick Automate</th></tr>
+      <tr><td>Se crea</td><td>Con una descripción, un chat o el editor</td><td>Conversando: describir, previsualizar, iterar</td><td>Un proyecto con el documento de proceso</td></tr>
+      <tr><td>Datos</td><td>Pasos <b>Files</b> y <b>Text</b>; <b>Quick data</b> para Spaces</td><td>Spaces, conectores, Quick Sight y almacenamiento</td><td>Tablas de datos y <b>casos</b> con estado</td></tr>
+      <tr><td>Lógica</td><td><b>Reasoning group</b>: condiciones y ciclos</td><td>Validaciones que la IA escribe como código</td><td><b>Custom agent</b> y <b>Process cases</b></td></tr>
+      <tr><td>Personas</td><td>Confirmación antes de cada acción</td><td>Formularios y botones</td><td><b>Create user task</b> con formulario y plazo</td></tr>
+      <tr><td>Puesta en marcha</td><td><b>Run mode</b> y <b>Create schedule</b></td><td>Publicar para usuarios o grupos</td><td>Confirmar, desplegar y crear un <b>trigger</b></td></tr>
+    </table>
+    <p class="small">Apps: Plus, Professional y Enterprise. Quick Automate: solo cuentas creadas desde la consola de AWS.</p>
+  </div>
+  <div class="foot"><span>Fuente: docs.aws.amazon.com/quick · Using Amazon Quick Flows · Apps · Automate · Orchestration</span><span class="pg"></span></div>
+  <aside class="notes">Los nombres en negrita son los de la interfaz en inglés. En Automate, recalcar que los casos pasan por Ready, In Progress, Pending Resolution y Successful o Failed, y que no se agregan acciones después de Create user task dentro del ciclo: el caso vuelve a Ready cuando la persona resuelve la tarea. El horario de un Flow es personal y no se comparte.</aside>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>Profundización · Construir en Quick</div></div>
+  <div class="kicker">La regla del caso · POL-OPS-003</div>
+  <h2>Un mismo cálculo en las tres</h2>
+  <div class="body">
+    <div class="flow">
+      <div class="stepbox"><h3>Necesario</h3><p>Stock mínimo del destino menos su stock final.</p></div>
+      <div class="arrow">→</div>
+      <div class="stepbox"><h3>Donante válido</h3><p>Local de la misma ciudad con stock mayor a 2 veces su mínimo.</p></div>
+      <div class="arrow">→</div>
+      <div class="stepbox"><h3>Disponible</h3><p>Stock del donante menos 1,5 veces su mínimo, redondeado hacia abajo.</p></div>
+      <div class="arrow">→</div>
+      <div class="stepbox fill"><h3>Cantidad</h3><p>El menor entre lo necesario y lo disponible. Sin donante: escalar al centro de distribución.</p></div>
+    </div>
+    <div class="grid g3" style="grid-template-columns:repeat(3,minmax(0,1fr))">
+      <div class="card soft"><h3>Stock al cierre</h3><p>Stock final y mínimo de 20 locales × 24 SKU, para las tres partes.</p></div>
+      <div class="card soft"><h3>Lote de solicitudes</h3><p>9 solicitudes sin validar, para Quick Automate.</p></div>
+      <div class="card soft"><h3>Proceso PRO-OPS-003</h3><p>Reglas R1 a R4 y aprobación del jefe zonal.</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>Kit gpf-quick-lab · lab8_apps_flows_automate/</span><span class="pg"></span></div>
+  <aside class="notes">Hacer un ejemplo a mano antes de empezar: SS-CUE-02 tiene 2 unidades de ANA-001 con mínimo 45, así que necesita 43. FY-CUE-01 tiene 96 con mínimo 47 (más de 94, es donante válido) y puede ceder 96 − 70,5 = 25. Se transfieren 25 y faltan 18. Si los participantes entienden este ejemplo, pueden verificar lo que construyan.</aside>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>Profundización · Construir en Quick</div></div>
+  <div class="labhead"><div><div class="kicker">Laboratorio 8 · Partes A y B</div><h2>Un Flow programado y una app</h2></div><span class="pill">Creadores</span></div>
+  <div class="routes">
+    <div class="route">
+      <h3>Parte A <span>Quick Flows</span></h3>
+      <ol class="steps">
+        <li>Describe el Flow "Plan semanal de transferencias por zona": stock y zona como entradas, la política del Space y un correo al jefe zonal.</li>
+        <li>Revisa los pasos (<b>Files</b>, <b>Text</b>, <b>Quick data</b>, <b>Reasoning group</b>) y agrega la validación de zona.</li>
+        <li>Ejecútalo con Sierra Sur, Costa y "Oriente".</li>
+        <li>Prográmalo los lunes a las 07:00, sin <b>Run with no confirmation</b>.</li>
+      </ol>
+    </div>
+    <div class="route c">
+      <h3>Parte B <span>App</span></h3>
+      <ol class="steps">
+        <li>Pide la app "Centro de reposición GPF": Solicitudes, Nueva solicitud con validación y Resumen con IA.</li>
+        <li>Pide tres cambios, uno por mensaje.</li>
+        <li>Prueba los 4 casos de la guía y reabre la app para ver lo guardado.</li>
+        <li>Publícala; tu pareja registra una solicitud y pide el resumen.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="success"><b>Éxito</b><p>Un Flow programado con revisión antes de enviar y una app publicada que valida los 4 casos.</p></div>
+  <div class="foot"><span>SoftwareOne · Amazon Quick</span><span class="pg"></span></div>
+  <aside class="notes">Parte A, Sierra Sur: 3 SKU de SS-CUE-02, todos desde FY-CUE-01: ANA-001 25 (faltan 18), ANA-002 21 (faltan 9), ANA-003 14. Costa: SS-GYE-01 FRI-001, FY-GYE-03 FRI-001 y SS-MEC-01 ANA-001 se escalan. "Oriente" debe detener el Flow. Parte B: los resultados esperados de los 4 casos están en la guía (B.3). Si la app no conserva los datos, pedir explícitamente que use almacenamiento persistente.</aside>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>Profundización · Construir en Quick</div></div>
+  <div class="labhead"><div><div class="kicker">Laboratorio 8 · Parte C y cierre</div><h2>Validar y aprobar un lote</h2></div><span class="pill">En parejas</span></div>
+  <div class="routes">
+    <div class="route c">
+      <h3>Parte C <span>Quick Automate · creador</span></h3>
+      <ol class="steps">
+        <li>Crea el proyecto en el grupo "Operaciones de farmacia" con el documento de proceso y revisa el plan.</li>
+        <li>Arma el ciclo: <b>Create multiple cases</b>, <b>Process cases</b>, <b>Custom agent</b> y <b>Create user task</b>.</li>
+        <li>Prueba el lote de 9 solicitudes y revisa los registros.</li>
+        <li>Confirma la versión, asigna responsables y crea el <b>trigger</b>.</li>
+      </ol>
+    </div>
+    <div class="route">
+      <h3>Pareja de negocio <span>Jefe zonal y cierre</span></h3>
+      <ol class="steps">
+        <li>Desde tu lista de tareas, aprueba una solicitud, rechaza otra con comentario y escala una tercera.</li>
+        <li>Verifica que cada caso termine con el estado correcto.</li>
+        <li>Clasifiquen juntos los 6 casos de GPF del ejercicio final: ¿Flow, app o Automate?</li>
+      </ol>
+    </div>
+  </div>
+  <div class="success"><b>Éxito</b><p>9 solicitudes con estado final y la regla aplicada, y la automatización desplegada.</p></div>
+  <div class="foot"><span>SoftwareOne · Amazon Quick</span><span class="pg"></span></div>
+  <aside class="notes">Esperado: 3 Aprobar (019, 022, 023), 3 Aprobar con ajuste (020 a 47 unidades porque SS-GYE-03 ya comprometió 16; 021 a 42; 027 con donante FY-UIO-01), 2 Escalar (024, 025) y 1 Rechazar (026). Son 6 tareas: Costa 3, Sierra Norte 2, Sierra Sur 1, con 141 unidades aprobadas. Errores típicos: aprobar 020 por 53, aceptar el donante de Guayaquil en 025, rechazar 027 en vez de cambiar el donante. Sin Quick Automate (planes Free y Plus), hacer la Parte C como demostración. Detalle completo en CLAVE_FACILITADOR.md.</aside>
+</section>
+
+<!-- ============ MÓDULO 08 ============ -->
+<section class="slide dark section">
+  <div class="top"><div class="brand" data-logo="white">SoftwareOne</div><div>Módulo 08</div></div>
+  <div class="num">08</div>
+  <h1>Cierre</h1>
+  <p class="topic">Seguridad y gobierno · repaso de capacidades · siguientes pasos</p>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>08 · Cierre</div></div>
+  <div class="kicker">Seguridad y gobierno</div>
+  <h2>Productividad con los controles que TI ya aprobó</h2>
+  <div class="body">
+    <div class="grid g2">
+      <div class="card"><h3>Sobre la seguridad de AWS</h3><p>Quick opera con los mismos controles de identidad y acceso (IAM), recursos de VPC y certificaciones de cumplimiento de AWS.</p></div>
+      <div class="card"><h3>Los datos siguen siendo de GPF</h3><p>Según AWS, los datos del cliente no se usan para entrenar modelos de terceros.</p></div>
+      <div class="card"><h3>Gobierno para la organización</h3><p>Los planes para organizaciones agregan control de acceso por roles, SSO, soberanía de datos y controles de administración.</p></div>
+      <div class="card ink"><h3>Permisos que se respetan</h3><p>TI define quién crea agentes, Spaces, integraciones y Flows. Un agente solo usa lo que su usuario tiene permitido.</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>Fuente: aws.amazon.com/quick/features · aws.amazon.com/quick/pricing</span><span class="pg"></span></div>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>08 · Cierre</div></div>
+  <div class="kicker">Autodiagnóstico</div>
+  <h2>¿Dónde está su área hoy?</h2>
+  <div class="body">
+    <table>
+      <tr><th style="width:20%">Dimensión</th><th style="width:38%">Hoy</th><th>Con Amazon Quick</th></tr>
+      <tr><td>Reportes</td><td>Se arman a mano cada semana</td><td>Un Flow los prepara y alguien los revisa</td></tr>
+      <tr><td>Conocimiento</td><td>Disperso en correos y carpetas</td><td>Un Space por equipo, con respuestas citadas</td></tr>
+      <tr><td>Análisis</td><td>Se pide a BI y se espera</td><td>El negocio pregunta al tablero en lenguaje natural</td></tr>
+      <tr><td>Investigación</td><td>Días de búsqueda y síntesis</td><td>Un informe con fuentes en minutos, verificado por una persona</td></tr>
+      <tr><td>Tareas repetitivas</td><td>Copiar y pegar entre herramientas</td><td>Acciones y Flows conectados a las herramientas actuales</td></tr>
+    </table>
+    <p class="small">Cada pareja marca dónde está su área y elige un paso concreto para la próxima semana.</p>
+  </div>
+  <div class="foot"><span>SoftwareOne · Amazon Quick</span><span class="pg"></span></div>
+  <aside class="notes">Recoger el paso elegido por cada pareja: alimenta el mapa de oportunidades para proponer un piloto.</aside>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="brand">SoftwareOne</div><div>08 · Cierre</div></div>
+  <div class="kicker">Lo que construimos hoy</div>
+  <h2>Cuatro activos listos para reutilizar</h2>
+  <div class="body">
+    <div class="grid g4">
+      <div class="card"><div class="n">LAB 3</div><h3>Space de operaciones</h3><p>Políticas y glosario con respuestas citadas.</p></div>
+      <div class="card"><div class="n">LAB 5</div><h3>Tablero</h3><p>Ventas y disponibilidad por local.</p></div>
+      <div class="card"><div class="n">LAB 7</div><h3>Flow semanal</h3><p>Alertas de quiebres con correo a jefes de local.</p></div>
+      <div class="card ink"><div class="n">LAB 7</div><h3>Agente y app</h3><p>Asistente de operaciones y solicitud de reposición.</p></div>
+    </div>
+    <div class="grid g3">
+      <div class="card soft"><h3>1. Elegir un área</h3><p>Con un caso de alto volumen y bajo riesgo.</p></div>
+      <div class="card soft"><h3>2. Llevarlo a datos reales</h3><p>Con las integraciones y permisos que defina TI.</p></div>
+      <div class="card soft"><h3>3. Medir</h3><p>Horas ahorradas, tiempo de respuesta y calidad.</p></div>
+    </div>
+    <p class="small">Con el Lab 8: un Flow programado, una app publicada y una automatización con aprobación.</p>
+  </div>
+  <div class="foot"><span>SoftwareOne · Amazon Quick</span><span class="pg"></span></div>
+</section>
+
+<section class="slide dark cover">
+  <div class="top"><div class="brand" data-logo="white">SoftwareOne</div><div>Amazon Quick · Corporación GPF</div></div>
+  <div class="rule"></div>
+  <h1>Gracias</h1>
+  <p class="lead" style="margin-top:20px">Preguntas y conversación abierta.</p>
+  <div class="meta">
+    <div><b>Siguiente paso</b>Mapa de oportunidades y propuesta de piloto</div>
+    <div><b>Material</b>Guía del workshop y kit gpf-quick-lab</div>
+  </div>
+</section>
+
+</div></div>
+
+<div id="notes"><h4>Notas del facilitador</h4><div id="notes-body"></div></div>
+<div id="ui">
+  <button id="prev" title="Anterior (←)">←</button>
+  <button id="next" title="Siguiente (→)">→</button>
+  <button id="tnotes" title="Notas (N)">Notas</button>
+  <button id="tfs" title="Pantalla completa (F)">Pantalla completa</button>
+  <button id="tprint" title="Imprimir o guardar PDF">PDF</button>
+</div>
+<div id="help">← → navegar · N notas · F pantalla completa</div>
+
+<script>
+(function(){
+  var slides=[].slice.call(document.querySelectorAll('.slide'));
+  var deck=document.getElementById('deck');
+  var total=slides.length, i=0;
+
+  // Logo oficial de SoftwareOne incrustado (versión negra para láminas claras, blanca para oscuras).
+  var LOGO_BLK='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2OTIuMjk2IDI0My4zMTYiPjxwYXRoIGQ9Ik0yNDEuMTAyLDE0NC45MTRjLTEwLjkxNiw1Ny4xMTEtNjEuMjI1LDk4LjQwMi0xMTkuNDQzLDk4LjQwMkM1NC41OCwyNDMuMzE2LDAsMTg4LjczNiwwLDEyMS42NThTNTQuNTgsMCwxMjEuNjU4LDBjNTguMzc3LDAsMTA4LjUyNyw0MS4yOTEsMTE5LjQ0Myw5OC40MDJWNi44MDNoNjkuMTM1djI4LjE2QzMyOS41MzcsMTAuNzU4LDM1MS4wNTIsMCwzNzkuNjg3LDBjNTAuMzA5LDAsODEuNDc1LDM2LjM4Nyw4MS40NzUsOTUuMjM4djQuMjcxQzQ3MC42NTQsMzkuNzA5LDUxNy40ODIsMCw1NzguODY1LDBjNjcuMzk1LDAsMTEzLjQzMiw1MC43ODMsMTEzLjQzMiwxMjQuODIydjE1LjM0NmgtMTYzLjg5OGM0LjkwNCwzMy41MzksMjQuNTIxLDUyLjY4Miw1My45NDcsNTIuNjgyLDIxLjUxNiwwLDM3LjAyMC05Ljk2Nyw0MS43NjYtMjcuMDUzaDY1LjAyMWMtOS4xNzYsNDYuNTEyLTUyLjIwNyw3Ny41Mi0xMDcuNzM2LDc3LjUyLTYyLjMzMiwwLTExMC41ODQtMzkuODY3LTEyMC4yMzQtOTkuMzUydjkyLjU0OWgtNzAuMjQyVjEwMi41MTZjMC0yOC43OTMtMTQuMjM4LTQ0Ljc3MS0zOS43MDktNDQuNzcxLTIzLjg4OCwwLTM5LjcwOCwxNy43MTktMzkuNzA4LDQ0Ljc3MVYyMzYuNTE0aC03MC40di05MS42Wm0zODIuNTM1LTQ5LjA0M2MtNC40My0yOS45LTIxLjUxNi00Ny4zMDMtNDYuMTk1LTQ3LjMwMy0yNC44MzgsMC00Mi4yNCwxNy4wODYtNDcuOTM2LDQ3LjMwM2g5NC4xMzFaIi8+PHBhdGggZD0iTTkuNDM5LDEyNS42MTZoOC43NDFjLjU0MywyLjk0MiwyLjIyOCw0LjIyOCw1LjY1Niw0LjIyOCwyLjg1NiwwLDQuNzQyLTEuNDU3LDQuNzQyLTMuNjg1LDAtMS42MjgtMS4yNTctMi42ODUtMy43NzEtMy4xMTRsLTMuMzk5LS41NzFjLTcuNzk4LTEuMzE0LTExLjE5Ny00LjE5OS0xMS4xOTctOS41MTIsMC01LjYyNyw1LjQ4NC05LjU5OCwxMy4yNTQtOS41OTgsNy44MjcsMCwxMi41MTEsMy4xNzEsMTMuNTY4LDkuMjI2aC04LjY1NWMtLjQtMi4zNzEtMi4xNDItMy42NTYtNC45NzAtMy42NTYtMi42NTYsMC00LjYyNywxLjU0Mi00LjYyNywzLjYyOCwwLDEuNTQyLDEuMjI4LDIuMzk5LDQuMDg1LDIuOTE0bDMuNjg1LC42NTdjNy41NDEsMS4zNDMsMTAuODU0LDQuMzQyLDEwLjg1NCw5LjgyNiwwLDUuOTEzLTUuMzk5LDkuODgzLTEzLjQ1NCw5Ljg4My04LjYyNiwwLTEzLjkxMS0zLjcxMy0xNC41MTEtMTAuMjI2Wm0yOS40MjEtNS45MTNjMC05LjQ1NSw2Ljg1NS0xNi4zMzksMTYuMzEtMTYuMzM5LDkuMzk4LDAsMTYuMDI1LDYuNjI3LDE2LjAyNSwxNi4wODIsMCw5LjU2OS02Ljc3LDE2LjM5Ni0xNi4yNTMsMTYuMzk2cy0xNi4wODItNi42MjctMTYuMDgyLTE2LjEzOVptMjMuMDgtLjJjMC01LjY4NC0yLjY4NS05LjI4My02Ljk0MS05LjI4My00LjE5OSwwLTYuODg0LDMuNjU2LTYuODg0LDkuMzQxLDAsNS44MjcsMi42MjgsOS40MjYsNi44ODQsOS40MjYsNC4yODUsMCw2Ljk0MS0zLjY1Niw2Ljk0MS05LjQ4M1ptOC43NjktMTUuMTk2aDUuMDI3di0yLjk3MWMwLTYuODU1LDMuMTQyLTkuODgzLDEwLjE5OC05Ljg4MywxLjE3MSwwLDIuNTk5LC4xMTQsMy4zOTksLjI1N3Y2LjQ4NHEtLjUxNC0uMDI5LTEuMTQzLS4wMjljLTIuNTcxLDAtMy40MjgsLjc0My0zLjQyOCwzLjAyOHYzLjExNGg4LjkxMnYtOS41NjloOC45OTh2OS41NjloMTQuMDU0bDMuMjU2LDE0LjU2OGMuNDU3LDIuMDg1LC45MTQsNC4zMTMsMS4yODUsNi4zOTgsLjQ1Ny0yLjE3MSwxLTQuMzQyLDEuNTQyLTYuMzdsMy43OTktMTQuMzY4aDcuMzdsMy44NTYsMTQuMzY4Yy40NTcsMS43NzEsMSw0LjA1NiwxLjQ1Nyw1Ljk5OSwuNTQzLTIuOTQyLC44MjgtNC4zNywxLjItNS45OTlsMy4yNTYtMTQuNTk2aDguODg0bC04LjY4NCwzMC41OTNoLTguNjU1bC01LjE3LTE5LjU5NS01LjA1NiwxOS41OTVoLTguOTEybC02Ljc0MS0yNC4xOTRoLTYuNzQxdjEzLjkzOWMwLDIuNjI4LC45NDMsMy41MTMsMy42ODUsMy41MTMsLjgsMCwxLjIyOC0uMDI5LDIuMDI4LS4xNzF2Ni42MjdjLTEuNTE0LC4yODYtMy4yMjgsLjQ4Ni00LjU5OSwuNDg2LTcuMjU1LDAtMTAuMTEyLTIuNjg1LTEwLjExMi05LjUxMnYtMTQuODgyaC04LjkxMnYyNC4xOTRoLTkuMDI2di0yNC4xOTRoLTUuMDI3di02LjM5OFptODAuMjM4LDIyLjcwOWMwLTUuNTQyLDMuNTk5LTguMzQxLDEyLjgyNS05LjkxMiw0Ljk3LS44MjgsNi43Ny0xLjk3MSw2Ljc3LTQuMzEzcy0xLjc0Mi0zLjc3MS00LjYyNy0zLjc3MWMtMy4wNTYsMC00Ljc5OSwxLjQtNC45OTksNC4wNTZoLTguMzEyYy42NTctNi4yODQsNS4zNy05LjcxMiwxMy4zOTctOS43MTIsOC44NTUsMCwxMy4yMjUsNC4yNTYsMTMuMjI1LDEyLjkxMXYxMi4xNGMwLDMuNzcxLC4yLDQuODU2LDEuMiw2LjQ4NGgtOC42ODRjLS40MjgtMS4wMjgtLjcxNC0yLjE5OS0uODI4LTMuNzcxLTIuMzcxLDMuMTE0LTUuNDI3LDQuNTQyLTkuNjU1LDQuNTQyLTYuMzk4LDAtMTAuMzEyLTMuMjg1LTEwLjMxMi04LjY1NVptMTQuNTM5LTUuMjg0Yy00LjI4NSwuODU3LTUuODg0LDIuMDU3LTUuODg0LDQuNDI3LDAsMi4zOTksMS41NDIsMy43NzEsNC4yODUsMy43NzEsNC4xNDIsMCw2LjY4NC0yLjYyOCw2LjY4NC02LjgyN3YtMi44NTZjLTEuMzE0LC42MjgtMi4zOTksLjk0My01LjA4NCwxLjQ4NVptMTguMjI0LTE3LjQyNGg4Ljk0MXY0LjY4NWMxLjk0Mi0zLjUxMyw0LjQ4NS01LjE5OSw3LjkxMi01LjE5OSwuNCwwLDEuMjI4LC4wODYsMS45MTQsLjIyOXY3LjQ4NGMtLjU3MS0uMTQzLTEuMTcxLS4yLTIuNDI4LS4yLTQuMzk5LDAtNy4yMjcsMi44MjgtNy4yMjcsNy4yMjd2MTYuMzY3aC05LjExMnYtMzAuNTkzWm0xOC40ODEsMTUuMzk2YzAtOS43NCw2LjM5OC0xNi4zMzksMTUuODUzLTE2LjMzOSw4Ljk5OCwwLDE1LjA1Myw2Ljc0MSwxNS4wNTMsMTYuODI0djEuNTcxaC0yMS44NTJjLjYsNS4wODQsMy4yMjgsNy45NjksNy4yNTUsNy45NjksMy4wMjgsMCw0Ljk5OS0xLjQyOCw1LjY1Ni00LjAyOGg4LjUxMmMtMS4yMjgsNi4wODQtNi45NDEsMTAuMTQtMTQuMjgyLDEwLjE0LTkuNjI2LDAtMTYuMTk2LTYuNTQxLTE2LjE5Ni0xNi4xMzlabTIxLjkzOC0zLjI4NWMtLjU3MS00LjY1Ni0yLjc0Mi03LjE0MS02LjI1Ni03LjE0MXMtNS43MTMsMi40NTctNi40NTYsNy4xNDFoMTIuNzExWiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPgo=';
+  var LOGO_WHT='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2OTIuMjk2IDI0My4zMTYiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0yNDEuMTAyLDE0NC45MTRjLTEwLjkxNiw1Ny4xMTEtNjEuMjI1LDk4LjQwMi0xMTkuNDQzLDk4LjQwMkM1NC41OCwyNDMuMzE2LDAsMTg4LjczNiwwLDEyMS42NThTNTQuNTgsMCwxMjEuNjU4LDBjNTguMzc3LDAsMTA4LjUyNyw0MS4yOTEsMTE5LjQ0Myw5OC40MDJWNi44MDNoNjkuMTM1djI4LjE2QzMyOS41MzcsMTAuNzU4LDM1MS4wNTIsMCwzNzkuNjg3LDBjNTAuMzA5LDAsODEuNDc1LDM2LjM4Nyw4MS40NzUsOTUuMjM4djQuMjcxQzQ3MC42NTQsMzkuNzA5LDUxNy40ODIsMCw1NzguODY1LDBjNjcuMzk1LDAsMTEzLjQzMiw1MC43ODMsMTEzLjQzMiwxMjQuODIydjE1LjM0NmgtMTYzLjg5OGM0LjkwNCwzMy41MzksMjQuNTIxLDUyLjY4Miw1My45NDcsNTIuNjgyLDIxLjUxNiwwLDM3LjAyMC05Ljk2Nyw0MS43NjYtMjcuMDUzaDY1LjAyMWMtOS4xNzYsNDYuNTEyLTUyLjIwNyw3Ny41Mi0xMDcuNzM2LDc3LjUyLTYyLjMzMiwwLTExMC41ODQtMzkuODY3LTEyMC4yMzQtOTkuMzUydjkyLjU0OWgtNzAuMjQyVjEwMi41MTZjMC0yOC43OTMtMTQuMjM4LTQ0Ljc3MS0zOS43MDktNDQuNzcxLTIzLjg4OCwwLTM5LjcwOCwxNy43MTktMzkuNzA4LDQ0Ljc3MVYyMzYuNTE0aC03MC40di05MS42Wm0zODIuNTM1LTQ5LjA0M2MtNC40My0yOS45LTIxLjUxNi00Ny4zMDMtNDYuMTk1LTQ3LjMwMy0yNC44MzgsMC00Mi4yNCwxNy4wODYtNDcuOTM2LDQ3LjMwM2g5NC4xMzFaIi8+PHBhdGggZD0iTTkuNDM5LDEyNS42MTZoOC43NDFjLjU0MywyLjk0MiwyLjIyOCw0LjIyOCw1LjY1Niw0LjIyOCwyLjg1NiwwLDQuNzQyLTEuNDU3LDQuNzQyLTMuNjg1LDAtMS42MjgtMS4yNTctMi42ODUtMy43NzEtMy4xMTRsLTMuMzk5LS41NzFjLTcuNzk4LTEuMzE0LTExLjE5Ny00LjE5OS0xMS4xOTctOS41MTIsMC01LjYyNyw1LjQ4NC05LjU5OCwxMy4yNTQtOS41OTgsNy44MjcsMCwxMi41MTEsMy4xNzEsMTMuNTY4LDkuMjI2aC04LjY1NWMtLjQtMi4zNzEtMi4xNDItMy42NTYtNC45NzAtMy42NTYtMi42NTYsMC00LjYyNywxLjU0Mi00LjYyNywzLjYyOCwwLDEuNTQyLDEuMjI4LDIuMzk5LDQuMDg1LDIuOTE0bDMuNjg1LC42NTdjNy41NDEsMS4zNDMsMTAuODU0LDQuMzQyLDEwLjg1NCw5LjgyNiwwLDUuOTEzLTUuMzk5LDkuODgzLTEzLjQ1NCw5Ljg4My04LjYyNiwwLTEzLjkxMS0zLjcxMy0xNC41MTEtMTAuMjI2Wm0yOS40MjEtNS45MTNjMC05LjQ1NSw2Ljg1NS0xNi4zMzksMTYuMzEtMTYuMzM5LDkuMzk4LDAsMTYuMDI1LDYuNjI3LDE2LjAyNSwxNi4wODIsMCw5LjU2OS02Ljc3LDE2LjM5Ni0xNi4yNTMsMTYuMzk2cy0xNi4wODItNi42MjctMTYuMDgyLTE2LjEzOVptMjMuMDgtLjJjMC01LjY4NC0yLjY4NS05LjI4My02Ljk0MS05LjI4My00LjE5OSwwLTYuODg0LDMuNjU2LTYuODg0LDkuMzQxLDAsNS44MjcsMi42MjgsOS40MjYsNi44ODQsOS40MjYsNC4yODUsMCw2Ljk0MS0zLjY1Niw2Ljk0MS05LjQ4M1ptOC43NjktMTUuMTk2aDUuMDI3di0yLjk3MWMwLTYuODU1LDMuMTQyLTkuODgzLDEwLjE5OC05Ljg4MywxLjE3MSwwLDIuNTk5LC4xMTQsMy4zOTksLjI1N3Y2LjQ4NHEtLjUxNC0uMDI5LTEuMTQzLS4wMjljLTIuNTcxLDAtMy40MjgsLjc0My0zLjQyOCwzLjAyOHYzLjExNGg4LjkxMnYtOS41NjloOC45OTh2OS41NjloMTQuMDU0bDMuMjU2LDE0LjU2OGMuNDU3LDIuMDg1LC45MTQsNC4zMTMsMS4yODUsNi4zOTgsLjQ1Ny0yLjE3MSwxLTQuMzQyLDEuNTQyLTYuMzdsMy43OTktMTQuMzY4aDcuMzdsMy44NTYsMTQuMzY4Yy40NTcsMS43NzEsMSw0LjA1NiwxLjQ1Nyw1Ljk5OSwuNTQzLTIuOTQyLC44MjgtNC4zNywxLjItNS45OTlsMy4yNTYtMTQuNTk2aDguODg0bC04LjY4NCwzMC41OTNoLTguNjU1bC01LjE3LTE5LjU5NS01LjA1NiwxOS41OTVoLTguOTEybC02Ljc0MS0yNC4xOTRoLTYuNzQxdjEzLjkzOWMwLDIuNjI4LC45NDMsMy41MTMsMy42ODUsMy41MTMsLjgsMCwxLjIyOC0uMDI5LDIuMDI4LS4xNzF2Ni42MjdjLTEuNTE0LC4yODYtMy4yMjgsLjQ4Ni00LjU5OSwuNDg2LTcuMjU1LDAtMTAuMTEyLTIuNjg1LTEwLjExMi05LjUxMnYtMTQuODgyaC04LjkxMnYyNC4xOTRoLTkuMDI2di0yNC4xOTRoLTUuMDI3di02LjM5OFptODAuMjM4LDIyLjcwOWMwLTUuNTQyLDMuNTk5LTguMzQxLDEyLjgyNS05LjkxMiw0Ljk3LS44MjgsNi43Ny0xLjk3MSw2Ljc3LTQuMzEzcy0xLjc0Mi0zLjc3MS00LjYyNy0zLjc3MWMtMy4wNTYsMC00Ljc5OSwxLjQtNC45OTksNC4wNTZoLTguMzEyYy42NTctNi4yODQsNS4zNy05LjcxMiwxMy4zOTctOS43MTIsOC44NTUsMCwxMy4yMjUsNC4yNTYsMTMuMjI1LDEyLjkxMXYxMi4xNGMwLDMuNzcxLC4yLDQuODU2LDEuMiw2LjQ4NGgtOC42ODRjLS40MjgtMS4wMjgtLjcxNC0yLjE5OS0uODI4LTMuNzcxLTIuMzcxLDMuMTE0LTUuNDI3LDQuNTQyLTkuNjU1LDQuNTQyLTYuMzk4LDAtMTAuMzEyLTMuMjg1LTEwLjMxMi04LjY1NVptMTQuNTM5LTUuMjg0Yy00LjI4NSwuODU3LTUuODg0LDIuMDU3LTUuODg0LDQuNDI3LDAsMi4zOTksMS41NDIsMy43NzEsNC4yODUsMy43NzEsNC4xNDIsMCw2LjY4NC0yLjYyOCw2LjY4NC02LjgyN3YtMi44NTZjLTEuMzE0LC42MjgtMi4zOTksLjk0My01LjA4NCwxLjQ4NVptMTguMjI0LTE3LjQyNGg4Ljk0MXY0LjY4NWMxLjk0Mi0zLjUxMyw0LjQ4NS01LjE5OSw3LjkxMi01LjE5OSwuNCwwLDEuMjI4LC4wODYsMS45MTQsLjIyOXY3LjQ4NGMtLjU3MS0uMTQzLTEuMTcxLS4yLTIuNDI4LS4yLTQuMzk5LDAtNy4yMjcsMi44MjgtNy4yMjcsNy4yMjd2MTYuMzY3aC05LjExMnYtMzAuNTkzWm0xOC40ODEsMTUuMzk2YzAtOS43NCw2LjM5OC0xNi4zMzksMTUuODUzLTE2LjMzOSw4Ljk5OCwwLDE1LjA1Myw2Ljc0MSwxNS4wNTMsMTYuODI0djEuNTcxaC0yMS44NTJjLjYsNS4wODQsMy4yMjgsNy45NjksNy4yNTUsNy45NjksMy4wMjgsMCw0Ljk5OS0xLjQyOCw1LjY1Ni00LjAyOGg4LjUxMmMtMS4yMjgsNi4wODQtNi45NDEsMTAuMTQtMTQuMjgyLDEwLjE0LTkuNjI2LDAtMTYuMTk2LTYuNTQxLTE2LjE5Ni0xNi4xMzlabTIxLjkzOC0zLjI4NWMtLjU3MS00LjY1Ni0yLjc0Mi03LjE0MS02LjI1Ni03LjE0MXMtNS43MTMsMi40NTctNi40NTYsNy4xNDFoMTIuNzExWiIgZmlsbD0iIzBBMEEwQSIvPjwvc3ZnPgo=';
+  document.querySelectorAll('.brand').forEach(function(el){
+    var img=new Image(); img.alt='SoftwareOne';
+    img.src=el.getAttribute('data-logo')==='white'?LOGO_WHT:LOGO_BLK;
+    el.textContent=''; el.appendChild(img);
+  });
+
+  slides.forEach(function(s,n){var p=s.querySelector('.pg');if(p)p.textContent=(n+1)+' / '+total;});
+
+  function fit(){
+    var sx=window.innerWidth/1280, sy=window.innerHeight/720;
+    deck.style.transform='scale('+Math.min(sx,sy)+')';
+  }
+  function show(n){
+    i=Math.max(0,Math.min(total-1,n));
+    slides.forEach(function(s,k){s.classList.toggle('active',k===i);});
+    document.getElementById('progress').style.width=((i+1)/total*100)+'%';
+    var notes=slides[i].querySelector('aside.notes');
+    document.getElementById('notes-body').textContent=notes?notes.textContent:'Sin notas para esta lámina.';
+    if(location.hash!=='#'+(i+1)) history.replaceState(null,'','#'+(i+1));
+  }
+  function fs(){
+    if(!document.fullscreenElement){document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen();}
+    else{document.exitFullscreen&&document.exitFullscreen();}
+  }
+  document.addEventListener('keydown',function(e){
+    var k=e.key;
+    if(k==='ArrowRight'||k==='PageDown'||k===' '){e.preventDefault();show(i+1);}
+    else if(k==='ArrowLeft'||k==='PageUp'){e.preventDefault();show(i-1);}
+    else if(k==='Home'){show(0);} else if(k==='End'){show(total-1);}
+    else if(k==='n'||k==='N'){document.body.classList.toggle('show-notes');}
+    else if(k==='f'||k==='F'){fs();}
+  });
+  document.getElementById('prev').onclick=function(){show(i-1);};
+  document.getElementById('next').onclick=function(){show(i+1);};
+  document.getElementById('tnotes').onclick=function(){document.body.classList.toggle('show-notes');};
+  document.getElementById('tfs').onclick=fs;
+  document.getElementById('tprint').onclick=function(){window.print();};
+  var tx=null;
+  document.addEventListener('touchstart',function(e){tx=e.touches[0].clientX;},{passive:true});
+  document.addEventListener('touchend',function(e){if(tx===null)return;var d=e.changedTouches[0].clientX-tx;if(Math.abs(d)>50)show(i+(d<0?1:-1));tx=null;});
+  var hideT=null;
+  function wake(){document.body.classList.add('ui-on');clearTimeout(hideT);hideT=setTimeout(function(){document.body.classList.remove('ui-on');},2500);}
+  document.addEventListener('mousemove',wake);
+  wake();
+  window.addEventListener('resize',fit);
+  fit();
+  var h=parseInt((location.hash||'').slice(1),10);
+  show(isNaN(h)?0:h-1);
+})();
+</script>
+</body>
+</html>
